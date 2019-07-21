@@ -1,0 +1,467 @@
+\documentclass[aps
+,twocolumn
+,floatfix,footinbib]{revtex4-1}
+%\documentclass[aps,preprint,floatfix,footinbib,longbibliography]{revtex4-1}
+\usepackage{epsfig}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{bbold}
+\usepackage{color}
+\usepackage{epstopdf}
+%\usepackage[backend=bibtex,sorting=none,style=trad-abbrv,citestyle=numeric]{biblatex}
+
+%\usepackage[sorting=none]{biblatex}
+%\usepackage{hyperref}
+%\usepackage[titletoc]{appendix}
+% avoids incorrect hyphenation, added Nov/08 by SSR
+\hyphenation{ALPGEN}
+\hyphenation{EVTGEN}
+\hyphenation{PYTHIA}
+
+\usepackage[colorlinks=true,pdfborder=001,linkcolor=blue,anchorcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\newcommand{\revision}[1]{{\color{blue}{#1}}}
+
+
+
+\begin{document}
+
+%\preprint{APS/123-QED}
+
+\title{Nonequilibrium Landauer formula for Bose systems}%
+
+\author{Lei-lei Nian}
+
+\author{Jing-Tao L\"{u}}
+\email{jtlu@hust.edu.cn}
+\affiliation{ Huazhong University of Science and Technology, Wuhan 430074, P. R. China}
+
+
+\date{\today}% It is always \today, today,%but any date may be explicitly specified
+\begin{abstract}
+ Based on the nonequilibrium Green’s function method, we propose a nonequilibrium Landauer-like formula to study the energy transport in coupled electron-Boson systems. We first demonstrate that the electron subsystem with electron-Bose interaction under a certain bias voltage can be regarded as a Bose bath with an effective chemical potential. Then the energy transfer in such systems can be mapped to a two-terminal mesoscopic transport setup consisting of two bosonic reservoirs and a scattering center. The proposed formalism and model is applied to study the heat transport, light emission, and radiative heat transfer.
+For application, a more detailed understanding of the transport phenomena (including phononic cooling, photonic cooling, and heat rectification) are provided by the formula.
+
+\begin{description}
+\item[PACS numbers]
+73.63.Kv, 73.23.-b, 71.38.-k, 72.25.-b
+\end{description}
+\end{abstract}
+
+
+\maketitle
+%\tableofcontents
+
+\section{introduction}
+How to understand the transport phenomena in microscopic systems (such as quantum dots or wires, molecules, graphene, etc.) is a key problem. A series of
+theories have been developed to explain them, in which the scattering approach by Landauer\cite{landauer1957spatial} and B\"{u}ttiker\cite{buttiker1986four} is the most commonly used, termed Landauer formalism. The initial application of this formula is the noninteracting electrons, hereafter, which was extended to include the electron-Boson and electron-electron interactions\cite{meir1992landauer,jauho1994time,lu2007coupled}.
+In the Landauer formalism, the current through a two or multi- terminal device (including electrodes and a finite region) can be expressed generally by the transmission coefficient and distributions of the electrodes. This has been utilized in areas ranging from molecular electronics, spintronics to optoelectronics\cite{galperin2007molecular,haug2008quantum,galperin2012molecular}.
+
+%One may ask a question: \emph{Is there a formula similar to Landauer in the Bose system}? 
+On the other hand, the Landauer-like formula for Bose system has been proposed, in which the current is driven by the temperature bias between two heat baths\cite{wang2006nonequilibrium,wang2007nonequilibrium,wang2008quantum,ojanen2008mesoscopic,ruokola2009thermal,li2012colloquium,taylor2015quantum,wang2016landauer}. One may ask a question: \emph{Can the current be driven by an effective chemical potential of Boson}? To answer this question, we may propose a phenomenological Landauer-like formula 
+\begin{equation}
+\begin{split}
+J_{B}=\int_{-\infty}^{+\infty}\hbar\omega \tau(\omega)[n_{L}(\omega,\nu_{L},T_{L})-n_{R}(\omega,\nu_{R},T_{R})],
+\end{split}
+\label{Bose-LB}
+\end{equation}
+where $\tau(\omega)$ is the transmission coefficient, $n_{\alpha}(\omega,\nu_{\alpha},T_{\alpha})=[e^{(\hbar\omega-\nu_{\alpha})/k_{B}T_{\alpha}}-1]^{-1}$ is the Bose-Einstein
+distribution function in bath $\alpha=L/R$ with the effective chemical potential $\nu_{L/R}$ and the temperature $T_{L/R}$. 
+%In fact, the LB-like formula for thermoradiative from a biased semiconductor has been proposed. 
+To date, the importance of Eq.~(\ref{Bose-LB}) has not been clarified in the quantum transport, especially in systems with electron-Boson interactions, such as electron-phonon and electron-photon.
+
+In this paper, we will try to demonstrate that Eq.~(\ref{Bose-LB}) for the energy transport through coupled electron-Boson system is highly desirable. We first propose an effective model and Hamiltonian that can describe the Eq.~(\ref{Bose-LB}). Three examples in order to clarify the Eq.~(\ref{Bose-LB}) will be discussed: heat transport through a coupled electron-phonon system, light emission from single molecules, and near field thermal radiation.
+Moreover, the application of Eq.~(\ref{Bose-LB}) will be presented.
+
+\section{Model}
+We cosider a Bose system coupled to two heat baths, as shown in Fig.~\ref{Fig01}. The corresponding Hamiltonian takes the form
+\begin{equation}
+\begin{split}
+H=H_{L}+H_{B}+H_{R}+H_{LB}+H_{BR},
+\end{split}
+\label{hamiltonian}
+\end{equation}
+%L可以是一个有效的，非平衡的
+%中间区域要看定义
+%右边可以是一个平衡的库
+%以下三个例子只需要改变左边的非平衡的hamiltonian
+where $H_{L}$ describes the left bath. It can be regarded as an effective nonequilibrium bath driven by a bias voltage, such that $T_{L}>0$ and $\nu_{R}\neq0$. $H_{R}$ represents a equilibrium (nonequilibrium) bath with $T_{R}>0$ and $\nu_{R}=0$ ($\nu_{R}\neq0$). $H_{B}$ is the Bose system, which can be viewed as the scattering center. $H_{LB}$ and $H_{BR}$ represent the system-bath couplings.
+
+In the following, we will present that the coupled electron-Boson system can be described by the effective model in Fig.~\ref{Fig01}. Specifically, the non-zero Bose chemical potential is driven by electron system with electron-Boson coupling under a bias voltage. Meanwhile, the energy transport in such systems is naturally carried out by Eq.~(\ref{Bose-LB}).
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=8 cm]{photon-Landauer.pdf}
+\caption{ Schematic view of a Bose system connected to two Bose baths. $T_{L,R}$, $\nu_{L,R}$, and $\Lambda_{L/R}$ are the temperature, the chemical potential, and the coupling bewteen system and heat bath.}
+\label{Fig01}
+\end{figure}
+%
+
+
+\section{Examples}
+\subsection{Heat transport through a coupled electron-phonon system}
+Without loss of generality, we consider a four terminal coupled electron-phonon model, as illustrated
+in Fig.~\ref{heat}.
+%
+\begin{figure}
+\centering
+\includegraphics[width=8 cm]{heat.eps}
+\caption{A four terminal coupled electron-phonon system, in which the electron and phonon subsystem are connected by electron-phonon interaction (EPI) .}
+\label{heat}
+\end{figure}
+%
+There is a finite voltage bias between two electron bath, i.e., $\mu_{e}^{L}=eV/2$, $\mu_{e}^{R}=-eV/2$, and $T_{e}^{L}=T_{e}^{R}=T_{p}^{L}=T_{p}^{R}$. In this case, the Joule heating driven by electron-phonon interaction becomes important. By means of the nonequilibrium Green’s function (NEGF) method, the energy transfer from electron to phonon system can be written as\cite{lu2007coupled}
+\begin{equation}
+\begin{split}
+Q=-i\int\frac{d \varepsilon}{2 \pi}\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[{\rm tr}[MG_{0}^{>}(\varepsilon)M
+G_{0}^{<}(\varepsilon-\hbar\omega)]D_{0}^{<}(\omega)].
+\end{split}
+\end{equation}
+Here, $G_{0}$ and $D_{0}$ are the bare Green functions of electronic and phononic degrees of freedom, $M$ is electron-phonon coupling matrix. 
+By introducing the DOS and the time-reversed DOS of electrons and phonons induced by electrode $\alpha(=L,R)$\cite{lu2016electron}
+\begin{equation}
+\begin{split}
+&A_{\alpha}(\varepsilon)=G_{0}^{r}(\varepsilon)\Gamma_{\alpha}^{e}(\varepsilon)G_{0}^{a}(\varepsilon),\\
+&\tilde{A}_{\alpha}(\varepsilon)=G_{0}^{a}(\varepsilon)\Gamma_{\alpha}^{e}(\varepsilon)G_{0}^{r}(\varepsilon),\\
+&A(\varepsilon)=A_{L}(\varepsilon)+A_{R}(\varepsilon),
+\end{split}
+\end{equation}
+and
+\begin{equation}
+\begin{split}
+&\mathcal{A}_{\alpha}(\omega)=D_{0}^{r}(\omega)\Gamma_{\alpha}^{p}(\omega)D_{0}^{a}(\omega),\\
+&\mathcal{\tilde{A}}_{\alpha}(\omega)=D_{0}^{a}(\omega)\Gamma_{\alpha}^{p}(\omega)D_{0}^{r}(\omega),\\
+&\mathcal{A}(\omega)=\mathcal{A}_{L}(\omega)+\mathcal{A}_{R}(\omega).
+\end{split}
+\end{equation}
+The energy flux can be written as (see Appendix \ref{L-phonon} for details)
+\begin{equation}
+\begin{split}
+Q&=\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[\Lambda_{LR}\mathcal{A}(\omega)][n_{B}(\hbar\omega;T_{p})-n_{B}(\hbar\omega-eV;T_{e})],
+\end{split}
+\label{Landauer-phonon}
+\end{equation}
+where $T_{p}=T_{p}^{L}=T_{p}^{R}$ and $T_{e}=T_{e}^{L}=T_{e}^{R}$. Eq.~\ref{Landauer-phonon} is a phononic analog to the Landauer transport formula in nonequilibrium state, in which the driven bias is the effective chemical potential ${\rm eV}$ of Bosons. In fact, the nonequilibrium electron subsystem with electron-phonon coupling modelled by $H_{L}$ in Fig.~\ref{heat} satisfies a Bose distribution with an effective chemical potential, which can be obtained by means of rate equation\cite{lu2011laserlike}. 
+% The population of current-induced excitation of a certain phonon is
+%\begin{equation}
+%\begin{split}
+%\frac{d}{dt}N_{p}=\mathbb{E}(N_{p}+1)-\mathbb{A}N_{p},
+%\end{split}
+%\label{rate-equation}
+%\end{equation}
+%where $\mathbb{E}$ and $\mathbb{A}$ corresponding to emission and absorption processes, respectively. 
+%The rates can be calculated by using Fermi's golden rule 
+%\begin{equation}
+%\begin{split}
+%\mathbb{E}&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid %\Psi_{i}\rangle\mid^{2}F_{i}(1-F_{f})\delta(\varepsilon_{f}-\varepsilon_{i}+\hbar\Omega),\\
+%\mathbb{A}&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid %\Psi_{i}\rangle\mid^{2}F_{f}(1-F_{i})\delta(\varepsilon_{f}-\varepsilon_{i}-\hbar\Omega),
+%\end{split}
+%\end{equation}
+%In steady state (ss), $\frac{d}{dt}N_{p}=0$, we can get (see Appendix \ref{phonon-distribution} for %details)
+%\begin{equation}
+%\begin{split}
+%N_{ss}=\frac{1}{(\mathbb{A}/\mathbb{E})-1}=\frac{1}{e^{(\mu_{fi}-\hbar\Omega)/k_{B}T}-1}.
+%\end{split}
+%\label{phonon-SS}
+%\end{equation}
+
+%Under this framework, the energy transport in all systems with electron-phonon coupling can be described by the Landauer-type formula. The following issues can be addressed
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Light emission from single molecules}
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=8 cm]{STM-light-emission.eps}
+\caption{ STM-induced light emission from a single molecule.}
+\label{STM-emission}
+\end{figure}
+%
+In scanning tunneling microscope (STM) induced single molecule electroluminescence experiments, the light emission induced by the recombination of electrons and holes injected from STM tip and substrate has been clarified by experiment and theory\cite{qiu2003vibrationally,tian2011density,zhu2013self,reecht2014electroluminescence,bergfield2018signatures}. Specifically, when a voltage bias exists between Tip and substrate, an electron and a hole will tunnel to LUMO (l) and HOMO (h) levels from Tip and substrate (see Fig.~\ref{STM-emission}), such that the light emission excited by the recombination of them can be observed. Because this is no coupling between LUMO and HOMO, the energy of electrons (holes) is approximately equal to the chemical potential of Tip (substrate), that is, $\varepsilon_{l}=\mu_{t}$ and $\varepsilon_{h}=\mu_{s}$.
+
+The process of light emission in Fig.~\ref{STM-emission} is similar to the chemical reaction, that is, the recombination of an electron (e) and a hole (h) produces a photon (p)
+\begin{equation}
+\begin{split}
+e+h\rightleftharpoons p.
+\end{split}
+\end{equation}
+For the minimum of the free energy, we can get
+\begin{equation}
+\begin{split}
+dE=\mu_{e}dn_{e}+\mu_{h}dn_{h}+\mu_{p}dn_{p}=0.
+\end{split}
+\end{equation}
+where $n_{e,h,p}$ is the particle numbers of electron/hole/photon.
+The conservation of particle numbers requires 
+\begin{equation}
+\begin{split}
+dn_{e}=dn_{h}=-dn_{p}.
+\end{split}
+\end{equation}
+Finally, we have
+\begin{equation}
+\begin{split}
+\mu_{e}+\mu_{h}=\mu_{p},
+\end{split}
+\end{equation}
+where $\mu_{p}$ is the chemical potential of photon. The sum $\mu_{e}+\mu_{h}$ is the difference $\varepsilon_{e}-\varepsilon_{h}$ of the quasi-Fermi energies of the electrons in the LUMO band and
+holes in the HOMO, respectively\cite{wurfel1982chemical}. For our case, $\varepsilon_{e}-\varepsilon_{h}=$eV. 
+
+Based on NEGF method and the Hamiltonian of the model in Fig.~\ref{STM-emission}(see Appendix \ref{STM-Hamiltonian}), for the energy flow from the electronic system to the photonic system, we can get a Landauer-type formula similar to Eq.~\ref{Landauer-phonon}. The energy-dependent flux can be defined to study the light emission from a molecule-mediated STM juction\cite{nian2018fano}.
+
+%\begin{equation}
+%\begin{split}
+%Q&=\int\frac{d \omega}{2 \pi}\hbar\omega{\rm %Tr}[\Lambda_{LR}\mathcal{A}(\omega)][n_{B}(\hbar\omega;T)-n_{B}(\hbar\omega-eV;T)].
+%\end{split}
+%\label{Landauer-phonon}
+%\end{equation}
+%This is similar to an coupled electron-phonon system. The energy-dependent flux can be defined as
+%\begin{equation}
+%\begin{split}
+%Q_{0}(\omega)d\omega&=\frac{\hbar \omega}{2 \pi}{\rm %Tr}[\Lambda_{LR}\mathcal{A}(\omega)][n_{B}(\hbar\omega;T)-n_{B}(\hbar\omega-eV;T)]d\omega.
+%\end{split}
+%\label{Landauer-phonon}
+%\end{equation}
+%The light emission from a single molecule driven by a STM tip can be simulated by the above formula. 
+
+
+\subsection{Radiative heat transfer}
+In general, the thermal radiation takes place when two bodies have different temperatures and zero chemical potentials. The power exchanged between the two bodies can be calculted by the Landauer-like formula in Eq.~\ref{Bose-LB} by setting $\nu_{L}=\nu_{R}=0$ and $T_{L}\neq T_{R}$\citep{biehs2011nanoscale,moncada2015magnetic,ben2016photon,zhu2016persistent,latella2017giant,zhu2018theory,ben2019thermal}. Recently, Fan's group proposed a new thermal radiation device\cite{chen2015heat,chen2016near}, in which the semiconductor p−n junction under an external bias as a source of thermal radiation, such that the expectation value of the photon energy per mode above the band gap satisfies the Bose distribution with nonzero chemical potential\cite{wurfel1982chemical}. Then the thermal radiation can be transferred from the hotter body to the colder body with zero chemical potential. 
+%
+\begin{figure}
+\centering
+\includegraphics[width=8 cm]{radiation.eps}
+\caption{ Schematic of the configuration for two-body thermal radiation. $V_{1}$ ($V_{2}$) and $T_{1}$ ($T_{2}$) represent the bias voltage and temperature of the two bodies, respectively. }
+\label{thermal-radiation}
+\end{figure}
+%
+
+The thermal radiation mechanism can be described by the model in Fig.~\ref{thermal-radiation} and can be projected into the general model in Fig.~\ref{Fig01}. In this case, the Eq.~\ref{Bose-LB} with $\nu_{L}\neq0$ (and $\nu_{R}=0$) and $T_{L}=T_{R}\neq0$ can be used to fitted the thermal radiation. What's more, we may predict another thermal radiation device consisting of two semiconductor p−n junctions at different external biases, as shown in Fig.~\ref{thermal-radiation}. The thermal radiation will be flowing from the terminal with high bias to the one with low bias. This may provide a new idea to control the derection of thermal radiation.
+
+
+\section{Applications}
+%\subsection{Joule heating}
+%The Joule heating in such coupled electron-phonon system can be described by Eq.~(\ref{Landauer-phonon}).
+
+\bullet \ Phononic \ cooling
+
+In current carrying molecular junctions, the heating induced by vibrational excitation is a common process\cite{yu2004inelastic,galperin2007molecular,huang2007local,ioffe2008detection,hartle2011vibrational,simine2012vibrational}. This occurs when the molecular levels are located in the bias window and bias voltage exceeds molecular vibrational frequencies. Once the energy dissipation from molecule junction to environment is not effective enough, the temperature of the junction will be increased, leading to its instability or even breakdown. Therefore, cooling the molecular junction is important for building molecular-based electronic devices\cite{galperin2009cooling,hartle2011resonant,hartle2018cooling}.
+
+In Eq.~\ref{Landauer-phonon} $Q$ represents the energy transfer from electron to phonon subsystem. So, the phonon cooling occurs when $Q<0$ and $T_{e}>T_{p}$. This indicates that the energy flux can flow from phonon system with low temperature to electron system with high temperature. 
+
+\bullet \ Photonic \ cooling
+
+The optical cooling of solids driven by coherent laser light has been observed\cite{epstein1995observation}. Recently, Zhu \emph{et al}. proposed a incoherent way to control the thermal radiation in a photodiode combined with an enhanced transfer of near field thermal radiation\cite{zhu2019near}. In this experiment, the authors can adjust the chemical potential of photons to achieve the near-field photonic cooling.
+
+In general, the nonzero chemical potential can be realized in two ways\cite{herrmann2005light}: (1) The light is induced by a photochemical reaction. If the light is in chemical
+equilibrium with the excitations of matter (such as single molecules) whose chemical
+potential is nonzero, for example, the electron-hole pairs in STM junction; (2) Another way to obtain $\mu_{p}\neq 0$ is driven by a thermodynamic process. One can start with $\mu_{p}=0$ and change the chemical potential in a thermodynamic. Once photons do not interact with matter, a zero chemical potential can be achieved. 
+
+Based on Eq.~\ref{Bose-LB} and the model in Fig.~\ref{thermal-radiation}, we can provide a more clearer explaination of the photonic cooling. As shown in Fig.~\ref{thermal-radiation}, the chemical potentials of the cold body 2 and the hot body 1 are set to be $V_{2}>0$ and $V_{1}=0$, then a net heat flow from the cold body to the hot one can be obtained. What's more, by setting $V_{1}<0$ and $V_{2}=0$, one can observed the negative luminescence\cite{chen2016near}, and a net heat flow from cold body 2 to the hot body 1 can also be obtained.
+
+\bullet \ Heat \ rectification
+
+In this case, we set the voltage bias between two electrodes is 0, that is, $\mu_{e}^{L}=\mu_{e}^{R}$. Meanwhile, a temperature bias is presented between electron and phonon subsystem, that is, T_{e}^{L}=T_{e}^{R}\neq T_{p}^{L}=T_{p}^{R}$. 
+%Then Eq.~(\ref{Landauer-phonon}) becomes
+%\begin{equation}
+%\begin{split}
+%Q&=\int\frac{d \omega}{2 \pi}\hbar\omega{\rm %Tr}[\Lambda_{LR}\mathcal{A}(\omega)][n_{B}(\hbar\omega;T_{p})-n_{B}(\hbar\omega;T_{e})].
+%\end{split}
+%\label{L-BR}
+%\end{equation}
+
+In Eq.~\ref{Landauer-phonon}, the term $[n_{B}(\hbar\omega;T_{p})-n_{B}(\hbar\omega;T_{e})]$ is temperature dependent. Then the effective transmission function ${\rm Tr}[\Lambda_{LR}\mathcal{A}(\omega)]$ is key for heat rectification. It is obviously to verify that the heat rectification vanishes when $\Lambda_{LR}$ is a constant, that is, $\Lambda_{LR}$ is temperature independent. Our analysis can be identified by examining the energy transport in metal-insulator interface with electron-phonon  scattering\cite{zhang2013thermal,ren2013heat} and insulating ferromagnetic spin junction with spin-phonon interaction\cite{zhang2017thermal}.
+
+\section{Conclusion}
+In summary, we have proposed a nonequilibrium Landauer formula and constructed a model for coupled electron-Boson systems. The Landauer approach developed here allows for analytical insight into the 
+energy transport in three systems with electron-boson interaction.  Moreover, the phononic cooling, photonic cooling and heat rectification can be explained clearly by the formula. 
+
+On the other hand, thermal Hall effect\cite{ben2016photon}, thermal drag\cite{ben2019thermal} and thermal diode\cite{fiorino2018thermal} driven by thermal photons have been proposed theoretically. Based on the proposed nonequilibrium Landauer formula, future works may aim at achieving these transport phenomenon by introducing the `bias-voltage-photon', that is, the photons with nonzero chemical potential driven by bias voltage.
+
+
+\begin{acknowledgments}
+Funding is provided by the National Natural Science Foundation of China
+(Grant No. 21873033), the National Key Research and Development Program of China
+(Grant No. 2017YFA0403501) and the program for HUST academic frontier youth team.
+\end{acknowledgments}
+
+\appendix
+\onecolumngrid
+\section{Derivation of Eq.~(\ref{Landauer-phonon})}
+\label{L-phonon}
+The Hamiltonian describing the coupled electron-phonon system in Fig.~(\ref{heat}) is
+\begin{equation}
+\begin{split}
+H_{e}^{\alpha}&=\underbrace{\sum_{i}\varepsilon_{i}^{\alpha}c_{i}^{\dag \alpha}c_{i}^{\alpha}+\sum_{|i-j|=1}t_{ij}^{\alpha}c_{i}^{\dag \alpha}c_{j}^{\alpha}+\sum_{ij}t_{ij}^{LC}c_{i}^{\dag L}c_{j}^{C}+\sum_{ij}t_{ji}^{CL}c_{j}^{\dag C}c_{i}^{L}+\sum_{ij}t_{ij}^{CR}c_{i}^{\dag C}c_{j}^{R}+\sum_{ij}t_{ji}^{RC}c_{j}^{\dag R}c_{i}^{C}}_{H_{L}}\\
+&+\underbrace{\frac{1}{2}\sum_{i}\dot{u}_{i}^{C}\dot{u}_{i}^{C}+\frac{1}{2}\sum_{|i-j|=0,1}u_{i}^{C}K_{ij}^{C}u_{j}^{C}}_{H_{B}}+\underbrace{\frac{1}{2}\sum_{i}\dot{u}_{i}^{\alpha}\dot{u}_{i}^{\alpha}+\frac{1}{2}\sum_{|i-j|=0,1}u_{i}^{\alpha}K_{ij}^{\alpha}u_{j}^{\alpha}}_{H_{R}}
++\underbrace{\sum_{ijk}M_{ij}^{k}c_{i}^{\dag}c_{i}u_{k}}_{H_{LB}}\\
+&+\underbrace{\frac{1}{2}\sum_{ij}u_{i}^{L}K_{ij}^{LC}u_{j}^{C}+\frac{1}{2}\sum_{ij}u_{j}^{C}K_{ji}^{CL}u_{i}^{L}+
+\frac{1}{2}\sum_{ij}u_{i}^{C}K_{ij}^{CR}u_{j}^{R}+\frac{1}{2}\sum_{ij}u_{j}^{R}K_{ji}^{RC}u_{i}^{C}}_{H_{BR}},
+\end{split}
+\end{equation}
+where the full Hamiltonian can be divided into three parts, respectively, corresponding to the $H_{L}$, $H_{B}$, and $H_{R}$ with their coupling $H_{LB}$ in Eq.~\ref{hamiltonian}. 
+
+The energy flux from electron to phonon subsystem is\cite{lu2007coupled,lu2016electron}
+\begin{equation}
+\begin{split}
+Q=-i\int\frac{d \varepsilon}{2 \pi}\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[{\rm tr}[MG_{0}^{>}(\varepsilon)M
+G_{0}^{<}(\varepsilon-\hbar\omega)]D_{0}^{<}(\omega)],
+\end{split}
+\label{A01}
+\end{equation}
+where
+\begin{equation}
+\begin{split}
+G_{0}^{<}&=G_{0}^{r}[\Sigma_{L}^{<}+\Sigma_{R}^{<}]G_{0}^{a}\\
+&=G_{0}^{r}\Sigma_{L}^{<}G_{0}^{a}+G_{0}^{r}\Sigma_{R}^{<}G_{0}^{a}\\
+&=G_{0}^{r}i\Gamma_{L}^{e}f_{L}G_{0}^{a}+G_{0}^{r}i\Gamma_{R}^{e}f_{R}G_{0}^{a}\\
+&=if_{L}A_{L}+if_{R}A_{R}.
+\end{split}
+\end{equation}
+%
+\begin{equation}
+\begin{split}
+G_{0}^{>}&=G_{0}^{r}[\Sigma_{L}^{>}+\Sigma_{R}^{>}]G_{0}^{a}\\
+&=G_{0}^{r}\Sigma_{L}^{>}G_{0}^{a}+G_{0}^{r}\Sigma_{R}^{>}G_{0}^{a}\\
+&=G_{0}^{r}i\Gamma_{L}^{e}(f_{L}-1)G_{0}^{a}+G_{0}^{r}i\Gamma_{R}^{e}(f_{R}-1)G_{0}^{a}\\
+&=i(f_{L}-1)A_{L}+i(f_{R}-1)A_{R}.
+\end{split}
+\end{equation}
+%
+\begin{equation}
+\begin{split}
+D_{0}^{<}&=D_{0}^{r}[\Pi_{L}^{<}+\Pi_{R}^{<}]D_{0}^{a}\\
+&=D_{0}^{r}\Pi_{L}^{<}D_{0}^{a}+D_{0}^{r}\Pi_{R}^{<}D_{0}^{a}\\
+&=-iD_{0}^{r}\Gamma_{L}^{p}n_{L}D_{0}^{a}-iD_{0}^{r}\Gamma_{R}^{p}n_{R}D_{0}^{a}\\
+&=-in_{L}\mathcal{A}_{L}-in_{R}\mathcal{A}_{R}\\
+&=-in_{B}(\mathcal{A}_{L}+\mathcal{A}_{R})\\
+&=-in_{B}\mathcal{A}.
+\end{split}
+\end{equation}
+Then the Eq.~(\ref{A01}) can be re-written as
+\begin{equation}
+\begin{split}
+Q&=\int\frac{d \varepsilon}{2 \pi}\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[{\rm tr}\bigg\{M[(f_{L}(\varepsilon)-1)A_{L}(\varepsilon)+(f_{R}(\varepsilon)-1)A_{R}(\varepsilon)]M\\
+&\times[f_{L}(\varepsilon-\hbar\omega)A_{L}(\varepsilon-\hbar\omega)+f_{R}(\varepsilon-\hbar\omega)A_{R}(\varepsilon-\hbar\omega)]\bigg\}n_{B}(\hbar\omega)\mathcal{A}(\omega)]\\
+&=\int\frac{d \varepsilon}{2 \pi}\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[{\rm tr}\bigg\{Q_{0}\bigg\}n_{B}(\hbar\omega)\mathcal{A}(\omega)]\\
+\end{split}
+\end{equation}
+For simplicity, we set $Q_{0}=Q_{1}+Q_{2}+Q_{3}+Q_{4}$, where
+\begin{equation}
+\begin{split}
+Q_{1}&=M(f_{L}(\varepsilon)-1)A_{L}(\varepsilon)Mf_{L}(\varepsilon-\hbar\omega)A_{L}(\varepsilon-\hbar\omega),\\
+Q_{2}&=M(f_{L}(\varepsilon)-1)A_{L}(\varepsilon)Mf_{R}(\varepsilon-\hbar\omega)A_{R}(\varepsilon-\hbar\omega),\\
+Q_{3}&=M(f_{R}(\varepsilon)-1)A_{R}(\varepsilon)Mf_{L}(\varepsilon-\hbar\omega)A_{L}(\varepsilon-\hbar\omega),\\
+Q_{4}&=M(f_{R}(\varepsilon)-1)A_{R}(\varepsilon)Mf_{R}(\varepsilon-\hbar\omega)A_{R}(\varepsilon-\hbar\omega).\\
+\end{split}
+\end{equation}
+By introducing the mathematical relation
+\begin{equation}
+\begin{split}
+[f(x)-\Theta(t)][f(y)-\Theta(-t)]=[\Theta(t)+n(x-y)][f(x)-f(y)].
+\end{split}
+\end{equation}
+For our case
+\begin{equation}
+\begin{split}
+[f_{\alpha}(\varepsilon)-1]f_{\beta}(\varepsilon-\hbar\omega)=[1+n(\hbar\omega+\mu_{\beta}-\mu_{\alpha})]
+[f_{\alpha}(\varepsilon)-f_{\beta}(\varepsilon-\hbar\omega)].
+\end{split}
+\end{equation}
+Finally, we have
+\begin{equation}
+\begin{split}
+Q&=\sum_{\alpha\beta}\int\frac{d \varepsilon}{2 \pi}\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[X_{\alpha\beta}(\varepsilon,\varepsilon-\hbar\omega)\mathcal{A}(\omega)]n_{B}(\hbar\omega)
+[n_{B}(\hbar\omega+\mu_{\beta}-\mu_{\alpha})+1][f_{\alpha}(\varepsilon)-f_{\beta}(\varepsilon-\hbar\omega)],
+\end{split}
+\end{equation}
+where
+\begin{equation}
+\begin{split}
+X_{\alpha\beta}={\rm tr}[MA_{\alpha}MA_{\beta}(\varepsilon-\hbar\omega)].
+\end{split}
+\end{equation}
+
+For $\alpha\neq\beta$
+\begin{equation}
+\begin{split}
+Q&=\int\frac{d \omega}{2 \pi}\hbar\omega{\rm Tr}[\Lambda_{LR}\mathcal{A}(\omega)][n_{B}(\hbar\omega;T)-n_{B}(\hbar\omega-eV;T)],
+\end{split}
+\end{equation}
+where $eV=\mu_{L}-\mu_{R}$ and 
+\begin{equation}
+\begin{split}
+\Lambda_{LR}=\int\frac{d \varepsilon}{2 \pi}X_{LR}(\varepsilon,\varepsilon-\hbar\omega)[f_{L}(\varepsilon)-f_{R}(\varepsilon-\hbar\omega)].
+\end{split}
+\end{equation}
+
+
+\section{The Hamiltonian for STM junction}
+\label{STM-Hamiltonian}
+For a STM junction as shown in Fig.~(\ref{STM-emission}), the Hamiltonian is
+\begin{equation}
+\begin{split}
+H &=\underbrace{ \sum_{k\nu=t,s} \varepsilon_{k\nu}c^\dagger_{k\nu}c_{k\nu}+\sum_{k\nu,k'\bar{\nu}} t_{\nu\bar{\nu}}(c^\dagger_{k\nu}c_{k'\bar{\nu}}+c^\dagger_{k'\bar{\nu}}c_{k\nu})+
+\sum_{i=h,l}\varepsilon_i d_i^\dagger d_i+\sum_{i=h,l} \sum_{k\nu=s,t} t_{ik\nu} \left(d_i^\dagger c_{k\nu}+ c_{k\nu}^\dagger d_i \right)}_{H_{L}}\\
+&+\underbrace{\hbar\omega_0 \left(\frac{1}{2}+a_{0}^\dagger a_{0}\right)}_{H_{B}}
++\underbrace{\sum_\alpha \hbar\omega_\alpha \left(\frac{1}{2}+b_{\alpha}^\dagger b_{\alpha}\right)}_{H_{R}}
++\underbrace{m_0 (d_{h}^\dagger d_{l} a_0^\dagger + d_{l}^\dagger d_{h} a_0)}_{H_{LB}}+\underbrace{\sum_{\alpha}t_\alpha (b_\alpha^\dagger a_{0} + b_\alpha a^\dagger_{0})}_{H_{BR}}.
+\end{split}
+\end{equation}
+Based on the Hamiltonian, we can get the phtoton energy flux flowing from electron to photon subsystem. The expression of phtoton energy flux is similar to Eq.~\ref{Landauer-phonon}\cite{nian2018fano}.
+
+
+
+\iffalse
+\section{Derivation of phonon distribusion}
+\label{phonon-distribution}
+The rates in Eq.~(\ref{rate-equation}) are
+\begin{equation}
+\begin{split}
+\mathbb{E}&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid \Psi_{i}\rangle\mid^{2}F_{i}(\varepsilon_{i},\mu_{i})[1-F_{f}(\varepsilon_{f},\mu_{f})]\delta(\varepsilon_{f}-\varepsilon_{i}+\hbar\Omega)\\
+&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid \Psi_{i}\rangle\mid^{2}F_{i}(\varepsilon_{i},\mu_{i})[1-F_{f}(\varepsilon_{i}-\hbar\Omega,\mu_{f})].\\
+\end{split}
+\end{equation}
+%
+\begin{equation}
+\begin{split}
+\mathbb{A}&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid \Psi_{i}\rangle\mid^{2}F_{f}(\varepsilon_{f},\mu_{f})[1-F_{i}(\varepsilon_{i},\mu_{i})]\delta(\varepsilon_{f}-\varepsilon_{i}-\hbar\Omega)\\
+&=\frac{2\pi}{\hbar}\sum_{if}\mid\langle \Psi_{f}\mid H_{LB}\mid \Psi_{i}\rangle\mid^{2}[1-F_{i}(\varepsilon_{i},\mu_{i})]F_{f}(\varepsilon_{i}+\hbar\Omega,\mu_{f}).\\
+\end{split}
+\end{equation}
+
+Using the mathematical relations
+\begin{equation}
+\begin{split}
+F_{i}(\varepsilon_{i},\mu_{i})[1-F_{f}(\varepsilon_{i}-\hbar\Omega,\mu_{f})]=-n_{B}(\hbar\Omega+\mu_{f}-\mu_{i})[F_{i}(\varepsilon_{i},\mu_{i})-F_{f}(\varepsilon_{i}-\hbar\Omega,\mu_{f})].\\
+\end{split}
+\end{equation}
+and
+\begin{equation}
+\begin{split}
+[1-F_{i}(\varepsilon_{i},\mu_{i})]F_{f}(\varepsilon_{i}+\hbar\Omega,\mu_{f})=-[n_{B}(\mu_{f}-\mu_{i}-\hbar\Omega)+1][F_{i}(\varepsilon_{i},\mu_{i})-F_{f}(\varepsilon_{i}+\hbar\Omega,\mu_{f})].
+\end{split}
+\end{equation}
+If we set $\varepsilon_{f}>\varepsilon_{i}$ and $\mu_{f}>\mu_{i}$, one have
+\begin{equation}
+\begin{split}
+\frac{\mathbb{E}}{\mathbb{A}}=\frac{n_{B}(\hbar\Omega-\mu_{fi})+1}{n_{B}(\hbar\Omega-\mu_{fi})}=e^{(\hbar\Omega-\mu_{fi})/k_{B}T}
+\end{split}
+\end{equation}
+Finally, we can get $N_{ss}$ in Eq.~(\ref{phonon-SS}).
+\fi
+
+
+
+
+\twocolumngrid
+\bibliography{LB}
+\end{document}
+
+%
+% ****** End of file apstemplate.tex ******
+
