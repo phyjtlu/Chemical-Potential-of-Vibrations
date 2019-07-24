@@ -1,6 +1,8 @@
 \documentclass[aps
-,twocolumn
-,floatfix,footinbib]{revtex4-1}
+,%twocolumn
+,floatfix,footinbib,
+preprint
+]{revtex4-1}
 %\documentclass[aps,preprint,floatfix,footinbib,longbibliography]{revtex4-1}
 \usepackage{epsfig}
 \usepackage{graphicx}% Include figure files
@@ -31,30 +33,147 @@
 
 %\preprint{APS/123-QED}
 
-\title{Nonequilibrium Landauer formula for Bose systems}%
+\title{Chemical potential of vibrations and its driven energy transport in hybrid nano-junctions}%
 
-\author{Lei-lei Nian}
+\author{Lei-Lei Nian}
 
 \author{Jing-Tao L\"{u}}
 \email{jtlu@hust.edu.cn}
-\affiliation{ Huazhong University of Science and Technology, Wuhan 430074, P. R. China}
+\affiliation{ School of Physics and Wuhan National High Magnetic Field Center, Huazhong University of Science and Technology, Wuhan 430074, P. R. China}
 
 
 \date{\today}% It is always \today, today,%but any date may be explicitly specified
 \begin{abstract}
- Based on the nonequilibrium Green’s function method, we propose a nonequilibrium Landauer-like formula to study the energy transport in coupled electron-Boson systems. We first demonstrate that the electron subsystem with electron-Bose interaction under a certain bias voltage can be regarded as a Bose bath with an effective chemical potential. Then the energy transfer in such systems can be mapped to a two-terminal mesoscopic transport setup consisting of two bosonic reservoirs and a scattering center. The proposed formalism and model is applied to study the heat transport, light emission, and radiative heat transfer.
-For application, a more detailed understanding of the transport phenomena (including phononic cooling, photonic cooling, and heat rectification) are provided by the formula.
-
-\begin{description}
-\item[PACS numbers]
-73.63.Kv, 73.23.-b, 71.38.-k, 72.25.-b
-\end{description}
+Abstract...
+%\begin{description}
+%\item[PACS numbers]
+%73.63.Kv, 73.23.-b, 71.38.-k, 72.25.-b
+%\end{description}
 \end{abstract}
 
 
 \maketitle
 %\tableofcontents
 
+%\section{Introduction-1}
+%Chemical potential is a key concept in thermodynamics and statistical mechanics. As the conjugated variable to the particle number, chemical potential difference drives particle transport or chemical reactions.
+
+\section{Introduction}
+Quantum transport in nanoscale systems is well described by the celebrated Landauer-B\"uttiker approach. It has been successfully used to study charge, energy and their coupled transport carried by particles following different statistics, including electrons\cite{}, photons\cite{ojanen2008mesoscopic}, and phonons\cite{wang2006nonequilibrium,wang2007nonequilibrium,wang2008quantum,ruokola2009thermal,li2012colloquium,taylor2015quantum,wang2016landauer}. 
+The energy current between two baths ($i=1,2$) can be written as the following general form
+\begin{equation}
+J_{}=\int_{0}^{+\infty}\frac{d\omega}{2\pi}\hbar\omega T(\omega)[n_{}(\omega,\mu_{1},T_{1})-n_{}(\omega,\mu_{2},T_{2})],
+\label{eq:lb}
+\end{equation}
+where the key quantity is the transmission coefficient $T(\omega)$. The distribution function $n$ is determined by the particle statistics. For fermions, it is the Fermi-Dirac distribution. Either a chemical potential or a temperature bias can driven an energy current flow. Thus, thermoelectric transport can also be studied using this approach. For bosons, $n$ is the Bose-Einstein distribution. Equation~\ref{eq:lb} has been used to study temperature-driven energy transport carried by phonons, photons and other quasi-particles. Here, we have $\mu=0$, following the textbook argument that bosons without number conservation have zero chemical potential. Thus, for bosonic energy transport the only driving force is temperature.
+
+However, the generation and annihilation of bosons may be accompanied by transitions between different states of particles with non-zero chemical potentials. This is certainly the case for electrically driven processes. In such situations, it is known that the chemical potential of bosons does not have to be zero. In thiw work, we show that, energy transport between nonequilibrium electrons and bosons can be well described by the Landauer formula between bosonic baths with different chemical potential. The key observation is that, the electronic system can be treated as bosonic electron-hole-pair bath with non-zero chemical potential.
+
+
+
+
+
+
+
+%\begin{align}
+%n_{\alpha}(\omega,\nu_{\alpha},T_{\alpha})=\frac{1}{e^{\beta_\alpha(\hbar\omega-\mu_{\alpha})}-1}
+%\end{align}
+% is the Bose-Einstein
+%distribution function in bath $\alpha (=1, 2)$ with the inverse temperature $\beta_\alpha=(k_BT_{\alpha})^{-1}$, $k_B$ being the Boltzmann constant. We have included the chemical potential $\mu_{\alpha}$, which is normally set to zero for phonon or photon transport.
+
+\section{System}
+We consider a model system schematically shown in Fig.~\ref{fig:model}. The center system composed of bosonic degrees of freedom (DOF) couples to two kinds of baths. One is an equilibrium boson bath, modeled by harmonic oscillators. The other is an electronic bath possibly driven into nonequilibrium steady state by voltage bias applied between two electrodes. The electronic bath is further divided into two electrodes and one center region. The bosonic system couples only to the center region of the electronic bath. Energy transport from the electron  bath to the system is realized through this coupling. The energy injected into (substracted from) the system can further goes into (out of) the harmonic oscillator bath. The above model is quite general. To be more specific, we consider a molecular junction as an example. Applications of this model include current-induced heating or electroluminescence. The bosonic system represents molecular vibrations and cavity photon modes, respectively. 
+
+
+\section{Electron-hole pair excitations}
+Our key observation is that the interaction between the system and electron bath can be modeled by different kinds of reactions between electron hole pairs (EHPs)  in the bath and the bosonic modes in the system. The creation and annihilation of the bosonic mode is always accompanied by the recombination and creation of EHPs, expressed in the form of reactions
+\begin{align}
+e_\alpha + h_\beta \rightleftharpoons p_n,
+\label{eq:reaction}
+\end{align}
+where $e_\alpha$, $h_\beta$ and $p$ represent electron in electrode $\alpha$, hole in electrode $\beta$ and bosonic mode $n$ in the system.
+There are four types of EHPs which we label by the spatial location of the electron ($\alpha$) and hole  ($\beta$) state. They are schematically shown in Fig.~\ref{fig:ehp}. In additional to energy transfer between electron bath and the system, the generation and recombination of inter-electrode EHPs ($\alpha\neq \beta$) involves electron transport between the two electrodes.  Physically, the reaction in Eq.~(\ref{eq:reaction}) involves inelastic electronic transition assisted by the bosonic mode. 
+
+\begin{figure}
+	\includegraphics[scale=0.5,angle=-90]{schematics.pdf}
+	\caption{(a) Schematics of the model we consider. The system consists a set of independent bosonic modes. It couples to an electron bath, which is modeled as a conductor including a left (L) and a right (R) electrode, with temperature $T_e$ and chemical potential $\mu_L$ and $\mu_R$, respectively. The system further couples to an external thermal bath (ph bath) at temperature $T_{ph}$. (b) The electron bath can be treated as four different kinds of electron-hole pair (EHP) baths (1-4). (c) Four kinds of EHP excitation at different situations. The EHPs are classified according to the spatial location of the electron and hole. (1) Both are at electrode L, (2) Both are at electrode R, (3) The electron is at electrode L is excited and transferred to electrode R. (4) The electron at electrode R is excited and transferred to the left. (d) At $T\neq 0$, the recombination of EHPs becomes possible due to the non-zero filling of electrons above the chemical potential. (e) In the presence of voltage bias an extra inter-electrode EHP recombination channel opens.}
+	\label{fig:ehp}
+\end{figure}
+
+The coupling-weighted EHP power spectrum can be written as
+\begin{align}
+\Lambda^{\alpha\beta}(\omega) &= \hbar\omega\left(n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right)\Gamma^{\alpha\beta}(\omega),
+\label{eq:ppehp}
+\end{align}
+with the coupling weighted density of states (DOS)
+\begin{align}
+\Gamma^{\alpha\beta}(\omega) &= -\sum_{i_\alpha,f_\beta}|\langle \psi_{i_\alpha}(\varepsilon_i)|M^{n}|\psi_{f_\beta}(\varepsilon_f)\rangle|^2 \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
+&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))(\hbar\omega)^{-1}\\
+&=-\int d\varepsilon_\alpha {\rm tr}[M^n A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
+&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))(\hbar\omega)^{-1}
+\end{align}
+Here, $n_{F}$ and $n_B$ are the Fermi-Dirac and the Bose-Einstein distributions, respectively,
+\begin{align}
+n_{F/B}(\varepsilon,T) &= \frac{1}{{\rm exp}\left(\frac{\varepsilon}{k_BT}\right)\pm 1},
+\end{align}
+and $\mu_{\alpha\beta}=\mu_\alpha-\mu_\beta$.
+Equation~\ref{eq:ppehp} shows that the EHP follow Bose-Enistein statistics, since it consists of two fermions. Interestingly, its chemical potential is determined by the difference of electron and hole electrochemical potential. In equilibrium, both electrodes have the same chemical potential, thus $\mu_{\alpha\beta}=0$. However, when there is a voltage bias, inter-electrode EHPs acquire a non-zero chemical potential, which can be the driving force for energy transport to the system.
+
+
+\section{Energy transport}
+To study energy transport in our system, we can employ a simple model using the EHP picture. The electron bath is divided into four EHP baths, each of which is characterized by the power spectra given in Eq.~(\ref{eq:ppehp}). 
+To the lowest order approximation, we arrive at a Landauer-B\"uttiker formula for the energy transport from electron bath to bosonic system as a summation of contributions from all the EHP baths
+\begin{align}
+J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ T^{\alpha\beta}(\omega)\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},T_{e})-n_B(\omega,T_{ph})]
+\end{align}
+where
+\begin{align}
+T^{\alpha\beta}(\omega)={\rm Tr}[\Gamma^{\alpha\beta}(\omega)\mathcal{A}(\omega)],
+\end{align}
+is the transmission between the EHP bath $\alpha\beta$ and the ph-bath. 
+Here, $\alpha$,$\beta$ are indices for the electron baths, $T_e$ and $T_{ph}$ are the temperature of the electron and harmonic-oscillator baths, resepctively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. In the following we discuss several applications of the central result.
+
+\subsection{Heat Rectification in hybrid electron-boson system}
+Firstly, we consider the situation where the electron and phonon baths are in their own equilibrium with two different temperature $T_e$ and $T_{ph}$. Since $\mu_{\alpha}=\mu_{\beta}$ and $T_{\alpha}=T_\beta=T_e$, we can write the total EHP DOS as an integral form
+\begin{align}
+	\Gamma(\omega)&=-\frac{1}{\hbar\omega}\int d\varepsilon_\alpha {\rm tr}[M^n A(\varepsilon-\hbar\omega)M^n A(\varepsilon)] \nonumber\\
+	&\times (n_F(\varepsilon-\mu_e,T_e)-n_F(\varepsilon-\hbar\omega-\mu_e,T_e))
+\end{align}
+If we ignore the energy dependence of $A$, the integral of the two Fermi-Dirac distributions gives $\hbar\omega$ independent of $T_e$. Consequently,  $\Gamma(\omega)$ does not depend on $T_e$. Equation~(\ref{eq}) reduces to the Landauer formula for heat transport between two harmonic oscillator baths. On the other hand, if we consider the energy dependence of $A(\omega)$, $\Gamma(\omega)$ will depend on $T_e$. Then, heat rectification is possible $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. Thus, a necessary condition for heat rectification in a hybrid electron-boson system is that, the electron DOS near the electrochemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. 
+
+\subsection{Electronic heating and cooling}
+If there is a voltage bias applied between the two electrodes, the inter-electrode EHPs acquire a non-zero chemical potential, determined by the electrochemical potential difference between the two electrodes. We assume $\mu_L>\mu_R$ without loss of generality. The EHP-4 has a chemical potential of $eV=\mu_L-\mu_R$, while EHP-3 gets a chemical potential with oppositve value $-eV$. This change of the chemical potential breaks the chemical equilibrium in the reaction, and drives the energy transport between the electron bath and bosonic system. The forward reaction $e_L+h_R \to p_n$  is enhanced, leading to energy flow from the EHPs to the bosonic mode. Meanwhile, that of $e_R+h_L \to p_n$ is reduced, leading to an opposite energy flow. Direction of the total energy current is determined by the relative magnitude of the two processes, i.e., the magnitude of the transmission $T^{\alpha\beta}$. As an illustration, we consider electronic cooling of the bosonic mode. 
+
+
+\section{Mode population and chemical potential}
+The reaction \ref{eq:reaction} suggests that, when reaching steady state, the bosonic mode created from the EHPs inherits the chemical potential of the EHPs. Thus, the bosonic mode may have a non-zero chemical potential. This is best illustrated by performing a mode population analysis. 
+
+To simplify the analysis, we consider one bosonic mode with angular frequency $\Omega$. A simple master equation for the mode population can be established by considering the creation and annihilation processes
+\begin{align}
+\dot{N} = B (N+1) - A N,
+\end{align}
+where $B$ and $A$ are the coefficients for mode creation and absorption processes. They can be calculated using the standard Fermi golden rule approach\cite{lu2011laserlike}. The steady state population is obtained by setting $\dot{N}=0$ as
+\begin{align}
+N = \frac{1}{A/B-1}.
+\end{align}
+In equilibrium, detailed balance requires $A/B=exp(\hbar\Omega/k_BT)$. Thus $N$ follows the standard Bose-Einstein distribution with temperature $T_e$ and zero chemical potential. When there is bias applied, in the extreme case where the reaction rate of $e_L+h_R\to p$ is much larger than all the rest processes, the mode reaches equilibrium with EHP-4. The population still follows the Bose-Einstein distribution, but with a chemical potential $eV$
+\begin{align}
+N = \frac{1}{{\rm exp}((\hbar\Omega-eV)/k_BT)-1}.
+\end{align}
+%When $eV=\hbar\Omega$, a laser-like instability occurs\cite{lu2011laserlike}. This indicates the failure of our harmonic lowest order analysis\cite{nitzan2018kinetic}.
+
+Efficiency of a heat engine using the bononic system as working medium
+\begin{align}
+\eta = 1-\frac{T_L}{T_H}\frac{\hbar\Omega-eV}{\hbar\Omega}>1-\frac{T_L}{T_H}.
+\end{align}
+It seems that the efficiency is larger than the Carnot efficiency between $T_L$ and $T_H$. The reason is that, the bosonic mode has a nonzero chemical potential, the energy input from $T_H$ includes not only heat, but also chemical energy. All the chemical energy can be converted to work.
+
+
+
+
+\clearpage
+\appendix
 \section{introduction}
 How to understand the transport phenomena in microscopic systems (such as quantum dots or wires, molecules, graphene, etc.) is a key problem. A series of
 theories have been developed to explain them, in which the scattering approach by Landauer\cite{landauer1957spatial} and B\"{u}ttiker\cite{buttiker1986four} is the most commonly used, termed Landauer formalism. The initial application of this formula is the noninteracting electrons, hereafter, which was extended to include the electron-Boson and electron-electron interactions\cite{meir1992landauer,jauho1994time,lu2007coupled}.
@@ -230,7 +349,7 @@ Based on NEGF method and the Hamiltonian of the model in Fig.~\ref{STM-emission}
 
 
 \subsection{Radiative heat transfer}
-In general, the thermal radiation takes place when two bodies have different temperatures and zero chemical potentials. The power exchanged between the two bodies can be calculted by the Landauer-like formula in Eq.~\ref{Bose-LB} by setting $\nu_{L}=\nu_{R}=0$ and $T_{L}\neq T_{R}$\citep{biehs2011nanoscale,moncada2015magnetic,ben2016photon,zhu2016persistent,latella2017giant,zhu2018theory,ben2019thermal}. Recently, Fan's group proposed a new thermal radiation device\cite{chen2015heat,chen2016near}, in which the semiconductor p−n junction under an external bias as a source of thermal radiation, such that the expectation value of the photon energy per mode above the band gap satisfies the Bose distribution with nonzero chemical potential\cite{wurfel1982chemical}. Then the thermal radiation can be transferred from the hotter body to the colder body with zero chemical potential. 
+%In general, the thermal radiation takes place when two bodies have different temperatures and zero chemical potentials. The power exchanged between the two bodies can be calculted by the Landauer-like formula in Eq.~\ref{Bose-LB} by setting $\nu_{L}=\nu_{R}=0$ and $T_{L}\neq T_{R}$\cite{biehs2011nanoscale,moncada2015magnetic,ben2016photon,zhu2016persistent,latella2017giant,zhu2018theory,ben2019thermal}. Recently, Fan's group proposed a new thermal radiation device\cite{chen2015heat,chen2016near}, in which the semiconductor p−n junction under an external bias as a source of thermal radiation, such that the expectation value of the photon energy per mode above the band gap satisfies the Bose distribution with nonzero chemical potential\cite{wurfel1982chemical}. Then the thermal radiation can be transferred from the hotter body to the colder body with zero chemical potential. 
 %
 \begin{figure}
 \centering
@@ -240,20 +359,20 @@ In general, the thermal radiation takes place when two bodies have different tem
 \end{figure}
 %
 
-The thermal radiation mechanism can be described by the model in Fig.~\ref{thermal-radiation} and can be projected into the general model in Fig.~\ref{Fig01}. In this case, the Eq.~\ref{Bose-LB} with $\nu_{L}\neq0$ (and $\nu_{R}=0$) and $T_{L}=T_{R}\neq0$ can be used to fitted the thermal radiation. What's more, we may predict another thermal radiation device consisting of two semiconductor p−n junctions at different external biases, as shown in Fig.~\ref{thermal-radiation}. The thermal radiation will be flowing from the terminal with high bias to the one with low bias. This may provide a new idea to control the derection of thermal radiation.
+The thermal radiation mechanism can be described by the model in Fig.~\ref{thermal-radiation} and can be projected into the general model in Fig.~\ref{Fig01}. In this case, the Eq.~\ref{Bose-LB} with $\nu_{L}\neq 0$ (and $\nu_{R}=0$) and $T_{L}=T_{R}\neq 0$ can be used to fitted the thermal radiation. What's more, we may predict another thermal radiation device consisting of two semiconductor p-n junctions at different external biases, as shown in Fig.~\ref{thermal-radiation}. The thermal radiation will be flowing from the terminal with high bias to the one with low bias. This may provide a new idea to control the derection of thermal radiation.
 
 
 \section{Applications}
 %\subsection{Joule heating}
 %The Joule heating in such coupled electron-phonon system can be described by Eq.~(\ref{Landauer-phonon}).
 
-\bullet \ Phononic \ cooling
+%\bullet \ Phononic \ cooling
 
 In current carrying molecular junctions, the heating induced by vibrational excitation is a common process\cite{yu2004inelastic,galperin2007molecular,huang2007local,ioffe2008detection,hartle2011vibrational,simine2012vibrational}. This occurs when the molecular levels are located in the bias window and bias voltage exceeds molecular vibrational frequencies. Once the energy dissipation from molecule junction to environment is not effective enough, the temperature of the junction will be increased, leading to its instability or even breakdown. Therefore, cooling the molecular junction is important for building molecular-based electronic devices\cite{galperin2009cooling,hartle2011resonant,hartle2018cooling}.
 
 In Eq.~\ref{Landauer-phonon} $Q$ represents the energy transfer from electron to phonon subsystem. So, the phonon cooling occurs when $Q<0$ and $T_{e}>T_{p}$. This indicates that the energy flux can flow from phonon system with low temperature to electron system with high temperature. 
 
-\bullet \ Photonic \ cooling
+%\bullet \ Photonic \ cooling
 
 The optical cooling of solids driven by coherent laser light has been observed\cite{epstein1995observation}. Recently, Zhu \emph{et al}. proposed a incoherent way to control the thermal radiation in a photodiode combined with an enhanced transfer of near field thermal radiation\cite{zhu2019near}. In this experiment, the authors can adjust the chemical potential of photons to achieve the near-field photonic cooling.
 
@@ -263,9 +382,9 @@ potential is nonzero, for example, the electron-hole pairs in STM junction; (2) 
 
 Based on Eq.~\ref{Bose-LB} and the model in Fig.~\ref{thermal-radiation}, we can provide a more clearer explaination of the photonic cooling. As shown in Fig.~\ref{thermal-radiation}, the chemical potentials of the cold body 2 and the hot body 1 are set to be $V_{2}>0$ and $V_{1}=0$, then a net heat flow from the cold body to the hot one can be obtained. What's more, by setting $V_{1}<0$ and $V_{2}=0$, one can observed the negative luminescence\cite{chen2016near}, and a net heat flow from cold body 2 to the hot body 1 can also be obtained.
 
-\bullet \ Heat \ rectification
+%\bullet \ Heat \ rectification
 
-In this case, we set the voltage bias between two electrodes is 0, that is, $\mu_{e}^{L}=\mu_{e}^{R}$. Meanwhile, a temperature bias is presented between electron and phonon subsystem, that is, T_{e}^{L}=T_{e}^{R}\neq T_{p}^{L}=T_{p}^{R}$. 
+In this case, we set the voltage bias between two electrodes is 0, that is, $\mu_{e}^{L}=\mu_{e}^{R}$. Meanwhile, a temperature bias is presented between electron and phonon subsystem, that is, $T_{e}^{L}=T_{e}^{R}\neq T_{p}^{L}=T_{p}^{R}$. 
 %Then Eq.~(\ref{Landauer-phonon}) becomes
 %\begin{equation}
 %\begin{split}
@@ -277,6 +396,7 @@ In this case, we set the voltage bias between two electrodes is 0, that is, $\mu
 In Eq.~\ref{Landauer-phonon}, the term $[n_{B}(\hbar\omega;T_{p})-n_{B}(\hbar\omega;T_{e})]$ is temperature dependent. Then the effective transmission function ${\rm Tr}[\Lambda_{LR}\mathcal{A}(\omega)]$ is key for heat rectification. It is obviously to verify that the heat rectification vanishes when $\Lambda_{LR}$ is a constant, that is, $\Lambda_{LR}$ is temperature independent. Our analysis can be identified by examining the energy transport in metal-insulator interface with electron-phonon  scattering\cite{zhang2013thermal,ren2013heat} and insulating ferromagnetic spin junction with spin-phonon interaction\cite{zhang2017thermal}.
 
 \section{Conclusion}
+
 In summary, we have proposed a nonequilibrium Landauer formula and constructed a model for coupled electron-Boson systems. The Landauer approach developed here allows for analytical insight into the 
 energy transport in three systems with electron-boson interaction.  Moreover, the phononic cooling, photonic cooling and heat rectification can be explained clearly by the formula. 
 
