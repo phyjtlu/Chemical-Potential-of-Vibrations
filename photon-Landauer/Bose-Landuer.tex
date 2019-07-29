@@ -1,5 +1,5 @@
 \documentclass[aps
-,%twocolumn
+%,twocolumn
 ,floatfix,footinbib,
 preprint
 ]{revtex4-1}
@@ -33,12 +33,12 @@ preprint
 
 %\preprint{APS/123-QED}
 
-\title{Chemical potential of vibrations and its driven energy transport in hybrid nano-junctions}%
+\title{Landauer-B\"uttiker formula for energy transport through hybrid electron-boson junction}%
 
 \author{Lei-Lei Nian}
 
 \author{Jing-Tao L\"{u}}
-\email{jtlu@hust.edu.cn}
+%\email{jtlu@hust.edu.cn}
 \affiliation{ School of Physics and Wuhan National High Magnetic Field Center, Huazhong University of Science and Technology, Wuhan 430074, P. R. China}
 
 
@@ -81,97 +81,167 @@ However, the generation and annihilation of bosons may be accompanied by transit
 % is the Bose-Einstein
 %distribution function in bath $\alpha (=1, 2)$ with the inverse temperature $\beta_\alpha=(k_BT_{\alpha})^{-1}$, $k_B$ being the Boltzmann constant. We have included the chemical potential $\mu_{\alpha}$, which is normally set to zero for phonon or photon transport.
 
-\section{System}
-We consider a model system schematically shown in Fig.~\ref{fig:model}. The center system composed of bosonic degrees of freedom (DOF) couples to two kinds of baths. One is an equilibrium boson bath, modeled by harmonic oscillators. The other is an electronic bath possibly driven into nonequilibrium steady state by voltage bias applied between two electrodes. The electronic bath is further divided into two electrodes and one center region. The bosonic system couples only to the center region of the electronic bath. Energy transport from the electron  bath to the system is realized through this coupling. The energy injected into (substracted from) the system can further goes into (out of) the harmonic oscillator bath. The above model is quite general. To be more specific, we consider a molecular junction as an example. Applications of this model include current-induced heating or electroluminescence. The bosonic system represents molecular vibrations and cavity photon modes, respectively. 
+\section{Theory}
+\subsection{Model}
+We consider a model system schematically shown in Fig.~\ref{fig:ehp} (a). The \emph{system} composed of an independent set of bosonic degrees of freedom (DOF), which couples to two kinds of baths. One is an equilibrium boson bath (ph-bath), modeled by an infinite number of harmonic modes. The other is an electronic bath (e-bath), which itself includes a central part and two electrodes (L and R).  The e-bath may be driven into a nonequilibrium steady state by a voltage bias applied between electrodes L and R. We assume that the system couples only to the central region of the e-bath. Energy transport from e-bath to the system becomes possible due to this coupling. The energy injected into (substracted from) the system can further goes into (out of) the ph-bath. The above model is quite general. To be more specific, we consider a molecular conductor as an example of the e-bath. The system is then made of harmonic vibrations of the molecule. The electrode phonons can serve as the ph-bath. Thus, the model introduced here can be used to study energy transport in molecular conductors\cite{lu2007coupled,lu2011laserlike,lu2016electron}.
+
+%Applications of this model include current-induced heating or electroluminescence. The bosonic system represents molecular vibrations and cavity photon modes, respectively. 
 
 
-\section{Electron-hole pair excitations}
-Our key observation is that the interaction between the system and electron bath can be modeled by different kinds of reactions between electron hole pairs (EHPs)  in the bath and the bosonic modes in the system. The creation and annihilation of the bosonic mode is always accompanied by the recombination and creation of EHPs, expressed in the form of reactions
+\subsection{Electron-hole pair excitations}
+Our key observation in this work is that the interaction between the system and electron bath can be modeled by different kinds of reactions between electron hole pairs (EHPs)  in the e-bath and the bosonic modes in the system. The creation and annihilation of the bosonic mode is always accompanied by the recombination and creation of EHPs. These processes can be expressed in the form of reactions
 \begin{align}
 e_\alpha + h_\beta \rightleftharpoons p_n,
 \label{eq:reaction}
 \end{align}
-where $e_\alpha$, $h_\beta$ and $p$ represent electron in electrode $\alpha$, hole in electrode $\beta$ and bosonic mode $n$ in the system.
-There are four types of EHPs which we label by the spatial location of the electron ($\alpha$) and hole  ($\beta$) state. They are schematically shown in Fig.~\ref{fig:ehp}. In additional to energy transfer between electron bath and the system, the generation and recombination of inter-electrode EHPs ($\alpha\neq \beta$) involves electron transport between the two electrodes.  Physically, the reaction in Eq.~(\ref{eq:reaction}) involves inelastic electronic transition assisted by the bosonic mode. 
-
-\begin{figure}
-	\includegraphics[scale=0.5,angle=-90]{schematics.pdf}
-	\caption{(a) Schematics of the model we consider. The system consists a set of independent bosonic modes. It couples to an electron bath, which is modeled as a conductor including a left (L) and a right (R) electrode, with temperature $T_e$ and chemical potential $\mu_L$ and $\mu_R$, respectively. The system further couples to an external thermal bath (ph bath) at temperature $T_{ph}$. (b) The electron bath can be treated as four different kinds of electron-hole pair (EHP) baths (1-4). (c) Four kinds of EHP excitation at different situations. The EHPs are classified according to the spatial location of the electron and hole. (1) Both are at electrode L, (2) Both are at electrode R, (3) The electron is at electrode L is excited and transferred to electrode R. (4) The electron at electrode R is excited and transferred to the left. (d) At $T\neq 0$, the recombination of EHPs becomes possible due to the non-zero filling of electrons above the chemical potential. (e) In the presence of voltage bias an extra inter-electrode EHP recombination channel opens.}
-	\label{fig:ehp}
-\end{figure}
-
-The coupling-weighted EHP power spectrum can be written as
+where $e_\alpha$, $h_\beta$ and $p$ represent electron in electrode $\alpha$, hole in electrode $\beta$ and bosonic mode $n$ in the system. It is equivalent to the more obvious form
 \begin{align}
-\Lambda^{\alpha\beta}(\omega) &= \hbar\omega\left(n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right)\Gamma^{\alpha\beta}(\omega),
+e_\alpha \rightleftharpoons e_\beta + p_n,
+\label{eq:reaction2}
+\end{align}
+representing inelastic electronic transition from electrode $\alpha$ to $\beta$, accompanied by emission (forward) and absorption (backward) of bosonic mode.
+
+
+There are four types of EHPs which we label by the spatial location of the electron ($\alpha$) and hole  ($\beta$) state. They are schematically shown in Fig.~\ref{fig:ehp} (c), and termed EHP-$i$, with $i=1,2,3,4$. They are further divided into two groups, where $1$, $2$ are intra-electrode type, and $3$, $4$ are inter-electrode type. In additional to energy transfer between e-bath and the system, the generation and recombination of inter-electrode EHPs ($\alpha\neq \beta$) also involves electron transport across the system. We take the energy of mode $p_n$ ($\varepsilon_n=\hbar\omega_n$ and that of the EHPs to be positive. 
+
+\begin{figure*}
+	\includegraphics[scale=0.75,angle=0]{schematics-v2.pdf}
+	\caption{(a) Schematics of the model we consider. The system consists a set of independent bosonic modes. It couples to an electron bath (e-bath), which is modeled as a conductor including a left (L) and a right (R) electrode, with temperature $T_e$ and chemical potential $\mu_L$ and $\mu_R$, respectively. The system further couples to an external thermal bath (ph-bath) at temperature $T_{ph}$. (b) The electron bath can be treated as four different kinds of electron-hole pair (EHP) baths (1-4), shown in (c). (c-d) Four kinds of EHP recombination (c) and excitation (d) processes. The EHPs are classified according to the spatial location of the electron ($e_\alpha$) and the hole ($h_\beta$). (1,1') Both are at electrode L, (2,2') Both are at electrode R, (3,3') The electron at electrode R and a hole at electrode L. (4,4') The electron at electrode L and a hole at electrode R.}
+	\label{fig:ehp}
+\end{figure*}
+
+The key quantity to describe the EHPs is the coupling-weighted EHP power spectrum. It can be written as
+\begin{align}
+\Lambda_{mn}^{\alpha\beta}(\omega) &= \hbar\omega\left(n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right)\Gamma_{mn}^{\alpha\beta}(\omega),
 \label{eq:ppehp}
 \end{align}
 with the coupling weighted density of states (DOS)
 \begin{align}
-\Gamma^{\alpha\beta}(\omega) &= -\sum_{i_\alpha,f_\beta}|\langle \psi_{i_\alpha}(\varepsilon_i)|M^{n}|\psi_{f_\beta}(\varepsilon_f)\rangle|^2 \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
-&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))(\hbar\omega)^{-1}\\
-&=-\int d\varepsilon_\alpha {\rm tr}[M^n A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
+\Gamma_{mn}^{\alpha\beta}(\omega) &= -\sum_{i_\alpha,f_\beta}\langle \psi_{i_\alpha}(\varepsilon_i)|M^{m}|\psi_{f_\beta}(\varepsilon_f)\rangle\\
+&\times\langle\psi_{f_\beta}(\varepsilon_f)|M^{n}|\psi_{i_\alpha}(\varepsilon_i)\rangle \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
+&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))(\hbar\omega)^{-1}\nonumber\\
+&=-\int d\varepsilon_\alpha {\rm tr}[M^m A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
 &\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))(\hbar\omega)^{-1}
 \end{align}
 Here, $n_{F}$ and $n_B$ are the Fermi-Dirac and the Bose-Einstein distributions, respectively,
 \begin{align}
-n_{F/B}(\varepsilon,T) &= \frac{1}{{\rm exp}\left(\frac{\varepsilon}{k_BT}\right)\pm 1},
+n_{F/B}(\hbar\varepsilon,T) &= \frac{1}{{\rm exp}\left(\beta_B \hbar\omega\right)\pm 1},
 \end{align}
-and $\mu_{\alpha\beta}=\mu_\alpha-\mu_\beta$.
-Equation~\ref{eq:ppehp} shows that the EHP follow Bose-Enistein statistics, since it consists of two fermions. Interestingly, its chemical potential is determined by the difference of electron and hole electrochemical potential. In equilibrium, both electrodes have the same chemical potential, thus $\mu_{\alpha\beta}=0$. However, when there is a voltage bias, inter-electrode EHPs acquire a non-zero chemical potential, which can be the driving force for energy transport to the system.
+and $\beta_B=(k_BT)^{-1}$, $\mu_{\alpha\beta}=\mu_\alpha-\mu_\beta$.
+Equation~\ref{eq:ppehp} shows that the EHP follow the Bose-Enistein distribution, since it consists of two fermions. Interestingly, its chemical potential is determined by the difference of electron and hole electrochemical potential. In equilibrium, both electrodes have the same chemical potential, thus $\mu_{\alpha\beta}=0$. However, when there is a voltage bias, inter-electrode EHPs acquire a non-zero chemical potential, which can be the driving force for energy transport to the system.
+
+
+\section{Mode population: effective temperature versus effective chemical potential}
+The reaction~\ref{eq:reaction} suggests that, when reaching steady state, the bosonic mode created by the EHP recombination inherits the chemical potential of the EHPs. Thus, the bosonic mode may acquire a non-zero chemical potential. This is best illustrated by performing a mode population analysis. 
+
+To simplify the analysis, we consider one bosonic mode with angular frequency $\Omega$. A simple master equation for the mode population $N$ can be established by considering the forward and backward reaction processes
+\begin{align}
+\dot{N} = B (N+1) - A N,
+\end{align}
+where $B$ and $A$ are the reaction rates. They can be calculated by summing over the individual rates $B=\sum_{\alpha\beta}B_{\alpha\beta}$, $A=\sum_{\alpha\beta}A_{\alpha\beta}$, with
+\begin{align}
+B_{\alpha\beta} &= \frac{2\pi}{\hbar}\sum_{i_\alpha,f_\beta}|\langle \psi_{i}(\varepsilon_i)|M^{m}|\psi_{f}(\varepsilon_f)\rangle|^2 \\
+&\times n_F(\varepsilon_i)(1-n_F(\varepsilon_f))\delta(\varepsilon_i-\varepsilon_f-\hbar\Omega),
+\end{align}
+and $A_{\alpha\beta}$ is obtained by the replacement $\hbar\Omega \to -\hbar\Omega$. As a result, the ratio $A/B$ follows
+\begin{align}
+\frac{A_{\alpha\beta}}{B_{\alpha\beta}} = {\rm exp}(\beta_B(\hbar\Omega-\mu_{\alpha\beta})).
+\end{align}
+This means each type of the reaction drives the mode into a Bose-Einstein with a chemical potential $\mu_{\alpha\beta}$. This coincides with the chemical potential of the corresponding EHPs, as required by the equilibrium condition of \ref{eq:reaction}:
+\begin{align}
+\mu_\alpha-\mu_\beta = \mu_p.
+\end{align}
+Here, we have used the fact that chemical potential of holes is the opposite to that of electrons.
+
+
+The steady state population of mode is obtained by setting $\dot{N}=0$ as
+\begin{align}
+N = \frac{1}{A/B-1}.
+\end{align}
+In equilibrium ($\mu_\alpha=\mu_\beta$), we have $A/B={\rm exp}(\beta_B\hbar\Omega)$, as required by detailed balance. Thus, $N$ follows the standard Bose-Einstein distribution with temperature $T_e$ and zero chemical potential. When there is voltage bias applied, the final distribution can not be written as a simple form. Normally, an effective temperature is defined by assuming $N$ follows the Bose-Einstein distribution with zero chemical potential
+\begin{align}
+k_BT_{eff} = \frac{\hbar\Omega}{{\rm ln}(1+N^{-1})}.
+\end{align}
+According to previous discussion, we can equivalently defined an effective chemical potential by assuming $N$ follows the Bose-Einstein distribution at $T_e$ 
+\begin{align}
+\mu_{eff} = \hbar\Omega - k_BT{\rm ln}(1+N^{-1}).
+\end{align}
+These two effective parameters are related through
+\begin{align}
+T_{eff} = \frac{T_e}{1-\mu_{eff}/(\hbar\Omega)}.
+\label{eq:tmu}
+\end{align}
+Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is normally enhanced more than process 3, we have a negative $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~(\ref{fig:resonant}) (a), resonant enhancement may lead to the extreme case of $\mu_{eff}=\hbar\Omega$, or $T_{eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the harmonic approximation is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{eff}>0$ or $T_{eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
+
+%When $eV=\hbar\Omega$, a laser-like instability occurs\cite{lu2011laserlike}. This indicates the failure of our harmonic lowest order analysis\cite{nitzan2018kinetic}.
+
+%Efficiency of a heat engine using the bononic system as working medium
+%\begin{align}
+%\eta = 1-\frac{T_L}{T_H}\frac{\hbar\Omega-\mu_{eff}}{\hbar\Omega}>1-\frac{T_L}{T_H}.
+%\end{align}
+%It seems that the efficiency is larger than the Carnot efficiency between $T_L$ and $T_H$. The reason is that, the bosonic mode has a nonzero chemical potential, the energy input from $T_H$ includes not only heat, but also chemical energy. All the chemical energy can be converted to work.
+
+
 
 
 \section{Energy transport}
 To study energy transport in our system, we can employ a simple model using the EHP picture. The electron bath is divided into four EHP baths, each of which is characterized by the power spectra given in Eq.~(\ref{eq:ppehp}). 
 To the lowest order approximation, we arrive at a Landauer-B\"uttiker formula for the energy transport from electron bath to bosonic system as a summation of contributions from all the EHP baths
 \begin{align}
-J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ T^{\alpha\beta}(\omega)\nonumber\\
-&\times [n_B(\omega-\mu_{\alpha\beta},T_{e})-n_B(\omega,T_{ph})]
+J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ \mathcal{T}^{\alpha\beta}(\omega)\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})]
+\label{eq:jjtrans}
 \end{align}
 where
 \begin{align}
-T^{\alpha\beta}(\omega)={\rm Tr}[\Gamma^{\alpha\beta}(\omega)\mathcal{A}(\omega)],
+\mathcal{T}^{\alpha\beta}(\omega)={\rm Tr}[\Gamma^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)],
 \end{align}
-is the transmission between the EHP bath $\alpha\beta$ and the ph-bath. 
-Here, $\alpha$,$\beta$ are indices for the electron baths, $T_e$ and $T_{ph}$ are the temperature of the electron and harmonic-oscillator baths, resepctively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. In the following we discuss several applications of the central result.
+is the transmission between the EHP bath and the ph-bath. 
+Here, $T_e$ and $T_{ph}$ are the temperature of the e-bath and ph-bath, respectively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. Each of them contributes to an energy transport channel. In the following we show that, many energy or thermoelectric transport processes can be understood easily using the EHP picture.
 
-\subsection{Heat Rectification in hybrid electron-boson system}
+
+%\section{Applications}
+\subsection{Heat rectification in hybrid electron-boson system}
 Firstly, we consider the situation where the electron and phonon baths are in their own equilibrium with two different temperature $T_e$ and $T_{ph}$. Since $\mu_{\alpha}=\mu_{\beta}$ and $T_{\alpha}=T_\beta=T_e$, we can write the total EHP DOS as an integral form
 \begin{align}
-	\Gamma(\omega)&=-\frac{1}{\hbar\omega}\int d\varepsilon_\alpha {\rm tr}[M^n A(\varepsilon-\hbar\omega)M^n A(\varepsilon)] \nonumber\\
+	\Gamma_{mn}(\omega)&=-\frac{1}{\hbar\omega}\int d\varepsilon_\alpha {\rm tr}[M^m A(\varepsilon-\hbar\omega)M^n A(\varepsilon)] \nonumber\\
 	&\times (n_F(\varepsilon-\mu_e,T_e)-n_F(\varepsilon-\hbar\omega-\mu_e,T_e))
 \end{align}
-If we ignore the energy dependence of $A$, the integral of the two Fermi-Dirac distributions gives $\hbar\omega$ independent of $T_e$. Consequently,  $\Gamma(\omega)$ does not depend on $T_e$. Equation~(\ref{eq}) reduces to the Landauer formula for heat transport between two harmonic oscillator baths. On the other hand, if we consider the energy dependence of $A(\omega)$, $\Gamma(\omega)$ will depend on $T_e$. Then, heat rectification is possible $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. Thus, a necessary condition for heat rectification in a hybrid electron-boson system is that, the electron DOS near the electrochemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. 
+If we ignore the energy dependence of $A$, the integral of the two Fermi-Dirac distributions gives $\hbar\omega$ independent of $T_e$. Consequently,  the transmission $\sum_{\alpha\beta}\mathcal{T}^{\alpha\beta}$ does not depend on $T_e$. Equation~(\ref{eq:jjtrans}) reduces to the Landauer formula for heat transport between two harmonic thermal baths. From the energy transport point of view, the EHPs behave as linear harmonic oscillator thermal baths. On the other hand, if we consider the energy dependence of $A(\omega)$, $\Gamma(\omega)$ and hence $\mathcal{T}^{\alpha\beta}$ will depend on $T_e$. Energy transport becomes nonlinear. In this case, heat rectification is possible, i.e., $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. We thus find a necessary condition for heat rectification in a hybrid electron-boson system: the electron DOS in the thermal window near the electrochemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. In reality, the DOS of metal electrodes is relative flat. The energy dependence of the DOS can be engineered by changing the electronic states of the central part. For example, discrete energy levels of a molecular junction or quantum dot can be used. Figure~\ref{fig:resonant} shows two limiting cases. We have two electronic levels which couple to the left and right electrodes, respectively. The left level lies below $\mu_L$ and the right level lies above $\mu_R$. Depending on their relative positions, one of the inter-electrode EHPs couples strongest to the bosonic system. This setup has been studied in Ref.~\onlinecite{lu2011laserlike}.
+
+\begin{figure}[h]
+	\includegraphics[scale=0.45,angle=0]{heating-cooling.pdf}
+	\caption{(a) Heating of bosonic mode due to resonant recombination of EHPs. (b) Cooling of bosonic mode due to resonant generation of EHPs.}
+	\label{fig:resonant}
+\end{figure}
+
+
+\subsection{Thermoelectric transport}
+Another problem we can look at is the thermoelectric transport. When there is a temperature difference between $T_{ph}$ and $T_e$, in additional to the energy transport between system and e-bath, an electrical current may also be induced between left and right electrodes\cite{}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, it is natural to require their coupling to the bosonic mode is different. This can be easily realized for the setups in Fig.~\ref{fig:resonant}.
 
 \subsection{Electronic heating and cooling}
-If there is a voltage bias applied between the two electrodes, the inter-electrode EHPs acquire a non-zero chemical potential, determined by the electrochemical potential difference between the two electrodes. We assume $\mu_L>\mu_R$ without loss of generality. The EHP-4 has a chemical potential of $eV=\mu_L-\mu_R$, while EHP-3 gets a chemical potential with oppositve value $-eV$. This change of the chemical potential breaks the chemical equilibrium in the reaction, and drives the energy transport between the electron bath and bosonic system. The forward reaction $e_L+h_R \to p_n$  is enhanced, leading to energy flow from the EHPs to the bosonic mode. Meanwhile, that of $e_R+h_L \to p_n$ is reduced, leading to an opposite energy flow. Direction of the total energy current is determined by the relative magnitude of the two processes, i.e., the magnitude of the transmission $T^{\alpha\beta}$. As an illustration, we consider electronic cooling of the bosonic mode. 
-
-
-\section{Mode population and chemical potential}
-The reaction \ref{eq:reaction} suggests that, when reaching steady state, the bosonic mode created from the EHPs inherits the chemical potential of the EHPs. Thus, the bosonic mode may have a non-zero chemical potential. This is best illustrated by performing a mode population analysis. 
-
-To simplify the analysis, we consider one bosonic mode with angular frequency $\Omega$. A simple master equation for the mode population can be established by considering the creation and annihilation processes
-\begin{align}
-\dot{N} = B (N+1) - A N,
-\end{align}
-where $B$ and $A$ are the coefficients for mode creation and absorption processes. They can be calculated using the standard Fermi golden rule approach\cite{lu2011laserlike}. The steady state population is obtained by setting $\dot{N}=0$ as
-\begin{align}
-N = \frac{1}{A/B-1}.
-\end{align}
-In equilibrium, detailed balance requires $A/B=exp(\hbar\Omega/k_BT)$. Thus $N$ follows the standard Bose-Einstein distribution with temperature $T_e$ and zero chemical potential. When there is bias applied, in the extreme case where the reaction rate of $e_L+h_R\to p$ is much larger than all the rest processes, the mode reaches equilibrium with EHP-4. The population still follows the Bose-Einstein distribution, but with a chemical potential $eV$
-\begin{align}
-N = \frac{1}{{\rm exp}((\hbar\Omega-eV)/k_BT)-1}.
-\end{align}
-%When $eV=\hbar\Omega$, a laser-like instability occurs\cite{lu2011laserlike}. This indicates the failure of our harmonic lowest order analysis\cite{nitzan2018kinetic}.
-
-Efficiency of a heat engine using the bononic system as working medium
-\begin{align}
-\eta = 1-\frac{T_L}{T_H}\frac{\hbar\Omega-eV}{\hbar\Omega}>1-\frac{T_L}{T_H}.
-\end{align}
-It seems that the efficiency is larger than the Carnot efficiency between $T_L$ and $T_H$. The reason is that, the bosonic mode has a nonzero chemical potential, the energy input from $T_H$ includes not only heat, but also chemical energy. All the chemical energy can be converted to work.
+The presence of voltage bias between the two electrodes changes the initial and final electron states of the EHP excitation. Thus, the EHP DOS can be tuned by voltage bias. More importantly, the inter-electrode EHPs acquire a non-zero chemical potential, determined by the electrochemical potential difference between the two electrodes. We assume $\mu_L>\mu_R$ without loss of generality. The EHP-4 has a chemical potential of $eV=\mu_L-\mu_R>0$, while EHP-3 gets a chemical potential with opposite value $-eV$. Change of the chemical potential breaks the equilibrium in the reaction, and drives the energy transport between e-bath and the system. If we assume $T_e=T_{ph}$, the energy transport is through the two inter-electrode EHP channels
+\begin{align*}
+J = \int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega &\left[\mathcal{T}^{LR}(\omega)[n_B(\omega-eV,{T}_{e})-n_B(\omega,T_{ph})]\right.\nonumber\\
+&\left.-\mathcal{T}^{RL}(\omega)[n_B(\omega+eV,{T}_{e})-n_B(\omega,T_{ph})]\right]
+\label{eq:jjtrans2}
+\end{align*}
+Direction of energy flow depends on the relative magnitude of two fluxes. It can be engineered by tuning the electronic band structure, or more specifically, the transition probability. Figure~\ref{fig:resonant} shows two limiting cases. In Fig.~\ref{fig:resonant} (a), process 4 is enhanced due to resonant inelastic electron tunneling when the separation between the two DOS peaks is resonant with energy of the bosonic mode. Consequently, energy flows from e-bath to the system. In Fig.~\ref{fig:resonant} (b), the reverse of process 3 is resonantly enhanced, resulting in energy flow in the opposite direction. Electronic cooling becomes possible using this resonantly enhanced process.
 
 
 
+%Joule heating in molecular conductors has been studied 
 
+%The forward reaction $e_L+h_R \to p_n$  is enhanced, leading to energy flow from the EHPs to the bosonic mode. Meanwhile, that of $e_R+h_L \to p_n$ is reduced, leading to an opposite energy flow. Direction of the total energy current is determined by the relative magnitude of the two processes, i.e., the magnitude of the transmission $T^{\alpha\beta}$. As an illustration, we consider electronic cooling of the bosonic mode. 
+
+
+
+\section{Conclusions}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\if false
 \clearpage
 \appendix
 \section{introduction}
@@ -409,6 +479,7 @@ Funding is provided by the National Natural Science Foundation of China
 (Grant No. 2017YFA0403501) and the program for HUST academic frontier youth team.
 \end{acknowledgments}
 
+
 \appendix
 \onecolumngrid
 \section{Derivation of Eq.~(\ref{Landauer-phonon})}
@@ -536,7 +607,7 @@ Based on the Hamiltonian, we can get the phtoton energy flux flowing from electr
 
 
 
-\iffalse
+
 \section{Derivation of phonon distribusion}
 \label{phonon-distribution}
 The rates in Eq.~(\ref{rate-equation}) are
@@ -578,7 +649,8 @@ Finally, we can get $N_{ss}$ in Eq.~(\ref{phonon-SS}).
 
 
 
-\twocolumngrid
+%\twocolumngrid
+
 \bibliography{LB}
 \end{document}
 
