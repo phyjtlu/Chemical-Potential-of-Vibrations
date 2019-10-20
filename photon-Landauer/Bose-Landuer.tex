@@ -165,18 +165,19 @@ and $A_{\alpha\beta}$ is obtained by the replacement $\hbar\Omega \to -\hbar\Ome
 \begin{align}
 \frac{A_{\alpha\beta}}{B_{\alpha\beta}} = {\rm exp}(\beta_B(\hbar\Omega-\mu_{\alpha\beta})).
 \end{align}
-This is a generalized detailed balance equation for the emission and absorption of the bosonic quanta. For e-bath in equilibrium ($\mu_L=\mu_R$), we recover the equilibrium detailed balance relation.
-This means each type of the reaction drives the mode into a Bose-Einstein with a chemical potential $\mu_{\alpha\beta}$. This coincides with the chemical potential of the corresponding EHPs, as required by the equilibrium condition of \ref{eq:reaction}:
-\begin{align}
-\mu_\alpha-\mu_\beta = \mu_p.
-\end{align}
-Here, we have used the fact that chemical potential of holes is the opposite to that of electrons.
+This is a generalized detailed balance relation for the emission and absorption of the bosonic quanta with a nonzero chemical potential $\mu_{\alpha\beta}=\mu_\alpha-\mu_\beta$, as required by the equilibrium condition for reaction \ref{eq:reaction}.
 
-The steady state population of mode is obtained by setting $\dot{N}=0$ as
+%This means each type of the reaction drives the mode into a Bose-Einstein with a chemical potential $\mu_{\alpha\beta}$. This coincides with the chemical potential of the corresponding EHPs, as required by the equilibrium condition of \ref{eq:reaction}:
+%\begin{align}
+%\mu_\alpha-\mu_\beta = \mu_p.
+%\end{align}
+%Here, we have used the fact that chemical potential of holes is the opposite to that of electrons.
+
+The bosonic mode reaches steady state when $\dot{N}=0$, with
 \begin{align}
 N = \frac{1}{A/B-1}.
 \end{align}
-In equilibrium ($\mu_\alpha=\mu_\beta$), we have $A/B={\rm exp}(\beta_B\hbar\Omega)$, as required by detailed balance. Thus, $N$ follows the standard Bose-Einstein distribution with temperature $T_e$ and zero chemical potential. When there is voltage bias applied, the final distribution can not be written as a simple form. Normally, an effective temperature is defined by assuming $N$ follows the Bose-Einstein distribution with zero chemical potential
+In equilibrium ($\mu_\alpha=\mu_\beta$), we have $A/B={\rm exp}(\beta_B\hbar\Omega)$. When there is voltage bias applied, the final distribution can not be written as a simple form. Normally, an effective temperature is defined by assuming $N$ follows the Bose-Einstein distribution with zero chemical potential
 \begin{align}
 k_BT_{eff} = \frac{\hbar\Omega}{{\rm ln}(1+N^{-1})}.
 \end{align}
@@ -189,7 +190,7 @@ These two effective parameters are related through
 T_{eff} = \frac{T_e}{1-\mu_{eff}/(\hbar\Omega)}.
 \label{eq:tmu}
 \end{align}
-Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is normally enhanced more than process 3, we have a positive $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~(\ref{fig:resonant}) (a), resonant enhancement may lead to the extreme case of $\mu_{eff}=\hbar\Omega$, or $T_{eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the harmonic approximation is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{eff}>0$ or $T_{eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
+%Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is normally enhanced more than process 3, we have a positive $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~(\ref{fig:resonant}) (a), resonant enhancement may lead to the extreme case of $\mu_{eff}=\hbar\Omega$, or $T_{eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the harmonic approximation is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{eff}>0$ or $T_{eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
 
 
 
@@ -212,7 +213,7 @@ Here, $T_e$ and $T_{ph}$ are the temperature of the e-bath and ph-bath, respecti
 
 %\section{Applications}
 %\subsection{Heat rectification in hybrid electron-boson system}
-{\bf Heat rectification in hybrid electron-boson system--}
+{\bf Non-reciprocal heat flow.--}
 Firstly, we consider the situation where the e-bath and ph-bath are in their own thermal equilibrium with two different temperature $T_e$ and $T_{ph}$. This indicates that  $\mu_{\alpha}=\mu_{\beta}$ and $T_{\alpha}=T_\beta=T_e$. 
 If we ignore the energy dependence of $A$ within the integral window determined by the difference of the two Fermi functions,
 the EHP DOS becomes a constant, independent on system parameters,
@@ -230,8 +231,8 @@ On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\G
 \end{figure}
 
 
-{ \bf Thermoelectric transport: current from cold-spot.--}
-Another problem we can look at is the thermoelectric transport. When there is a temperature difference between $T_{ph}$ and $T_e$, in addition to the energy transport between system and e-bath, an electrical current may also be induced between left and right electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, their coupling to the bosonic mode should be different\cite{sanchez2011optimal}. Here, we consider the case where $T_{ph}<T_{e}$ and $\mu_L=\mu_R$. The temperature difference between e-bath and ph-bath generates a heat current flow from the e-bath to the ph-bath. At a result of the heat transport, electron transport between $L$ and $R$ electrode takes place. Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. The situation we consider here is somewhat counter-intuitive, since the electrical current is generated by a cold-spot. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
+{ \bf Electrical current from a cold-spot.--}
+Another problem we can look at is the thermoelectric transport. When there is a temperature difference between $T_{ph}$ and $T_e$, in addition to the energy transport between system and e-bath, an electrical current may also be induced between left and right electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, these two channels should not get canceled. Here, we consider the case where $T_{ph}<T_{e}$ and $\mu_L=\mu_R$. The temperature difference between e-bath and ph-bath generates a heat current flow from the e-bath to the ph-bath. At a result of the heat transport, electron transport between $L$ and $R$ electrode takes place. Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. The situation we consider here is somewhat counter-intuitive, since the electrical current is generated by a cold-spot. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
 
 
 
