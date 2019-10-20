@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.5.30)  29 JUL 2019 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  20 OCT 2019 14:32
 entering extended mode
 **./Bose-Landuer.tex
 (Bose-Landuer.tex
@@ -69,10 +69,9 @@ File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
+Class revtex4-1 Info: Selecting journal prl on input line 7544.
+Class revtex4-1 Info: APS journal PRL selected on input line 7545.
 
-Class revtex4-1 Warning: No journal specified, using default pra.
-
-Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 
 Class revtex4-1 Warning: No type size specified, using default 10.
 
@@ -121,10 +120,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\xetex.def"
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
@@ -225,7 +224,7 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -271,16 +270,18 @@ Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
-
-Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
-orted.
-
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
@@ -335,6 +336,12 @@ File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+
+
+Package hyperref Warning: Invalid value `001'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 4383.
+
 Package hyperref Info: Hyper figures OFF on input line 4509.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
@@ -362,32 +369,16 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count113
 \c@Hfootnote=\count114
 )
-Package hyperref Info: Driver (autodetected): hxetex.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
-File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box43
-\c@Hy@AnnotLevel=\count115
-\HyField@AnnotCount=\count116
-\Fld@listcount=\count117
-\c@bookmark@seq@number=\count118
+Package hyperref Info: Driver (autodetected): hpdftex.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
 \Hy@SectionHShift=\skip51
 )
@@ -410,24 +401,35 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen121
+\scratchbox=\box43
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen122
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks24
+)
 \AtBeginShipoutBox=\box44
 Package hyperref Info: Link coloring ON on input line 32.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count123
 )
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
@@ -440,40 +442,82 @@ LaTeX Info: Redefining \nameref on input line 32.
 Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 32.
 \openout3 = `Bose-LanduerNotes.bib'.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 63.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+Underfull \hbox (badness 2181) in paragraph at lines 61--64
+[]\OT1/cmr/bx/n/10 Introduction-- \OT1/cmr/m/n/10 The cel-e-brated Landauer-Bu
+ttiker
+ []
+
+[1{C:/Users/phyjt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+pdfTeX warning: pdflatex.exe (file ./schematics-v2.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<schematics-v2.pdf, id=45, 557.75233pt x 446.00928pt>
 File: schematics-v2.pdf Graphic file (type pdf)
 <use schematics-v2.pdf>
- [1] [2] [3]
+Package pdftex.def Info: schematics-v2.pdf  used on input line 126.
+(pdftex.def)             Requested size: 418.31322pt x 334.50613pt.
+[2] [3 <./schematics-v2.pdf>]
+Underfull \hbox (badness 2065) in paragraph at lines 215--219
+[]\OT1/cmr/bx/n/10 Heat rec-ti-fi-ca-tion in hy-brid electron-boson
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./heating-cooling.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<heating-cooling.pdf, id=109, 544.7306pt x 177.76312pt>
 File: heating-cooling.pdf Graphic file (type pdf)
 <use heating-cooling.pdf>
+Package pdftex.def Info: heating-cooling.pdf  used on input line 227.
+(pdftex.def)             Requested size: 245.12651pt x 79.99266pt.
 
-Overfull \hbox (5.57019pt too wide) detected at line 228
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.57019pt too wide) detected at line 244
 []
  []
 
-(Bose-Landuer.bbl [4]) [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 655.
+[4 <./heating-cooling.pdf>] (Bose-Landuer.bbl) [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 735.
  (Bose-Landuer.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 655.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 655.
- )
-(\end occurred when \ifx on line 161 was incomplete) 
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 735.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 735.
+Package rerunfilecheck Info: File `Bose-Landuer.out' has not changed.
+(rerunfilecheck)             Checksum: A1AE08D770D2DAE63E9544D6A31AFC78;233.
+ ) 
 Here is how much of TeX's memory you used:
- 10871 strings out of 427836
- 147665 string characters out of 3152479
- 276216 words of memory out of 3000000
- 14710 multiletter control sequences out of 15000+200000
- 12212 words of font info for 52 fonts, out of 3000000 for 9000
- 1331 hyphenation exceptions out of 8191
- 42i,17n,45p,1669b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 7896 strings out of 493305
+ 113449 string characters out of 3138874
+ 230453 words of memory out of 3000000
+ 11279 multiletter control sequences out of 15000+200000
+ 13092 words of font info for 48 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 42i,17n,28p,1322b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti9.pfb>
+Output written on Bose-Landuer.pdf (5 pages, 730738 bytes).
+PDF statistics:
+ 227 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 35 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Bose-Landuer.pdf (5 pages).
