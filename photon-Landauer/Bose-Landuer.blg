@@ -2,7 +2,19 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Bose-Landuer.aux
 The style file: apsrev4-1.bst
 Database file #1: Bose-LanduerNotes.bib
 Database file #2: LB.bib
-Warning--I didn't find a database entry for ""
+Repeated entry---line 882 of file LB.bib
+ : @article{galperin2009cooling
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 897 of file LB.bib
+ : @article{simine2012vibrational
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 932 of file LB.bib
+ : @article{hartle2011resonant
+ :                            ,
+I'm skipping whatever remains of this entry
+Database file #3: gle-review.bib
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -14,4 +26,4 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-(There were 2 warnings)
+(There were 3 error messages)
