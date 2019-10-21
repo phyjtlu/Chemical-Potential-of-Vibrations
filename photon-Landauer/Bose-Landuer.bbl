@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{16}%
+\begin{thebibliography}{14}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -125,44 +125,6 @@
   {Taylor}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical Review B}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo {pages}
   {155437} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"u}}\ and\ \citenamefont
-  {Wang}(2007)}]{lu2007coupled}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {L{\"u}}}\ and\ \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
-  Review B}\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo {pages} {165418}
-  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2011)\citenamefont {L{\"u}},
-  \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
-  {Brandbyge}}]{lu2011laserlike}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Hedeg{\aa}rd}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Brandbyge}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical review letters}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
-  {pages} {046801} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2016)\citenamefont {L{\"u}},
-  \citenamefont {Wang}, \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
-  {Brandbyge}}]{lu2016electron}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}},
-  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedeg{\aa}rd}}, \ and\
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},\ }\href@noop
-  {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
-  {\bibinfo {volume} {93}},\ \bibinfo {pages} {205404} (\bibinfo {year}
-  {2016})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nitzan}\ and\ \citenamefont
-  {Galperin}(2018)}]{nitzan2018kinetic}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Nitzan}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Galperin}},\ }\href {\doibase 10.1021/acs.jpclett.8b01886} {\bibfield
-  {journal} {\bibinfo  {journal} {The Journal of Physical Chemistry Letters}\
-  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {4886} (\bibinfo {year}
-  {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2013)\citenamefont {Zhang},
   \citenamefont {L{\"u}}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{zhang2013thermal}%
@@ -181,6 +143,16 @@
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
   B}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages} {241412} (\bibinfo
   {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2011)\citenamefont {L{\"u}},
+  \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
+  {Brandbyge}}]{lu2011laserlike}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
+  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Hedeg{\aa}rd}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Brandbyge}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review letters}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {046801} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Entin-Wohlman}\ \emph {et~al.}(2010)\citenamefont
   {Entin-Wohlman}, \citenamefont {Imry},\ and\ \citenamefont
   {Aharony}}]{entinwuhlman2010three}%
@@ -200,4 +172,17 @@
   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
   {83}},\ \bibinfo {pages} {085428} (\bibinfo {year} {2011})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Zhu}\ \emph {et~al.}(2019)\citenamefont {Zhu},
+  \citenamefont {Fiorino}, \citenamefont {Thompson}, \citenamefont
+  {Mittapally}, \citenamefont {Meyhofer},\ and\ \citenamefont
+  {Reddy}}]{zhu2019near}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Zhu}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Fiorino}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Thompson}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Mittapally}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Meyhofer}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Reddy}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {566}},\
+  \bibinfo {pages} {239} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \end{thebibliography}%
