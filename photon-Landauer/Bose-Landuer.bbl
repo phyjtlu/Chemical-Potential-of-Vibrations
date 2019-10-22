@@ -1,10 +1,10 @@
 %merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 %Control: key (0)
-%Control: author (8) initials jnrlst
+%Control: author (0) dotless jnrlst
 %Control: editor formatted (1) identically to author
-%Control: production of article title (-1) disabled
-%Control: page (0) single
-%Control: year (1) truncated
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
 %Control: production of eprint (0) enabled
 \begin{thebibliography}{38}%
 \makeatletter
@@ -53,18 +53,20 @@
 \bibitem [{\citenamefont {Imry}\ and\ \citenamefont
   {Landauer}(1999)}]{imry1999conductance}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Imry}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Landauer}},\ }\href {\doibase 10.1103/RevModPhys.71.S306} {\bibfield
-  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
-  {71}},\ \bibinfo {pages} {S306} (\bibinfo {year} {1999})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yoseph}\ \bibnamefont
+  {Imry}}\ and\ \bibinfo {author} {\bibfnamefont {Rolf}\ \bibnamefont
+  {Landauer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Conductance
+  viewed as transmission},}\ }\href {\doibase 10.1103/RevModPhys.71.S306}
+  {\bibfield  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf
+  {\bibinfo {volume} {71}},\ \bibinfo {pages} {S306--S312} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ojanen}\ and\ \citenamefont
   {Jauho}(2008)}]{ojanen2008mesoscopic}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Ojanen}}\ and\ \bibinfo {author} {\bibfnamefont {A.-P.}\ \bibnamefont
-  {Jauho}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Teemu}\ \bibnamefont
+  {Ojanen}}\ and\ \bibinfo {author} {\bibfnamefont {Antti-Pekka}\ \bibnamefont
+  {Jauho}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Mesoscopic photon
+  heat transistor},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical review letters}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo
   {pages} {155902} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Biehs}\ \emph {et~al.}(2010)\citenamefont {Biehs},
@@ -74,159 +76,189 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-A.}\ \bibnamefont
   {Biehs}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Rousseau}}, \
   and\ \bibinfo {author} {\bibfnamefont {J.-J.}\ \bibnamefont {Greffet}},\
-  }\href {\doibase 10.1103/PhysRevLett.105.234301} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\
-  \bibinfo {pages} {234301} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Mesoscopic description of
+  radiative heat transfer at the nanoscale},}\ }\href {\doibase
+  10.1103/PhysRevLett.105.234301} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
+  {234301} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2018)\citenamefont {Zhang},
   \citenamefont {L\"u},\ and\ \citenamefont {Wang}}]{zhang2018energy}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-Q.}\ \bibnamefont
-  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L\"u}}, \
-  and\ \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}},\ }\href
-  {\doibase 10.1103/PhysRevB.97.195450} {\bibfield  {journal} {\bibinfo
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zu-Quan}\ \bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Jing-Tao}\ \bibnamefont {L\"u}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Jian-Sheng}\ \bibnamefont {Wang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Energy transfer between two
+  vacuum-gapped metal plates: Coulomb fluctuations and electron tunneling},}\
+  }\href {\doibase 10.1103/PhysRevB.97.195450} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
   {pages} {195450} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ben-Abdallah}\ and\ \citenamefont
   {Biehs}(2014)}]{benabdallah2014near}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Ben-Abdallah}}\ and\ \bibinfo {author} {\bibfnamefont {S.-A.}\ \bibnamefont
-  {Biehs}},\ }\href {\doibase 10.1103/PhysRevLett.112.044301} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {112}},\ \bibinfo {pages} {044301} (\bibinfo {year}
-  {2014})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Philippe}\
+  \bibnamefont {Ben-Abdallah}}\ and\ \bibinfo {author} {\bibfnamefont
+  {Svend-Age}\ \bibnamefont {Biehs}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Near-field thermal transistor},}\ }\href {\doibase
+  10.1103/PhysRevLett.112.044301} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {pages}
+  {044301} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Rego}\ and\ \citenamefont
   {Kirczenow}(1998)}]{rego1998quantized}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~G.~C.}\
-  \bibnamefont {Rego}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Kirczenow}},\ }\href {\doibase 10.1103/PhysRevLett.81.232} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {81}},\ \bibinfo {pages} {232} (\bibinfo {year} {1998})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Luis G.~C.}\
+  \bibnamefont {Rego}}\ and\ \bibinfo {author} {\bibfnamefont {George}\
+  \bibnamefont {Kirczenow}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Quantized thermal conductance of dielectric quantum wires},}\ }\href
+  {\doibase 10.1103/PhysRevLett.81.232} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo
+  {pages} {232--235} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mingo}\ and\ \citenamefont
   {Broido}(2005)}]{mingo2005carbon}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
   {Mingo}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
-  {Broido}},\ }\href {\doibase 10.1103/PhysRevLett.95.096105} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {95}},\ \bibinfo {pages} {096105} (\bibinfo {year}
-  {2005})}\BibitemShut {NoStop}%
+  {Broido}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Carbon nanotube
+  ballistic thermal conductance and its limits},}\ }\href {\doibase
+  10.1103/PhysRevLett.95.096105} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages}
+  {096105} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yamamoto}\ and\ \citenamefont
   {Watanabe}(2006)}]{yamamoto2006nonequilibrium}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Yamamoto}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Watanabe}},\ }\href {\doibase 10.1103/PhysRevLett.96.255503} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {96}},\ \bibinfo {pages} {255503} (\bibinfo {year}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Takahiro}\
+  \bibnamefont {Yamamoto}}\ and\ \bibinfo {author} {\bibfnamefont {Kazuyuki}\
+  \bibnamefont {Watanabe}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Nonequilibrium green's function approach to phonon transport in defective
+  carbon nanotubes},}\ }\href {\doibase 10.1103/PhysRevLett.96.255503}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {96}},\ \bibinfo {pages} {255503} (\bibinfo {year}
   {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2006)\citenamefont {Wang},
   \citenamefont {Wang},\ and\ \citenamefont {Zeng}}]{wang2006nonequilibrium}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\
-  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Zeng}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jian-Sheng}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Jian}\ \bibnamefont
+  {Wang}}, \ and\ \bibinfo {author} {\bibfnamefont {Nan}\ \bibnamefont
+  {Zeng}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Nonequilibrium
+  green’s function approach to mesoscopic thermal transport},}\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
   {\bibinfo {volume} {74}},\ \bibinfo {pages} {033408} (\bibinfo {year}
   {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2007)\citenamefont {Wang},
   \citenamefont {Zeng}, \citenamefont {Wang},\ and\ \citenamefont
   {Gan}}]{wang2007nonequilibrium}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Zeng}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {C.~K.}\ \bibnamefont {Gan}},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf {\bibinfo
-  {volume} {75}},\ \bibinfo {pages} {061128} (\bibinfo {year}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jian-Sheng}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Nan}\ \bibnamefont
+  {Zeng}}, \bibinfo {author} {\bibfnamefont {Jian}\ \bibnamefont {Wang}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Chee~Kwan}\ \bibnamefont {Gan}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Nonequilibrium green’s
+  function method for thermal transport in junctions},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
+  {\bibinfo {volume} {75}},\ \bibinfo {pages} {061128} (\bibinfo {year}
   {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2008)\citenamefont {Wang},
   \citenamefont {Wang},\ and\ \citenamefont {L{\"u}}}]{wang2008quantum}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {L{\"u}}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {The European Physical Journal B}\
-  }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {381} (\bibinfo {year}
-  {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J-S}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Jian}\ \bibnamefont {Wang}}, \
+  and\ \bibinfo {author} {\bibfnamefont {JT}~\bibnamefont {L{\"u}}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum thermal transport in
+  nanostructures},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {The European Physical Journal B}\ }\textbf {\bibinfo {volume} {62}},\
+  \bibinfo {pages} {381--404} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ruokola}\ \emph {et~al.}(2009)\citenamefont
   {Ruokola}, \citenamefont {Ojanen},\ and\ \citenamefont
   {Jauho}}]{ruokola2009thermal}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Ruokola}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Ojanen}}, \
-  and\ \bibinfo {author} {\bibfnamefont {A.-P.}\ \bibnamefont {Jauho}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  B}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {pages} {144306} (\bibinfo
-  {year} {2009})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Tomi}\ \bibnamefont
+  {Ruokola}}, \bibinfo {author} {\bibfnamefont {Teemu}\ \bibnamefont {Ojanen}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Antti-Pekka}\ \bibnamefont
+  {Jauho}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Thermal
+  rectification in nonlinear quantum circuits},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {79}},\ \bibinfo {pages} {144306} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Li}\ \emph {et~al.}(2012)\citenamefont {Li},
   \citenamefont {Ren}, \citenamefont {Wang}, \citenamefont {Zhang},
   \citenamefont {H{\"a}nggi},\ and\ \citenamefont {Li}}]{li2012colloquium}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {Li}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ren}}, \bibinfo
-  {author} {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo {author}
-  {\bibfnamefont {G.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
-  {P.}~\bibnamefont {H{\"a}nggi}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {B.}~\bibnamefont {Li}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {84}},\
-  \bibinfo {pages} {1045} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nianbei}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {Jie}\ \bibnamefont {Ren}}, \bibinfo
+  {author} {\bibfnamefont {Lei}\ \bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {Gang}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {Peter}\ \bibnamefont {H{\"a}nggi}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Baowen}\ \bibnamefont {Li}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Colloquium: Phononics: Manipulating heat flow with
+  electronic analogs and beyond},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume}
+  {84}},\ \bibinfo {pages} {1045} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Taylor}\ and\ \citenamefont
   {Segal}(2015)}]{taylor2015quantum}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Taylor}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Segal}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
-  letters}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo {pages} {220401}
-  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Edward}\ \bibnamefont
+  {Taylor}}\ and\ \bibinfo {author} {\bibfnamefont {Dvira}\ \bibnamefont
+  {Segal}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantum bounds on
+  heat transport through nanojunctions},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume}
+  {114}},\ \bibinfo {pages} {220401} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Wang}\ and\ \citenamefont
   {Taylor}(2016)}]{wang2016landauer}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-H.}\ \bibnamefont
-  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
-  {Taylor}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical Review B}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo {pages}
-  {155437} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chiao-Hsuan}\
+  \bibnamefont {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {Jacob~M}\
+  \bibnamefont {Taylor}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Landauer formulation of photon transport in driven systems},}\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
+  {\bibinfo {volume} {94}},\ \bibinfo {pages} {155437} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2004)\citenamefont {Wang},
   \citenamefont {Wang}, \citenamefont {Wang},\ and\ \citenamefont
   {Xing}}]{wang2004spin}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {D.~Y.}\ \bibnamefont {Xing}},\ }\href {\doibase
-  10.1103/PhysRevB.69.174403} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo {pages} {174403}
-  (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Baigeng}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Jian}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {Jin}\ \bibnamefont {Wang}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.~Y.}\ \bibnamefont {Xing}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Spin current carried by magnons},}\ }\href
+  {\doibase 10.1103/PhysRevB.69.174403} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
+  {pages} {174403} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kuhnke}\ \emph {et~al.}(2017)\citenamefont {Kuhnke},
   \citenamefont {Große}, \citenamefont {Merino},\ and\ \citenamefont
   {Kern}}]{kuhnke2017atomic}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Kuhnke}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Große}},
-  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Merino}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {K.}~\bibnamefont {Kern}},\ }\href {\doibase
-  10.1021/acs.chemrev.6b00645} {\bibfield  {journal} {\bibinfo  {journal}
-  {Chemical Reviews}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo {pages}
-  {5174} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Klaus}\ \bibnamefont
+  {Kuhnke}}, \bibinfo {author} {\bibfnamefont {Christoph}\ \bibnamefont
+  {Große}}, \bibinfo {author} {\bibfnamefont {Pablo}\ \bibnamefont {Merino}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Klaus}\ \bibnamefont {Kern}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Atomic-scale imaging and
+  spectroscopy of electroluminescence at molecular interfaces},}\ }\href
+  {\doibase 10.1021/acs.chemrev.6b00645} {\bibfield  {journal} {\bibinfo
+  {journal} {Chemical Reviews}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo
+  {pages} {5174--5222} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Galperin}(2017)}]{galeprin2017photonics}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Galperin}},\ }\href {\doibase 10.1039/C7CS00067G} {\bibfield  {journal}
-  {\bibinfo  {journal} {Chem. Soc. Rev.}\ }\textbf {\bibinfo {volume} {46}},\
-  \bibinfo {pages} {4000} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont
+  {Galperin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Photonics and
+  spectroscopy in nanojunctions: a theoretical insight},}\ }\href {\doibase
+  10.1039/C7CS00067G} {\bibfield  {journal} {\bibinfo  {journal} {Chem. Soc.
+  Rev.}\ }\textbf {\bibinfo {volume} {46}},\ \bibinfo {pages} {4000--4019}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schneider}\ \emph {et~al.}(2010)\citenamefont
   {Schneider}, \citenamefont {Schull},\ and\ \citenamefont
   {Berndt}}]{schneider2010optical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
-  {Schneider}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Schull}}, \
-  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\href
-  {\doibase 10.1103/PhysRevLett.105.026601} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo
-  {pages} {026601} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Natalia~L.}\
+  \bibnamefont {Schneider}}, \bibinfo {author} {\bibfnamefont {Guillaume}\
+  \bibnamefont {Schull}}, \ and\ \bibinfo {author} {\bibfnamefont {Richard}\
+  \bibnamefont {Berndt}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Optical probe of quantum shot-noise reduction at a single-atom contact},}\
+  }\href {\doibase 10.1103/PhysRevLett.105.026601} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\
+  \bibinfo {pages} {026601} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schneider}\ \emph {et~al.}(2012)\citenamefont
   {Schneider}, \citenamefont {L\"u}, \citenamefont {Brandbyge},\ and\
   \citenamefont {Berndt}}]{schneider2012light}%
@@ -234,7 +266,9 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
   {Schneider}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {L\"u}},
   \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}}, \ and\
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\href
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Light emission probing quantum shot
+  noise and charge fluctuations at a biased molecular junction},}\ }\href
   {\doibase 10.1103/PhysRevLett.109.186601} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo
   {pages} {186601} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
@@ -242,56 +276,66 @@
   \citenamefont {Chen}, \citenamefont {D'agosta}, \citenamefont {Bennett},
   \citenamefont {Di~Ventra},\ and\ \citenamefont {Tao}}]{huang2007local}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
-  {Huang}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Chen}},
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {D'agosta}}, \bibinfo
-  {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Bennett}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Di~Ventra}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {N.}~\bibnamefont {Tao}},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Nature nanotechnology}\ }\textbf {\bibinfo
-  {volume} {2}},\ \bibinfo {pages} {698} (\bibinfo {year} {2007})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zhifeng}\ \bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {Fang}\ \bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {Roberto}\ \bibnamefont {D'agosta}},
+  \bibinfo {author} {\bibfnamefont {Peter~A}\ \bibnamefont {Bennett}}, \bibinfo
+  {author} {\bibfnamefont {Massimiliano}\ \bibnamefont {Di~Ventra}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Nongjian}\ \bibnamefont {Tao}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {Local ionic and electron heating in
+  single-molecule junctions},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature nanotechnology}\ }\textbf {\bibinfo {volume} {2}},\
+  \bibinfo {pages} {698} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ioffe}\ \emph {et~al.}(2008)\citenamefont {Ioffe},
   \citenamefont {Shamai}, \citenamefont {Ophir}, \citenamefont {Noy},
   \citenamefont {Yutsis}, \citenamefont {Kfir}, \citenamefont {Cheshnovsky},\
   and\ \citenamefont {Selzer}}]{ioffe2008detection}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
-  {Ioffe}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Shamai}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ophir}}, \bibinfo
-  {author} {\bibfnamefont {G.}~\bibnamefont {Noy}}, \bibinfo {author}
-  {\bibfnamefont {I.}~\bibnamefont {Yutsis}}, \bibinfo {author} {\bibfnamefont
-  {K.}~\bibnamefont {Kfir}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
-  {Cheshnovsky}}, \ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Selzer}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature
-  nanotechnology}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {727}
-  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zvi}\ \bibnamefont
+  {Ioffe}}, \bibinfo {author} {\bibfnamefont {Tamar}\ \bibnamefont {Shamai}},
+  \bibinfo {author} {\bibfnamefont {Ayelet}\ \bibnamefont {Ophir}}, \bibinfo
+  {author} {\bibfnamefont {Gilad}\ \bibnamefont {Noy}}, \bibinfo {author}
+  {\bibfnamefont {Ilan}\ \bibnamefont {Yutsis}}, \bibinfo {author}
+  {\bibfnamefont {Kobi}\ \bibnamefont {Kfir}}, \bibinfo {author} {\bibfnamefont
+  {Ori}\ \bibnamefont {Cheshnovsky}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Yoram}\ \bibnamefont {Selzer}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Detection of heating in current-carrying molecular junctions by
+  raman scattering},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature nanotechnology}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {727} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2015)\citenamefont {Lü},
   \citenamefont {Christensen}, \citenamefont {Wang}, \citenamefont
   {Hedegård},\ and\ \citenamefont {Brandbyge}}]{lu_current-induced_2015}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {Lü}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
-  {Christensen}}, \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedegård}}, \
-  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},\ }\href
-  {\doibase 10.1103/PhysRevLett.114.096801} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo
-  {pages} {096801} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
+  \bibnamefont {Lü}}, \bibinfo {author} {\bibfnamefont {Rasmus~B.}\
+  \bibnamefont {Christensen}}, \bibinfo {author} {\bibfnamefont {Jian-Sheng}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
+  {Hedegård}}, \ and\ \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
+  {Brandbyge}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Current-{Induced} {Forces} and {Hot} {Spots} in {Biased} {Nanojunctions}},}\
+  }\href {\doibase 10.1103/PhysRevLett.114.096801} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\
+  \bibinfo {pages} {096801} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {H{\"a}rtle}\ and\ \citenamefont
   {Thoss}(2011{\natexlab{a}})}]{hartle2011resonant}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {H{\"a}rtle}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Thoss}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical Review B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
-  {115414} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R}~\bibnamefont
+  {H{\"a}rtle}}\ and\ \bibinfo {author} {\bibfnamefont {M}~\bibnamefont
+  {Thoss}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Resonant electron
+  transport in single-molecule junctions: Vibrational excitation,
+  rectification, negative differential resistance, and local cooling},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {115414} (\bibinfo
+  {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {H{\"a}rtle}\ and\ \citenamefont
   {Thoss}(2011{\natexlab{b}})}]{hartle2011vibrational}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {H{\"a}rtle}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Thoss}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R}~\bibnamefont
+  {H{\"a}rtle}}\ and\ \bibinfo {author} {\bibfnamefont {M}~\bibnamefont
+  {Thoss}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Vibrational
+  instabilities in resonant electron transport through single-molecule
+  junctions},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical Review B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
   {125419} (\bibinfo {year} {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {H{\"a}rtle}\ \emph {et~al.}(2018)\citenamefont
@@ -299,135 +343,159 @@
   \citenamefont {Gelbwaser-Klimovsky}, \citenamefont {Thoss},\ and\
   \citenamefont {Peskin}}]{hartle2018cooling}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {H{\"a}rtle}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Schinabeck}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Kulkarni}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Gelbwaser-Klimovsky}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Thoss}}, \ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Peskin}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R}~\bibnamefont
+  {H{\"a}rtle}}, \bibinfo {author} {\bibfnamefont {C}~\bibnamefont
+  {Schinabeck}}, \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Kulkarni}},
+  \bibinfo {author} {\bibfnamefont {D}~\bibnamefont {Gelbwaser-Klimovsky}},
+  \bibinfo {author} {\bibfnamefont {M}~\bibnamefont {Thoss}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {U}~\bibnamefont {Peskin}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Cooling by heating in nonequilibrium
+  nanosystems},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical Review B}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo {pages}
   {081404} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Galperin}\ \emph {et~al.}(2009)\citenamefont
   {Galperin}, \citenamefont {Saito}, \citenamefont {Balatsky},\ and\
   \citenamefont {Nitzan}}]{galperin2009cooling}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Galperin}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Saito}},
-  \bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont {Balatsky}}, \ and\
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Nitzan}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
-  {\bibinfo {volume} {80}},\ \bibinfo {pages} {115427} (\bibinfo {year}
-  {2009})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont
+  {Galperin}}, \bibinfo {author} {\bibfnamefont {Keiji}\ \bibnamefont {Saito}},
+  \bibinfo {author} {\bibfnamefont {Alexander~V}\ \bibnamefont {Balatsky}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Abraham}\ \bibnamefont {Nitzan}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Cooling mechanisms in
+  molecular conduction junctions},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {80}},\
+  \bibinfo {pages} {115427} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Simine}\ and\ \citenamefont
   {Segal}(2012)}]{simine2012vibrational}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Simine}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Segal}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Chemistry
-  Chemical Physics}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages}
-  {13820} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lena}\ \bibnamefont
+  {Simine}}\ and\ \bibinfo {author} {\bibfnamefont {Dvira}\ \bibnamefont
+  {Segal}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Vibrational
+  cooling, heating, and instability in molecular conducting junctions: full
+  counting statistics analysis},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Chemistry Chemical Physics}\ }\textbf
+  {\bibinfo {volume} {14}},\ \bibinfo {pages} {13820--13834} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lykkebo}\ \emph {et~al.}(2016)\citenamefont
   {Lykkebo}, \citenamefont {Romano}, \citenamefont {Gagliardi}, \citenamefont
   {Pecchia},\ and\ \citenamefont {Solomon}}]{lykkebo2016single}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Lykkebo}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Romano}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gagliardi}}, \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Pecchia}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {G.~C.}\ \bibnamefont {Solomon}},\ }\href {\doibase
-  10.1063/1.4943578} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of
-  Chemical Physics}\ }\textbf {\bibinfo {volume} {144}},\ \bibinfo {pages}
-  {114310} (\bibinfo {year} {2016})},\ \Eprint
-  {http://arxiv.org/abs/https://doi.org/10.1063/1.4943578}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jacob}\ \bibnamefont
+  {Lykkebo}}, \bibinfo {author} {\bibfnamefont {Giuseppe}\ \bibnamefont
+  {Romano}}, \bibinfo {author} {\bibfnamefont {Alessio}\ \bibnamefont
+  {Gagliardi}}, \bibinfo {author} {\bibfnamefont {Alessandro}\ \bibnamefont
+  {Pecchia}}, \ and\ \bibinfo {author} {\bibfnamefont {Gemma~C.}\ \bibnamefont
+  {Solomon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Single-molecule
+  electronics: Cooling individual vibrational modes by the tunneling
+  current},}\ }\href {\doibase 10.1063/1.4943578} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {144}},\ \bibinfo {pages} {114310} (\bibinfo {year} {2016})},\
+  \Eprint {http://arxiv.org/abs/https://doi.org/10.1063/1.4943578}
   {https://doi.org/10.1063/1.4943578} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhu}\ \emph {et~al.}(2019)\citenamefont {Zhu},
   \citenamefont {Fiorino}, \citenamefont {Thompson}, \citenamefont
   {Mittapally}, \citenamefont {Meyhofer},\ and\ \citenamefont
   {Reddy}}]{zhu2019near}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Zhu}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Fiorino}},
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Thompson}}, \bibinfo
-  {author} {\bibfnamefont {R.}~\bibnamefont {Mittapally}}, \bibinfo {author}
-  {\bibfnamefont {E.}~\bibnamefont {Meyhofer}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {P.}~\bibnamefont {Reddy}},\ }\href@noop {} {\bibfield
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Linxiao}\ \bibnamefont
+  {Zhu}}, \bibinfo {author} {\bibfnamefont {Anthony}\ \bibnamefont {Fiorino}},
+  \bibinfo {author} {\bibfnamefont {Dakotah}\ \bibnamefont {Thompson}},
+  \bibinfo {author} {\bibfnamefont {Rohith}\ \bibnamefont {Mittapally}},
+  \bibinfo {author} {\bibfnamefont {Edgar}\ \bibnamefont {Meyhofer}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Pramod}\ \bibnamefont {Reddy}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {Near-field photonic cooling through
+  control of the chemical potential of photons},}\ }\href@noop {} {\bibfield
   {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {566}},\
   \bibinfo {pages} {239} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Head‐Gordon}\ and\ \citenamefont
   {Tully}(1995)}]{headgordon_molecular_1995}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Head‐Gordon}}\ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
-  {Tully}},\ }\href {\doibase 10.1063/1.469915} {\bibfield  {journal} {\bibinfo
-   {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
-  {103}},\ \bibinfo {pages} {10137} (\bibinfo {year} {1995})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Martin}\ \bibnamefont
+  {Head‐Gordon}}\ and\ \bibinfo {author} {\bibfnamefont {John~C.}\
+  \bibnamefont {Tully}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Molecular dynamics with electronic frictions},}\ }\href {\doibase
+  10.1063/1.469915} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of
+  Chemical Physics}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
+  {10137--10145} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dou}\ and\ \citenamefont
   {Subotnik}(2018)}]{dou2018perspective}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Dou}}\ and\ \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
-  {Subotnik}},\ }\href {\doibase 10.1063/1.5035412} {\bibfield  {journal}
-  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
-  {volume} {148}},\ \bibinfo {pages} {230901} (\bibinfo {year} {2018})},\
-  \Eprint {http://arxiv.org/abs/https://doi.org/10.1063/1.5035412}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Wenjie}\ \bibnamefont
+  {Dou}}\ and\ \bibinfo {author} {\bibfnamefont {Joseph~E.}\ \bibnamefont
+  {Subotnik}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Perspective:
+  How to understand electronic friction},}\ }\href {\doibase 10.1063/1.5035412}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\
+  }\textbf {\bibinfo {volume} {148}},\ \bibinfo {pages} {230901} (\bibinfo
+  {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/https://doi.org/10.1063/1.5035412}
   {https://doi.org/10.1063/1.5035412} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paulsson}\ \emph {et~al.}(2005)\citenamefont
+  {Paulsson}, \citenamefont {Frederiksen},\ and\ \citenamefont
+  {Brandbyge}}]{paulsson05modeling}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Magnus}\ \bibnamefont
+  {Paulsson}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
+  {Frederiksen}}, \ and\ \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
+  {Brandbyge}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Modeling
+  inelastic phonon scattering in atomic- and molecular-wire junctions},}\
+  }\href {\doibase 10.1103/PhysRevB.72.201101} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo
+  {pages} {201101} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dou}\ \emph {et~al.}(2017)\citenamefont {Dou},
   \citenamefont {Miao},\ and\ \citenamefont
   {Subotnik}}]{dou_born-oppenheimer_2017}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Dou}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Miao}}, \ and\
-  \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Subotnik}},\ }\href
-  {\doibase 10.1103/PhysRevLett.119.046001} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo
-  {pages} {046001} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Wenjie}\ \bibnamefont
+  {Dou}}, \bibinfo {author} {\bibfnamefont {Gaohan}\ \bibnamefont {Miao}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Joseph~E.}\ \bibnamefont {Subotnik}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Born-{Oppenheimer}
+  {Dynamics}, {Electronic} {Friction}, and the {Inclusion} of
+  {Electron}-{Electron} {Interactions}},}\ }\href {\doibase
+  10.1103/PhysRevLett.119.046001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {046001} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2013)\citenamefont {Zhang},
   \citenamefont {L{\"u}}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{zhang2013thermal}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L{\"u}}},
-  \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}}, \ and\
-  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Li}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics: Condensed
-  Matter}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {445801}
-  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lifa}\ \bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Jing-Tao}\ \bibnamefont
+  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {Jian-Sheng}\ \bibnamefont
+  {Wang}}, \ and\ \bibinfo {author} {\bibfnamefont {Baowen}\ \bibnamefont
+  {Li}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Thermal transport
+  across metal--insulator interface via electron--phonon interaction},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Physics: Condensed Matter}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo
+  {pages} {445801} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ren}\ and\ \citenamefont {Zhu}(2013)}]{ren2013heat}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Ren}}\ and\ \bibinfo {author} {\bibfnamefont {J.-X.}\ \bibnamefont {Zhu}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  B}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages} {241412} (\bibinfo
-  {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2011)\citenamefont {L{\"u}},
-  \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
-  {Brandbyge}}]{lu2011laserlike}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Hedeg{\aa}rd}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Brandbyge}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical review letters}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
-  {pages} {046801} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jie}\ \bibnamefont
+  {Ren}}\ and\ \bibinfo {author} {\bibfnamefont {Jian-Xin}\ \bibnamefont
+  {Zhu}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Heat diode effect
+  and negative differential thermal conductance across nanoscale
+  metal-dielectric interfaces},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {87}},\
+  \bibinfo {pages} {241412} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Entin-Wohlman}\ \emph {et~al.}(2010)\citenamefont
   {Entin-Wohlman}, \citenamefont {Imry},\ and\ \citenamefont
   {Aharony}}]{entinwuhlman2010three}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
   {Entin-Wohlman}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Imry}},
-  \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Aharony}},\ }\href
-  {\doibase 10.1103/PhysRevB.82.115314} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
-  {pages} {115314} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Aharony}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Three-terminal
+  thermoelectric transport through a molecular junction},}\ }\href {\doibase
+  10.1103/PhysRevB.82.115314} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages} {115314}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {S\'anchez}\ and\ \citenamefont
   {B\"uttiker}(2011)}]{sanchez2011optimal}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {S\'anchez}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {B\"uttiker}},\ }\href {\doibase 10.1103/PhysRevB.83.085428} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {83}},\ \bibinfo {pages} {085428} (\bibinfo {year} {2011})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rafael}\ \bibnamefont
+  {S\'anchez}}\ and\ \bibinfo {author} {\bibfnamefont {Markus}\ \bibnamefont
+  {B\"uttiker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Optimal
+  energy quanta to current conversion},}\ }\href {\doibase
+  10.1103/PhysRevB.83.085428} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {085428}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \end{thebibliography}%
