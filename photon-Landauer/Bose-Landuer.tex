@@ -136,7 +136,7 @@ There are four types of EHPs which we label by the spatial location of the elect
 
 A generalized detailed balance relation applies to each of reactions
 \begin{align}
-\frac{T_{\alpha\rightharpoonup\beta}}{T_{\alpha\leftharpoondown\beta}} = {\rm exp}\left[\beta_B(\hbar\Omega-\mu_{\alpha\beta})\right].
+\frac{T_{\alpha\rightharpoonup\beta}}{T_{\alpha\leftharpoondown\beta}} = {\rm exp}\left[-\beta_B(\hbar\Omega-\mu_{\alpha\beta})\right].
 \end{align}
 Here, $T_{\alpha\rightharpoonup\beta}$ and $T_{\alpha\leftharpoondown\beta}$ are the reaction rates for the forward (boson emission) and backward (boson absorption) processes in Eq.~(\ref{eq:reaction}), respectively. They are obtained from the Fermi golden rule
 \begin{align}
@@ -147,9 +147,10 @@ Here, $n_{F/B}(\varepsilon,T) = \left[{\rm exp}\left(\beta_B \varepsilon\right)\
 Thus, when reaching equilibrium with the EHP bath $\alpha\beta$, the bosonic mode follows a Bose-Einstein distribution at temperature $T_e$ and chemical potential $\mu_{\alpha\beta}$. For intra-electrode processes, $\mu_{\alpha\beta}=0$, we have the normal detailed balance relation, while for inter-electrode processes $\mu_{\alpha\beta}$ is determined by the applied voltage bias. Thus, the boson mode may acquire a non-zero chemical potential in nonequilibrium. This is consistent with the equilibrium condition for reaction \ref{eq:reaction}.
 
 
+Non-zero chemical potential of the EHPs indicates that energy and heat are not equivalent anymore for the inter-electrode EHPs. Taking the process 4 in Fig.~\ref{fig:ehp}(c) as an example, energy conservation requires $\varepsilon_\alpha = \varepsilon_\beta +\hbar\omega_n$. Due to the finite chemical potential, the heat flowing with the boson is $Q=\hbar\omega_n-\mu_{LR}$.  Similarly, the heat flowing with bosons emitted by process 3 is $Q=\hbar\omega_n-\mu_{RL}$. For $T_e=T_{ph}$ and $\mu_{LR}>0$, we arrive at a seemingly surprising result: the total energy $\hbar\omega_n$ emitted in process 4, normally termed Joule heat, actually include some chemical work. Even more counter-intuitively, when $\mu_{LR}>\hbar\omega_n$, $Q$ becomes negative, meaning that the emitted boson carries negative entropy, which is a resource for work extraction.
 
 \begin{figure}
-	\includegraphics[scale=0.45,angle=0]{schematics-v2.pdf}
+	\includegraphics[scale=0.45,angle=0]{schematics-v3.pdf}
 	\caption{(a) Schematics of the model we consider. The system consists a set of independent bosonic modes. It couples to an electron bath (e-bath), which is modeled as a conductor including a left (L) and a right (R) electrode, with temperature $T_e$ and chemical potential $\mu_L$ and $\mu_R$, respectively. The system further couples to an external thermal bath (ph-bath) at temperature $T_{ph}$. (b) The electron bath can be treated as four different kinds of electron-hole pair (EHP) baths (1-4), shown in (c). (c-d) Four kinds of EHP recombination (c) and excitation (d) processes. The EHPs are classified according to the spatial location of the electron ($e_\alpha$) and the hole ($h_\beta$). (1,1') Both are at electrode L, (2,2') Both are at electrode R, (3,3') The electron at electrode R and a hole at electrode L. (4,4') The electron at electrode L and a hole at electrode R.}
 	\label{fig:ehp}
 \end{figure}
@@ -157,17 +158,17 @@ Thus, when reaching equilibrium with the EHP bath $\alpha\beta$, the bosonic mod
 
 
 
-The key quantity to describe the EHPs is the coupling-weighted EHP power spectrum. It can be written as
+\emph{Power spectrum and energy transport.--} The key quantity to describe the EHP baths is the coupling-weighted power spectrum. It can be written as
 \begin{align}
-\Lambda_{mn}^{\alpha\beta}(\omega) &= \hbar\omega\left[n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right]\Gamma_{mn}^{\alpha\beta}(\omega).
+\tilde{\Pi}_{mn}^{\alpha\beta}(\omega) &= \left[n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right]\Lambda_{mn}^{\alpha\beta}(\omega).
 \label{eq:ppehp}
 \end{align}
 We have introduced the coupling-weighted EHP density of states (DOS)
 \begin{align}
-\Gamma_{mn}^{\alpha\beta}(\omega) &= -\frac{1}{\hbar\omega}\sum_{i\in\alpha,f\in\beta}M^{m}_{if}M^n_{fi}  \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
-&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))%\nonumber\\
-%&=-\frac{1}{\hbar\omega}\int \frac{d\varepsilon_\alpha}{2\pi} {\rm tr}[M^m A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
-%&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta)).
+\Lambda_{mn}^{\alpha\beta}(\omega) &= -\sum_{i\in\alpha,f\in\beta}M^{m}_{if}M^n_{fi}  \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
+&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))\nonumber\\
+&=-\int \frac{d\varepsilon_\alpha}{2\pi} {\rm tr}[M^m A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
+&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta)).
 \label{eq:gamma}
 \end{align}
 Equation~(\ref{eq:ppehp}) follows the normal form of fluctuation-dissipation relation for an equilibrium boson bath, albeit with a possibly non-zero chemical potential  $\mu_{\alpha\beta}$. The intra-electrode EHPs (i=1,2) are always in equilibrium with $\mu_{\alpha\alpha}=0$ and temperature $T_e$. But the two inter-electrode EHPs (i=3, 4) have opposite chemical potential $\mu_{RL}=-\mu_{LR}$. They are non-zero when there is a voltage bias applied.  To this end, we have shown that the \emph{nonequilibrium} e-bath can be divided into four \emph{equilibrium} EHP baths with different chemical potentials.
@@ -220,19 +221,19 @@ This effective model is shown in Fig.~\ref{fig:ehp} (b).
 
 
 %\section{Energy transport}
-\emph{ Energy transport.--}
-Within the effective EHP model in Fig.~\ref{fig:ehp} (b), hybrid energy transport between the electrons and the system bosons can be treated as bosonic transport.
+%\emph{ Energy transport.--}
+Within this effective EHP model, hybrid energy transport between the electrons and the system bosons can be treated as bosonic transport.
 To the lowest order approximation, we arrive at a Landauer-B\"uttiker formula for the energy transport from e-bath to the system as a summation of contributions from all the EHP baths
 \begin{align}
-J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ \mathcal{T}^{\alpha\beta}(\omega)\nonumber\\
-&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})],
+J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
 \label{eq:jjtrans}
 \end{align}
-where
-\begin{align}
-\mathcal{T}^{\alpha\beta}(\omega)={\rm Tr}[\Gamma^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]
-\end{align}
-is the transmission between the EHP bath $\alpha\beta$ and the ph-bath. 
+%where
+%\begin{align}
+%\mathcal{T}^{\alpha\beta}(\omega)=
+%\end{align}
+%is the transmission between the EHP bath $\alpha\beta$ and the ph-bath. 
 Here, $T_e$ and $T_{ph}$ are the temperature of the e-bath and ph-bath, respectively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. Each of them contributes to an energy transport channel. 
 
 In the following we show several applications of this central result.
@@ -241,14 +242,13 @@ Electron hopping between the two states is assisted by one bosonic mode, which a
 
 %\section{Applications}
 %\subsection{Heat rectification in hybrid electron-boson system}
-\emph{Non-reciprocal energy transport.--}
+\emph{Non-reciprocal heat transport.--}
 Firstly, we consider the situation where the e-bath and ph-bath are in their own thermal equilibrium at two different temperature $T_e$ and $T_{ph}$. This indicates that  $\mu_{L}=\mu_{R}$ and $T_{L}=T_R=T_e$. 
 If we ignore the energy dependence of $A$ in Eq.~(\ref{eq:gamma}),
-the EHP DOS becomes a constant
-$\Gamma_{mn}={\rm tr}[M^m A M^n A]$
-with $A=A_L+A_R$. Consequently,  the transmission $\sum_{\alpha\beta}\mathcal{T}^{\alpha\beta}$ does not depend on $T_e$. Equation~(\ref{eq:jjtrans}) reduces to the Landauer formula for heat transport between two harmonic thermal baths. Thus, the EHPs behave as linear harmonic oscillator thermal baths. 
+$\Lambda_{mn}(\omega)=\hbar\omega{\rm tr}[M^m A M^n A]$
+with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\mathcal{A}_{ph}]$ does not depend on $T_e$. Equation~(\ref{eq:jjtrans}) reduces to the Landauer formula for heat transport between two harmonic thermal baths. Thus, the EHPs behave as linear harmonic oscillator thermal baths. 
 
-On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\Gamma(\omega)$, $\mathcal{T}^{\alpha\beta}$ will depend on $T_e$. Energy transport becomes nonlinear. In this case, non-reciprocal energy flow is possible, i.e., $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. We thus find a necessary condition for non-reciprocal energy transport in a hybrid electron-boson system: the electron DOS in the thermal window near the chemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. For normal metal electrode, the energy scale of electrons is much larger than the thermal energy, leading to a flat DOS. The energy dependence of $A(\varepsilon)$ can be engineered by changing the electronic states of the central part. For example, discrete energy levels of a molecular junction or quantum dot can be used. %\revision{Figure~\ref{fig:resonant} shows two limiting cases. We have two electronic levels which couple to the left and right electrodes, respectively. The left level lies below $\mu_L$ is a $n$ state and the right level lies above $\mu_R$ is a $p$ state. Depending on their relative position, one of the inter-electrode EHPs couples strongest to the bosonic system. This setup has been studied in Ref.~\onlinecite{lu2011laserlike}.}
+On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\Gamma(\omega)$, $\mathcal{T}^{}$ will depend on $T_e$. Energy transport becomes nonlinear. In this case, non-reciprocal energy flow is possible, i.e., $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. We thus find a necessary condition for non-reciprocal energy transport in a hybrid electron-boson system: the electron DOS in the thermal window near the chemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. For normal metal electrode, the energy scale of electrons is much larger than the thermal energy, leading to a flat DOS. The energy dependence of $A(\varepsilon)$ can be engineered by changing the electronic states of the central part. For example, discrete energy levels of a molecular junction or quantum dot can be used. %\revision{Figure~\ref{fig:resonant} shows two limiting cases. We have two electronic levels which couple to the left and right electrodes, respectively. The left level lies below $\mu_L$ is a $n$ state and the right level lies above $\mu_R$ is a $p$ state. Depending on their relative position, one of the inter-electrode EHPs couples strongest to the bosonic system. This setup has been studied in Ref.~\onlinecite{lu2011laserlike}.}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.3,angle=-90]{heating-cooling-v3.pdf}
@@ -256,7 +256,7 @@ On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\G
 	\label{fig:resonant}
 \end{figure}
 \begin{figure}[h]
-	\includegraphics[scale=0.3,angle=-90]{coldspot.pdf}
+	\includegraphics[scale=0.6,angle=0]{coldspot-v2.pdf}
 	\caption{Electrical current generation from a cold boson bath.}
 	\label{fig:coldspot}
 \end{figure}
