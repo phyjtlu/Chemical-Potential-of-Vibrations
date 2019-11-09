@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  22 OCT 2019 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.14)  9 NOV 2019 11:23
 entering extended mode
 **./Bose-Landuer.tex
 (Bose-Landuer.tex
@@ -69,8 +69,8 @@ File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
-Class revtex4-1 Info: Selecting journal prl on input line 7544.
-Class revtex4-1 Info: APS journal PRL selected on input line 7545.
+Class revtex4-1 Info: Selecting journal prb on input line 7544.
+Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
 
 Class revtex4-1 Warning: No type size specified, using default 10.
@@ -442,23 +442,23 @@ LaTeX Info: Redefining \nameref on input line 32.
 Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 32.
 \openout3 = `Bose-LanduerNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 59.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 8019) in paragraph at lines 80--81
-[]\OT1/cmr/m/n/10 However, the Landauer-Buttiker ap-proach fails
+Underfull \hbox (badness 1789) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 tric and op-to-elec-tronic pro-cesses of nano-junctions.
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 80--81
-\OT1/cmr/m/n/10 fol-low-ing dif-fer-ent statis-tics, ubiq-ui-tous in ther-
+Underfull \hbox (badness 2626) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 Ex-am-ples in molec-u-lar trans-port junc-tions in-clude
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 80--81
-\OT1/cmr/m/n/10 mo-elec-tric and op-to-elec-tronic pro-cesses of nano-
+Underfull \hbox (badness 1389) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 electroluminescence$[]$, Joule heating$[]$, current-
  []
 
 [1{C:/Users/phyjt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -468,10 +468,10 @@ DF version <1.7>, but at most version <1.5> allowed
 <schematics-v3.pdf, id=74, 551.66049pt x 440.5017pt>
 File: schematics-v3.pdf Graphic file (type pdf)
 <use schematics-v3.pdf>
-Package pdftex.def Info: schematics-v3.pdf  used on input line 153.
+Package pdftex.def Info: schematics-v3.pdf  used on input line 154.
 (pdftex.def)             Requested size: 248.24492pt x 198.22392pt.
 
-Overfull \hbox (2.24492pt too wide) in paragraph at lines 153--154
+Overfull \hbox (2.24492pt too wide) in paragraph at lines 154--155
  [][] 
  []
 
@@ -479,61 +479,76 @@ Overfull \hbox (2.24492pt too wide) in paragraph at lines 153--154
 
 pdfTeX warning: pdflatex.exe (file ./heating-cooling-v3.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<heating-cooling-v3.pdf, id=114, 291.23003pt x 805.58455pt>
+<heating-cooling-v3.pdf, id=113, 291.23003pt x 805.58455pt>
 File: heating-cooling-v3.pdf Graphic file (type pdf)
 <use heating-cooling-v3.pdf>
-Package pdftex.def Info: heating-cooling-v3.pdf  used on input line 254.
+Package pdftex.def Info: heating-cooling-v3.pdf  used on input line 256.
 (pdftex.def)             Requested size: 87.36967pt x 241.67723pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./coldspot-v2.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<coldspot-v2.pdf, id=115, 307.31815pt x 256.38785pt>
+<coldspot-v2.pdf, id=114, 307.31815pt x 256.38785pt>
 File: coldspot-v2.pdf Graphic file (type pdf)
 <use coldspot-v2.pdf>
-Package pdftex.def Info: coldspot-v2.pdf  used on input line 259.
+Package pdftex.def Info: coldspot-v2.pdf  used on input line 261.
 (pdftex.def)             Requested size: 184.3923pt x 153.83388pt.
-[3 <./heating-cooling-v3.pdf> <./coldspot-v2.pdf>] (Bose-Landuer.bbl
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./heating-cooling-v3.pdf> <./coldspot-v2.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 284.
+
+<ep.png, id=136, 402.50375pt x 722.7pt>
+File: ep.png Graphic file (type png)
+<use ep.png>
+Package pdftex.def Info: ep.png  used on input line 285.
+(pdftex.def)             Requested size: 201.25137pt x 361.3491pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+[]\OT1/cmr/m/it/10 Current-induced ex-cep-tional point in two-mode
+ []
+
+(Bose-Landuer.bbl [4 <./ep.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
-
-Underfull \hbox (badness 3612) in paragraph at lines 155--161
- []\OT1/cmr/m/n/9 Jian-Sheng Wang, Nan Zeng, Jian Wang,  and
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 155--161
- \OT1/cmr/m/n/9 Chee Kwan Gan, ``Nonequi-lib-rium greens func-tion
- []
-
 Missing character: There is no √ in font cmr9!
 Missing character: There is no ü in font cmr9!
-[4]
 Missing character: There is no √ in font cmr9!
 Missing character: There is no º in font cmr9!
 Missing character: There is no √ in font cmr9!
 Missing character: There is no • in font cmr9!
 
-Underfull \hbox (badness 6859) in paragraph at lines 388--398
+Underfull \hbox (badness 1043) in paragraph at lines 351--358
+ []\OT1/cmr/m/n/9 R Hartle, C Schin-abeck, M Kulka-rni, D Gelbwaser-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--398
  \OT1/cmr/m/n/9 Alessan-dro Pec-chia,  and Gemma C. Solomon,
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 388--398
+Underfull \hbox (badness 4403) in paragraph at lines 388--398
  \OT1/cmr/m/n/9 ``Single-molecule elec-tron-ics: Cool-ing in-di-vid-ual vi-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 388--398
+Underfull \hbox (badness 10000) in paragraph at lines 388--398
  \OT1/cmr/m/n/9 bra-tional modes by the tun-nel-ing cur-rent,'' [][]The
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 388--398
+Underfull \hbox (badness 5711) in paragraph at lines 388--398
  \OT1/cmr/m/n/9 Jour-nal of Chem-i-cal Physics \OT1/cmr/bx/n/9 144\OT1/cmr/m/n/
 9 , 114310 (2016)[][],
  []
@@ -542,48 +557,45 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ê in font cmr9!
 
-Underfull \hbox (badness 5787) in paragraph at lines 425--434
+Underfull \hbox (badness 10000) in paragraph at lines 425--434
  []\OT1/cmr/m/n/9 Wenjie Dou and Joseph E. Sub-ot-nik, ``Per-spec-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 425--434
+Underfull \hbox (badness 3375) in paragraph at lines 425--434
  \OT1/cmr/m/n/9 tive: How to un-der-stand elec-tronic fric-tion,'' [][]The
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 425--434
+Underfull \hbox (badness 5711) in paragraph at lines 425--434
  \OT1/cmr/m/n/9 Jour-nal of Chem-i-cal Physics \OT1/cmr/bx/n/9 148\OT1/cmr/m/n/
 9 , 230901 (2018)[][],
  []
 
-
-Underfull \hbox (badness 1014) in paragraph at lines 439--446
- []\OT1/cmr/m/n/9 Magnus Pauls-son, Thomas Fred-erik-sen,  and Mads
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 474--481
- \OT1/cmr/m/n/9 metal-dielectric in-ter-faces,'' Phys-i-cal Re-view B \OT1/cmr/
-bx/n/9 87\OT1/cmr/m/n/9 ,
- []
-
-) [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 767.
+[5]
+Missing character: There is no √ in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no √ in font cmr9!
+Missing character: There is no • in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+) [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 789.
  (Bose-Landuer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 767.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 767.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 789.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 789.
 Package rerunfilecheck Info: File `Bose-Landuer.out' has not changed.
-(rerunfilecheck)             Checksum: 53269DC7C1D34FA51B75F35F66DF9D2F;255.
+(rerunfilecheck)             Checksum: A38836E1C2E8EAFB26E64CDC1BED23E2;244.
  ) 
 Here is how much of TeX's memory you used:
- 8004 strings out of 493305
- 116439 string characters out of 3138874
- 239438 words of memory out of 3000000
- 11375 multiletter control sequences out of 15000+200000
+ 8025 strings out of 493305
+ 116698 string characters out of 3138874
+ 233127 words of memory out of 3000000
+ 11390 multiletter control sequences out of 15000+200000
  13092 words of font info for 48 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 42i,17n,28p,1325b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,17n,28p,1325b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
@@ -591,16 +603,17 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti9.pfb>
-Output written on Bose-Landuer.pdf (5 pages, 758859 bytes).
+m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti9.pfb>
+Output written on Bose-Landuer.pdf (6 pages, 790095 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

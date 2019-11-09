@@ -1,6 +1,6 @@
-\documentclass[aps
+\documentclass[aps,prb,
 ,twocolumn
-,floatfix,footinbib,prl,longbibliography
+,floatfix,footinbib,longbibliography
 %preprint
 ]{revtex4-1}
 %\documentclass[aps,preprint,floatfix,footinbib,longbibliography]{revtex4-1}
@@ -36,7 +36,8 @@
 %\title{Electron-hole pair excitation and energy transport in hybrid electron-boson junctions}
 %\title{Electron-hole pair excitation and unified description of hybrid energy transport in electron-boson nano-junctions}
 
-\title{Charge transfer electron-hole pair excitation and energy transport in hybrid electron-boson nano-junctions}
+%\title{Charge transfer electron-hole pair excitation and energy transport in hybrid electron-boson nano-junctions}
+\title{Nonequilibrium reservoir engineering of a biased coherent conductor for hybrid energy transport}
 \author{Bing-Zhong Hu}
 \author{Lei-Lei Nian}
 \author{Jing-Tao L\"{u}}
@@ -147,7 +148,7 @@ Here, $n_{F/B}(\varepsilon,T) = \left[{\rm exp}\left(\beta_B \varepsilon\right)\
 Thus, when reaching equilibrium with the EHP bath $\alpha\beta$, the bosonic mode follows a Bose-Einstein distribution at temperature $T_e$ and chemical potential $\mu_{\alpha\beta}$. For intra-electrode processes, $\mu_{\alpha\beta}=0$, we have the normal detailed balance relation, while for inter-electrode processes $\mu_{\alpha\beta}$ is determined by the applied voltage bias. Thus, the boson mode may acquire a non-zero chemical potential in nonequilibrium. This is consistent with the equilibrium condition for reaction \ref{eq:reaction}.
 
 
-Non-zero chemical potential of the EHPs indicates that energy and heat are not equivalent anymore for the inter-electrode EHPs. Taking the process 4 in Fig.~\ref{fig:ehp}(c) as an example, energy conservation requires $\varepsilon_\alpha = \varepsilon_\beta +\hbar\omega_n$. Due to the finite chemical potential, the heat flowing with the boson is $Q=\hbar\omega_n-\mu_{LR}$.  Similarly, the heat flowing with bosons emitted by process 3 is $Q=\hbar\omega_n-\mu_{RL}$. For $T_e=T_{ph}$ and $\mu_{LR}>0$, we arrive at a seemingly surprising result: the total energy $\hbar\omega_n$ emitted in process 4, normally termed Joule heat, actually include some chemical work. Even more counter-intuitively, when $\mu_{LR}>\hbar\omega_n$, $Q$ becomes negative, meaning that the emitted boson carries negative entropy, which is a resource for work extraction.
+%Non-zero chemical potential of the EHPs indicates that energy and heat are not equivalent anymore for the inter-electrode EHPs. Taking the process 4 in Fig.~\ref{fig:ehp}(c) as an example, energy conservation requires $\varepsilon_\alpha = \varepsilon_\beta +\hbar\omega_n$. Due to the finite chemical potential, the heat flowing with the boson is $Q=\hbar\omega_n-\mu_{LR}$.  Similarly, the heat flowing with bosons emitted by process 3 is $Q=\hbar\omega_n-\mu_{RL}$. For $T_e=T_{ph}$ and $\mu_{LR}>0$, we arrive at a seemingly surprising result: the total energy $\hbar\omega_n$ emitted in process 4, normally termed Joule heat, actually include some chemical work. Even more counter-intuitively, when $\mu_{LR}>\hbar\omega_n$, $Q$ becomes negative, meaning that the emitted boson carries negative entropy, which is a resource for work extraction.
 
 \begin{figure}
 	\includegraphics[scale=0.45,angle=0]{schematics-v3.pdf}
@@ -158,17 +159,18 @@ Non-zero chemical potential of the EHPs indicates that energy and heat are not e
 
 
 
-\emph{Power spectrum and energy transport.--} The key quantity to describe the EHP baths is the coupling-weighted power spectrum. It can be written as
+%\emph{Power spectrum and energy transport.--} 
+The key quantity to describe the EHP baths is the coupling-weighted power spectrum. It can be written as
 \begin{align}
 \tilde{\Pi}_{mn}^{\alpha\beta}(\omega) &= \left[n_B(\hbar\omega-\mu_{\alpha\beta},T_e)+\frac{1}{2}\right]\Lambda_{mn}^{\alpha\beta}(\omega).
 \label{eq:ppehp}
 \end{align}
 We have introduced the coupling-weighted EHP density of states (DOS)
 \begin{align}
-\Lambda_{mn}^{\alpha\beta}(\omega) &= -\sum_{i\in\alpha,f\in\beta}M^{m}_{if}M^n_{fi}  \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
+\Lambda_{mn}^{\alpha\beta}(\omega) &= -\sum_{i\in\alpha,f\in\beta}M^{m}_{fi}M^n_{if}  \delta(\varepsilon_i-\varepsilon_f-\hbar\omega)\nonumber\\
 &\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta))\nonumber\\
-&=-\int \frac{d\varepsilon_\alpha}{2\pi} {\rm tr}[M^m A_\beta(\varepsilon-\hbar\omega)M^n A_\alpha(\varepsilon_\alpha)] \nonumber\\
-&\times (n_F(\varepsilon_\alpha-\mu_\alpha,T_\alpha)-n_F(\varepsilon_\beta-\mu_\beta,T_\beta)).
+&=-\int \frac{d\varepsilon}{2\pi} {\rm tr}[M^m A_\alpha(\varepsilon) M^n A_\beta(\varepsilon-\hbar\omega)] \nonumber\\
+&\times (n_F(\varepsilon-\mu_\alpha,T_\alpha)-n_F(\varepsilon-\hbar\omega-\mu_\beta,T_\beta)).
 \label{eq:gamma}
 \end{align}
 Equation~(\ref{eq:ppehp}) follows the normal form of fluctuation-dissipation relation for an equilibrium boson bath, albeit with a possibly non-zero chemical potential  $\mu_{\alpha\beta}$. The intra-electrode EHPs (i=1,2) are always in equilibrium with $\mu_{\alpha\alpha}=0$ and temperature $T_e$. But the two inter-electrode EHPs (i=3, 4) have opposite chemical potential $\mu_{RL}=-\mu_{LR}$. They are non-zero when there is a voltage bias applied.  To this end, we have shown that the \emph{nonequilibrium} e-bath can be divided into four \emph{equilibrium} EHP baths with different chemical potentials.
@@ -221,7 +223,7 @@ This effective model is shown in Fig.~\ref{fig:ehp} (b).
 
 
 %\section{Energy transport}
-%\emph{ Energy transport.--}
+\emph{ Energy transport.--}
 Within this effective EHP model, hybrid energy transport between the electrons and the system bosons can be treated as bosonic transport.
 To the lowest order approximation, we arrive at a Landauer-B\"uttiker formula for the energy transport from e-bath to the system as a summation of contributions from all the EHP baths
 \begin{align}
@@ -279,6 +281,26 @@ Direction of energy flow depends on the relative magnitude of two fluxes. It can
 %Joule heating in molecular conductors has been studied 
 
 %The forward reaction $e_L+h_R \to p_n$  is enhanced, leading to energy flow from the EHPs to the bosonic mode. Meanwhile, that of $e_R+h_L \to p_n$ is reduced, leading to an opposite energy flow. Direction of the total energy current is determined by the relative magnitude of the two processes, i.e., the magnitude of the transmission $T^{\alpha\beta}$. As an illustration, we consider electronic cooling of the bosonic mode. 
+\begin{figure}[]
+	\includegraphics[scale=0.5,angle=0]{ep.png}
+	\caption{Emergence of exceptional point due to coupling to a nonequilibrium e-bath. The effective dynamical matrix is given in Eq.~(\ref{eq:kk}). The following parameters are used: $\Omega=1$, $\delta=0.04$, $\gamma=0.001$, $a=0.05$, $b=0.0$, $c=0.02$. }
+	\label{fig:ep}
+\end{figure}
+
+\emph{Current-induced exceptional point in two-mode system.--}
+So far, we have only considered one bosonic mode in the system. Now we show that the nonequilibrium e-bath can be used to couple two otherwise isolated bosonic modes. The bias dependence of coupling parameters can be used to tune the system to an exceptional point, where both the eigen values and eigen vectors of the two modes coalesce. 
+
+To illustrate this effect, we consider two identical bosonic modes with average frequency $\Omega$ and a small detuning $\delta$, such that $\omega_{\pm}=\Omega\pm \delta/2$. Extra damping of the two modes $\gamma_1$ and $\gamma_2$ are introduced to account for their coupling to e-bath and ph-bath. Importantly, the nonequilibrium nature of the e-bath introduces coherent coupling between the two otherwise isolated modes, which are proportional to the applied bias $V$. Putting together, we have the following effective dynamical matrix for the two modes
+\begin{equation}\label{eq:kk}
+\left[
+\begin{array}{cc}
+(\Omega+\delta/2+i \gamma)^2 & V(a+i b \Omega) + i c\Omega \\
+-V (a+i b \Omega)+i c\Omega & (\Omega-\delta/2+i \gamma)^2
+\end{array}
+\right].
+\end{equation}
+Here, $a$ and $b$ correspond to the non-conservative and effective Lorentz force at non-zero bias\cite{lu_blowing_2010}, $c$ and $\gamma$ account for the damping due to coupling to ph-bath and e-bath. If we ignore the energy dependence of electron spectral function, $a={\rm Im}{\rm tr}[M^1 A_L M^2 A_R]/\pi$ becomes constant and $b=0$. The exact form of $a$ depends on the electron-boson coupling.
+Figure~\ref{fig:ep} shows a typical example for this model. We have plotted the imaginary (a), the real (b) part of the eigen values as a function of bias. The exceptional point corresponds to the place where both parts are the same for the two modes. Additionally, at this point the inner product of the two eigen vectors takes the maximum value 1, meaning that the eigen vectors coalesce.
 
 
 In summary, we have shown that a normal two-probe electron conductor can be effectively viewed as EHP baths with chemical potential determined by the applied voltage bias. This is made possible by introducing the inter-electrode charge transfer EHPs. Properties of the EHP baths can be engineered through tuning the parameters of the conductor and the external voltage bias. This bath engineering provides an efficient way of controlling hybrid energy and thermoelectric transport in electron-boson junctions. 
