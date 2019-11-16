@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{39}%
+\begin{thebibliography}{40}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -454,6 +454,34 @@
   10.1103/PhysRevLett.119.046001} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
   {046001} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2012)\citenamefont {Lü},
+  \citenamefont {Brandbyge}, \citenamefont {Hedegård}, \citenamefont
+  {Todorov},\ and\ \citenamefont {Dundas}}]{lu_current-induced_2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
+  \bibnamefont {Lü}}, \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
+  {Brandbyge}}, \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
+  {Hedegård}}, \bibinfo {author} {\bibfnamefont {Tchavdar~N.}\ \bibnamefont
+  {Todorov}}, \ and\ \bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
+  {Dundas}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Current-induced
+  atomic dynamics, instabilities, and {Raman} signals: {Quasiclassical}
+  {Langevin} equation approach},}\ }\href {\doibase 10.1103/PhysRevB.85.245444}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {85}},\ \bibinfo {pages} {245444} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2016)\citenamefont {L{\"u}},
+  \citenamefont {Wang}, \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
+  {Brandbyge}}]{lu2016electron}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
+  \bibnamefont {L{\"u}}}, \bibinfo {author} {\bibfnamefont {Jian-Sheng}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
+  {Hedeg{\aa}rd}}, \ and\ \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
+  {Brandbyge}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Electron and
+  phonon drag in thermoelectric transport through coherent molecular
+  conductors},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review B}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo {pages}
+  {205404} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2013)\citenamefont {Zhang},
   \citenamefont {L{\"u}}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{zhang2013thermal}%
@@ -498,16 +526,4 @@
   10.1103/PhysRevB.83.085428} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {085428}
   (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2010)\citenamefont {Lü},
-  \citenamefont {Brandbyge},\ and\ \citenamefont
-  {Hedegård}}]{lu_blowing_2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
-  \bibnamefont {Lü}}, \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
-  {Brandbyge}}, \ and\ \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
-  {Hedegård}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Blowing the
-  {Fuse}: {Berry}’s {Phase} and {Runaway} {Vibrations} in {Molecular}
-  {Conductors}},}\ }\href {\doibase 10.1021/nl904233u} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nano Lett.}\ }\textbf {\bibinfo {volume} {10}},\
-  \bibinfo {pages} {1657--1663} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \end{thebibliography}%
