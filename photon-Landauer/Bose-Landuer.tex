@@ -13,6 +13,7 @@
 \usepackage{bbold}
 \usepackage{color}
 \usepackage{epstopdf}
+\usepackage{subfigure} 
 %\usepackage[backend=bibtex,sorting=none,style=trad-abbrv,citestyle=numeric]{biblatex}
 
 %\usepackage[sorting=none]{biblatex}
@@ -155,7 +156,24 @@ Thus, when reaching equilibrium with the EHP bath $\alpha\beta$, the bosonic mod
 %Non-zero chemical potential of the EHPs indicates that energy and heat are not equivalent anymore for the inter-electrode EHPs. Taking the process 4 in Fig.~\ref{fig:ehp}(c) as an example, energy conservation requires $\varepsilon_\alpha = \varepsilon_\beta +\hbar\omega_n$. Due to the finite chemical potential, the heat flowing with the boson is $Q=\hbar\omega_n-\mu_{LR}$.  Similarly, the heat flowing with bosons emitted by process 3 is $Q=\hbar\omega_n-\mu_{RL}$. For $T_e=T_{ph}$ and $\mu_{LR}>0$, we arrive at a seemingly surprising result: the total energy $\hbar\omega_n$ emitted in process 4, normally termed Joule heat, actually include some chemical work. Even more counter-intuitively, when $\mu_{LR}>\hbar\omega_n$, $Q$ becomes negative, meaning that the emitted boson carries negative entropy, which is a resource for work extraction.
 
 \begin{figure}
-	\includegraphics[scale=0.45,angle=0]{schematics-v3.pdf}
+	\includegraphics[scale=0.45,angle=0]{schematics-v3.pdf}		
+	\centering
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_1a.pdf}
+	%\caption{fig1}
+	}
+	\quad
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_1b.pdf}
+	}
+	\quad
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_1c.pdf}
+	}
+	\quad
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_1d.pdf}
+	}
 	\caption{(a) Schematics of the model we consider. The system consists a set of independent bosonic modes. It couples to an electron bath (e-bath), which is modeled as a conductor including a left (L) and a right (R) electrode, with temperature $T_e$ and chemical potential $\mu_L$ and $\mu_R$, respectively. The system further couples to an external thermal bath (ph-bath) at temperature $T_{ph}$. (b) The electron bath can be treated as four different kinds of electron-hole pair (EHP) baths (1-4), shown in (c). (c-d) Four kinds of EHP recombination (c) and excitation (d) processes. The EHPs are classified according to the spatial location of the electron ($e_\alpha$) and the hole ($h_\beta$). (1,1') Both are at electrode L, (2,2') Both are at electrode R, (3,3') The electron at electrode R and a hole at electrode L. (4,4') The electron at electrode L and a hole at electrode R. \revision{removing (d)?}}
 	\label{fig:ehp}
 \end{figure}
@@ -264,22 +282,34 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5,angle=-0]{heating-cooling-v4.pdf}
+	\centering
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_2a.pdf}
+	%\caption{fig1}
+	}
+	\quad
+	\subfigure[]{
+	\includegraphics[width=1.5in,angle=0]{figures/fig_2b.pdf}
+	}
 	\caption{Two limiting cases of electronic heating (a) and cooling (b). In (a), we have a filled electronic level $\varepsilon_L$ that couples to the left electrode with chemical potential $\mu_L$, and an empty level $\varepsilon_R$ that couples to the right electrode with chemical potential $\mu_R$. We have $\mu_L>\mu_R$. Heating of the bosonic mode is due to resonant recombination of inter-electrode (process 4 in Fig.~\ref{fig:ehp}). In (b), the situation is reversed. The left state $\varepsilon_L$ is empty, while the right state $\varepsilon_R$ is filled. When $\mu_R>\mu_L$, the electrical current can be used to cool the bosonic mode through creation of inter-electrode EHPs (process 4' in \ref{fig:ehp}). }
 	\label{fig:resonant}
 \end{figure}
 
 
 \begin{figure}[]
-	\includegraphics[scale=0.6,angle=0]{JT.png}
-	\includegraphics[scale=0.6,angle=0]{RR.png}
+	% \includegraphics[scale=0.6,angle=0]{JT.png}
+	% \includegraphics[scale=0.6,angle=0]{RR.png}
+	\includegraphics[width=3in,angle=0]{figures/fig_3a.pdf}
+	\includegraphics[width=3in,angle=0]{figures/fig_3b.pdf}	
 	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T$ for different chemical potentials. (b) Rectification ratio as a function of $\Delta T$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. \revision{The following parameters are used: $\varepsilon_L=10.5$, $\varepsilon_R=9.5$, $\mu_L=\mu_R$, $\gamma_L=\gamma_R=0.5=m=0.5$, $\hbar\Omega=1$, $k_B=1$. }}
 	\label{fig:JT}
 \end{figure}
 
 
 \begin{figure}[h]
-	\includegraphics[scale=0.6,angle=0]{coldspot-v2.pdf}
-	\includegraphics[scale=0.6,angle=0]{IT.png}
+	% \includegraphics[scale=0.6,angle=0]{coldspot-v2.pdf}
+	% \includegraphics[scale=0.6,angle=0]{IT.png}
+	\includegraphics[width=3in,angle=0]{figures/fig_4.pdf}	
 	\caption{Thermoelectric current generation from temperature difference between e-bath and ph-bath $\Delta T$. The paremeters are the same as Fig.~\ref{fig:JT}.}
 	\label{fig:coldspot}
 \end{figure}
@@ -303,7 +333,8 @@ Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) h
 We now turn on the voltage bias in the e-bath.
 The applied voltage changes the initial and final electron states of the EHP excitation. Thus, the EHP DOS can be modified by voltage. More importantly, the inter-electrode EHPs acquire a non-zero chemical potential, given by $\pm \mu_{RL}$ respectively. We assume $eV=\mu_L-\mu_R>0$ without loss of generality. The EHP-4 has a chemical potential of $-eV$, while EHP-3 gets a chemical potential with opposite value $eV$. 
 \begin{figure}[h]
-	\includegraphics[scale=0.55,angle=0]{Cooling.png}
+	% \includegraphics[scale=0.55,angle=0]{Cooling.png}
+	\includegraphics[width=3in,angle=0]{figures/fig_5.pdf}	
 	\caption{Energy current from the e-bath to the bosonic mode as a function of applied bias, corresponding to the situation in Fig.~\ref{fig:resonant} (b). Negative $J$ means cooling of the bosonic mode.}
 	\label{fig:cooling}
 \end{figure}
