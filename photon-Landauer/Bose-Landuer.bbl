@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{40}%
+\begin{thebibliography}{39}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -429,31 +429,6 @@
   {year} {2018})},\ \Eprint
   {http://arxiv.org/abs/https://doi.org/10.1063/1.5035412}
   {https://doi.org/10.1063/1.5035412} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Paulsson}\ \emph {et~al.}(2005)\citenamefont
-  {Paulsson}, \citenamefont {Frederiksen},\ and\ \citenamefont
-  {Brandbyge}}]{paulsson05modeling}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Magnus}\ \bibnamefont
-  {Paulsson}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
-  {Frederiksen}}, \ and\ \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
-  {Brandbyge}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Modeling
-  inelastic phonon scattering in atomic- and molecular-wire junctions},}\
-  }\href {\doibase 10.1103/PhysRevB.72.201101} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo
-  {pages} {201101} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Dou}\ \emph {et~al.}(2017)\citenamefont {Dou},
-  \citenamefont {Miao},\ and\ \citenamefont
-  {Subotnik}}]{dou_born-oppenheimer_2017}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Wenjie}\ \bibnamefont
-  {Dou}}, \bibinfo {author} {\bibfnamefont {Gaohan}\ \bibnamefont {Miao}}, \
-  and\ \bibinfo {author} {\bibfnamefont {Joseph~E.}\ \bibnamefont {Subotnik}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {Born-{Oppenheimer}
-  {Dynamics}, {Electronic} {Friction}, and the {Inclusion} of
-  {Electron}-{Electron} {Interactions}},}\ }\href {\doibase
-  10.1103/PhysRevLett.119.046001} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
-  {046001} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2012)\citenamefont {Lü},
   \citenamefont {Brandbyge}, \citenamefont {Hedegård}, \citenamefont
   {Todorov},\ and\ \citenamefont {Dundas}}]{lu_current-induced_2012}%
@@ -526,4 +501,16 @@
   10.1103/PhysRevB.83.085428} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {085428}
   (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2010)\citenamefont {Lü},
+  \citenamefont {Brandbyge},\ and\ \citenamefont
+  {Hedegård}}]{lu_blowing_2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
+  \bibnamefont {Lü}}, \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
+  {Brandbyge}}, \ and\ \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
+  {Hedegård}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Blowing the
+  {Fuse}: {Berry}’s {Phase} and {Runaway} {Vibrations} in {Molecular}
+  {Conductors}},}\ }\href {\doibase 10.1021/nl904233u} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano Lett.}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {1657--1663} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \end{thebibliography}%
