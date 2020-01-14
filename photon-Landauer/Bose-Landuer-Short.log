@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.7.16)  14 JAN 2020 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.7.16)  14 JAN 2020 17:23
 entering extended mode
-**./Bose-Landuer.tex
-(Bose-Landuer.tex
+**./Bose-Landuer-Short.tex
+(Bose-Landuer-Short.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/revtex\revtex4-1.cls"
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
@@ -68,16 +68,13 @@ File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
-Class revtex4-1 Info: Selecting journal pre on input line 7544.
-Class revtex4-1 Info: APS journal PRE selected on input line 7545.
+Class revtex4-1 Info: Selecting journal prl on input line 7544.
+Class revtex4-1 Info: APS journal PRL selected on input line 7545.
 
-
-Class revtex4-1 Warning: No type size specified, using default 10.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/revtex\aps10pt4-1.rtx"
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+("C:\Program Files\MiKTeX 2.9\tex/latex/revtex\aps12pt4-1.rtx"
+File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -408,8 +405,8 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 33.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 33.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 33.
 
-(Bose-Landuer.aux)
-\openout1 = `Bose-Landuer.aux'.
+(Bose-Landuer-Short.aux)
+\openout1 = `Bose-Landuer-Short.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -454,43 +451,45 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(Bose-Landuer.out) (Bose-Landuer.out)
+(Bose-Landuer-Short.out) (Bose-Landuer-Short.out)
 \@outlinefile=\write4
-\openout4 = `Bose-Landuer.out'.
+\openout4 = `Bose-Landuer-Short.out'.
 
 Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 33.
-\openout3 = `Bose-LanduerNotes.bib'.
+\openout3 = `Bose-Landuer-ShortNotes.bib'.
 
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 69.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 67.
-
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 67.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{C:/Users/Jing-Tao/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<figures/fig_1a.pdf, id=120, 361.35pt x 325.215pt>
+Overfull \hbox (9.22792pt too wide) in paragraph at lines 90--91
+\OT1/cmr/m/n/12 tronic pro-cesses of nano-junctions. Ex-am-ples of such pro-ces
+ses in-clude electroluminescence[[]--
+ []
+
+[2] [3]
+<figures/fig_1a.pdf, id=125, 361.35pt x 325.215pt>
 File: figures/fig_1a.pdf Graphic file (type pdf)
 <use figures/fig_1a.pdf>
-Package pdftex.def Info: figures/fig_1a.pdf  used on input line 165.
+Package pdftex.def Info: figures/fig_1a.pdf  used on input line 167.
 (pdftex.def)             Requested size: 108.405pt x 97.56525pt.
-<figures/fig_1b.pdf, id=121, 361.35pt x 325.215pt>
+<figures/fig_1b.pdf, id=126, 361.35pt x 325.215pt>
 File: figures/fig_1b.pdf Graphic file (type pdf)
 <use figures/fig_1b.pdf>
-Package pdftex.def Info: figures/fig_1b.pdf  used on input line 169.
+Package pdftex.def Info: figures/fig_1b.pdf  used on input line 171.
 (pdftex.def)             Requested size: 108.405pt x 97.56525pt.
-<figures/fig_1c.pdf, id=122, 361.35pt x 194.7275pt>
+<figures/fig_1c.pdf, id=127, 361.35pt x 194.7275pt>
 File: figures/fig_1c.pdf Graphic file (type pdf)
 <use figures/fig_1c.pdf>
-Package pdftex.def Info: figures/fig_1c.pdf  used on input line 173.
+Package pdftex.def Info: figures/fig_1c.pdf  used on input line 175.
 (pdftex.def)             Requested size: 108.405pt x 58.41869pt.
-<figures/fig_1d.pdf, id=123, 361.35pt x 194.7275pt>
+<figures/fig_1d.pdf, id=128, 361.35pt x 194.7275pt>
 File: figures/fig_1d.pdf Graphic file (type pdf)
 <use figures/fig_1d.pdf>
-Package pdftex.def Info: figures/fig_1d.pdf  used on input line 177.
+Package pdftex.def Info: figures/fig_1d.pdf  used on input line 179.
 (pdftex.def)             Requested size: 108.405pt x 58.41869pt.
- [2 <./figures/fig_1a.pdf> <./figures/fig_1b.pdf
+ [4] [5 <./figures/fig_1a.pdf> <./figures/fig_1b.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_1b.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -502,69 +501,45 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_1d.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
->]
-<figures/fig_2a.pdf, id=235, 361.35pt x 361.35pt>
+>] [6]
+<figures/fig_2a.pdf, id=247, 361.35pt x 361.35pt>
 File: figures/fig_2a.pdf Graphic file (type pdf)
 <use figures/fig_2a.pdf>
-Package pdftex.def Info: figures/fig_2a.pdf  used on input line 291.
+Package pdftex.def Info: figures/fig_2a.pdf  used on input line 290.
 (pdftex.def)             Requested size: 108.405pt x 108.40584pt.
-<figures/fig_2b.pdf, id=236, 361.35pt x 361.35pt>
+<figures/fig_2b.pdf, id=248, 361.35pt x 361.35pt>
 File: figures/fig_2b.pdf Graphic file (type pdf)
 <use figures/fig_2b.pdf>
-Package pdftex.def Info: figures/fig_2b.pdf  used on input line 295.
+Package pdftex.def Info: figures/fig_2b.pdf  used on input line 294.
 (pdftex.def)             Requested size: 108.405pt x 108.40584pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 301.
+               Default added (so using `tbp') on input line 300.
 
-<figures/fig_3a.pdf, id=241, 803.0pt x 512.91624pt>
+<figures/fig_3a.pdf, id=253, 803.0pt x 512.91624pt>
 File: figures/fig_3a.pdf Graphic file (type pdf)
 <use figures/fig_3a.pdf>
-Package pdftex.def Info: figures/fig_3a.pdf  used on input line 304.
+Package pdftex.def Info: figures/fig_3a.pdf  used on input line 303.
 (pdftex.def)             Requested size: 216.81pt x 138.48923pt.
-<figures/fig_3b.pdf, id=242, 803.0pt x 500.87125pt>
+<figures/fig_3b.pdf, id=254, 803.0pt x 500.87125pt>
 File: figures/fig_3b.pdf Graphic file (type pdf)
 <use figures/fig_3b.pdf>
-Package pdftex.def Info: figures/fig_3b.pdf  used on input line 305.
+Package pdftex.def Info: figures/fig_3b.pdf  used on input line 304.
 (pdftex.def)             Requested size: 216.81pt x 135.23703pt.
-<figures/fig_4.pdf, id=245, 803.0pt x 505.89pt>
+<figures/fig_4.pdf, id=257, 803.0pt x 505.89pt>
 File: figures/fig_4.pdf Graphic file (type pdf)
 <use figures/fig_4.pdf>
-Package pdftex.def Info: figures/fig_4.pdf  used on input line 314.
+Package pdftex.def Info: figures/fig_4.pdf  used on input line 313.
 (pdftex.def)             Requested size: 216.81pt x 136.59212pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/fig_5.pdf, id=253, 803.0pt x 509.905pt>
-File: figures/fig_5.pdf Graphic file (type pdf)
-<use figures/fig_5.pdf>
-Package pdftex.def Info: figures/fig_5.pdf  used on input line 339.
-(pdftex.def)             Requested size: 216.81pt x 137.67618pt.
-[3 <./figures/fig_2a.pdf> <./figures/fig_2b.pdf
+[7 <./figures/fig_2a.pdf> <./figures/fig_2b.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_2b.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
->]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 345.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 345.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 353.
-
-<ep.png, id=316, 402.50375pt x 722.7pt>
-File: ep.png Graphic file (type png)
-<use ep.png>
-Package pdftex.def Info: ep.png  used on input line 354.
-(pdftex.def)             Requested size: 201.25137pt x 361.3491pt.
-[4 <./figures/fig_3a.pdf> <./figures/fig_3b.pdf
+>] [8 <./figures/fig_3a.pdf> <./figures/fig_3b.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_3b.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -572,112 +547,59 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_4.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
-> <./figures/fig_5.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/fig_5.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
 >]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 364.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 364.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-(Bose-Landuer.bbl [5 <./ep.png (PNG copy)>]
-Underfull \hbox (badness 3612) in paragraph at lines 155--161
- []\OT1/cmr/m/n/9 Jian-Sheng Wang, Nan Zeng, Jian Wang,  and
+<figures/fig_5.pdf, id=412, 803.0pt x 509.905pt>
+File: figures/fig_5.pdf Graphic file (type pdf)
+<use figures/fig_5.pdf>
+Package pdftex.def Info: figures/fig_5.pdf  used on input line 338.
+(pdftex.def)             Requested size: 216.81pt x 137.67618pt.
+ [9 <./figures/fig_5.pdf>] (Bose-Landuer-Short.bbl [10] [11]
+Underfull \hbox (badness 4353) in paragraph at lines 388--398
+[]\OT1/cmr/m/n/10.95 Jacob Lykkebo, Giuseppe Ro-mano, Alessio Gagliardi, Alessa
+n-dro Pec-chia,  and
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 155--161
- \OT1/cmr/m/n/9 Chee Kwan Gan, ``Nonequi-lib-rium green's func-tion
+Underfull \hbox (badness 2418) in paragraph at lines 388--398
+\OT1/cmr/m/n/10.95 by the tun-nel-ing cur-rent,'' [][]The Jour-nal of Chem-i-ca
+l Physics \OT1/cmr/bx/n/10.95 144\OT1/cmr/m/n/10.95 , 114310 (2016)[][],
  []
 
-
-Underfull \hbox (badness 6859) in paragraph at lines 388--398
- \OT1/cmr/m/n/9 Alessan-dro Pec-chia,  and Gemma C. Solomon,
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 388--398
- \OT1/cmr/m/n/9 ``Single-molecule elec-tron-ics: Cool-ing in-di-vid-ual vi-
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 388--398
- \OT1/cmr/m/n/9 bra-tional modes by the tun-nel-ing cur-rent,'' [][]The
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 388--398
- \OT1/cmr/m/n/9 Jour-nal of Chem-i-cal Physics \OT1/cmr/bx/n/9 144\OT1/cmr/m/n/
-9 , 114310 (2016)[][],
- []
-
-
-Underfull \hbox (badness 5787) in paragraph at lines 425--434
- []\OT1/cmr/m/n/9 Wenjie Dou and Joseph E. Sub-ot-nik, ``Per-spec-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 425--434
- \OT1/cmr/m/n/9 tive: How to un-der-stand elec-tronic fric-tion,'' [][]The
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 425--434
- \OT1/cmr/m/n/9 Jour-nal of Chem-i-cal Physics \OT1/cmr/bx/n/9 148\OT1/cmr/m/n/
-9 , 230901 (2018)[][],
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 477--484
- \OT1/cmr/m/n/9 metal-dielectric in-ter-faces,'' Phys-i-cal Re-view B \OT1/cmr/
-bx/n/9 87\OT1/cmr/m/n/9 ,
- []
-
-)
+[12])
 
 Class revtex4-1 Warning: Environment acknowledgements is obsolete;
 Use acknowledgments instead.
 
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 861.
- (Bose-Landuer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 861.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 861.
-Package rerunfilecheck Info: File `Bose-Landuer.out' has not changed.
-(rerunfilecheck)             Checksum: B81AB24CE992868179CCE505A296A7F8;1096.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 859.
+ (Bose-Landuer-Short.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 859.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 859.
+Package rerunfilecheck Info: File `Bose-Landuer-Short.out' has not changed.
+(rerunfilecheck)             Checksum: F500C91FE727E9B5DC6E5F1F5C1FDDAB;995.
  ) 
 Here is how much of TeX's memory you used:
- 8197 strings out of 492945
- 118707 string characters out of 3135504
- 276152 words of memory out of 3000000
- 11868 multiletter control sequences out of 15000+200000
- 15316 words of font info for 56 fonts, out of 3000000 for 9000
+ 8175 strings out of 492945
+ 118613 string characters out of 3135504
+ 231715 words of memory out of 3000000
+ 11854 multiletter control sequences out of 15000+200000
+ 14798 words of font info for 54 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 42i,17n,28p,1123b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti9.pfb>
-Output written on Bose-Landuer.pdf (6 pages, 572544 bytes).
+ 42i,17n,30p,1080b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Bose-Landuer-Short.pdf (13 pages, 516479 bytes).
 PDF statistics:
  575 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

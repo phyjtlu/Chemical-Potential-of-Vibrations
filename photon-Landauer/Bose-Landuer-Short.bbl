@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{39}%
+\begin{thebibliography}{38}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -501,16 +501,4 @@
   10.1103/PhysRevB.83.085428} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {085428}
   (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2010)\citenamefont {Lü},
-  \citenamefont {Brandbyge},\ and\ \citenamefont
-  {Hedegård}}]{lu_blowing_2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jing-Tao}\
-  \bibnamefont {Lü}}, \bibinfo {author} {\bibfnamefont {Mads}\ \bibnamefont
-  {Brandbyge}}, \ and\ \bibinfo {author} {\bibfnamefont {Per}\ \bibnamefont
-  {Hedegård}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Blowing the
-  {Fuse}: {Berry}’s {Phase} and {Runaway} {Vibrations} in {Molecular}
-  {Conductors}},}\ }\href {\doibase 10.1021/nl904233u} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nano Lett.}\ }\textbf {\bibinfo {volume} {10}},\
-  \bibinfo {pages} {1657--1663} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \end{thebibliography}%
