@@ -39,9 +39,9 @@ preprint
 
 %\title{Charge transfer electron-hole pair excitation and energy transport in hybrid electron-boson nano-junctions}
 
-%\title{Nonequilibrium reservoir engineering of a biased coherent conductor for hybrid energy transport in nanojunctions}
+\title{Nonequilibrium reservoir engineering of a biased coherent conductor for hybrid energy transport in nanojunctions}
 
-\title{Hybrid electron-boson system as a electron-hole pair exciton reservoir}
+% \title{Hybrid electron-boson system as a electron-hole pair exciton reservoir}
 
 \author{Bing-Zhong Hu}
 %\author{Tao Wang}
@@ -203,7 +203,7 @@ We have introduced the coupling-weighted EHP density of states (DOS)\cite{lu_cur
 &\times (n_F(\varepsilon-\mu_\alpha,T_\alpha)-n_F(\varepsilon-\hbar\omega-\mu_\beta,T_\beta)),
 \label{eq:gamma}
 \end{align}
-which also characterizes the system dissipation due to coupling to the e-bath\cite{lu_current-induced_2012}.
+which also characterizes the system dissipation due to coupling to the e-bath\cite{lu_current-induced_2012}. Here, $A_\alpha$ is electrode spectrum functional.
 Equation~(\ref{eq:ppehp}) follows a form of the fluctuation-dissipation relation for an equilibrium boson bath, albeit with a possibly non-zero chemical potential  $\mu_{\alpha\beta}$. The intra-electrode EHPs (i=1,2) are always in equilibrium with $\mu_{\alpha\alpha}=0$ and temperature $T_e$. But the two inter-electrode EHPs (i=3, 4) have opposite chemical potential $\mu_{RL}=-\mu_{LR}$. They are non-zero when there is a voltage bias applied.  To this end, we have shown that the \emph{nonequilibrium} e-bath can be divided into four \emph{equilibrium} EHP baths with different chemical potentials.
 This effective model is shown in Fig.~\ref{fig:ehp} (b).
 
@@ -338,19 +338,47 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 
 
 \subsection{Hybrid thermoelectric transport}
- We can also study the thermoelectric transport of the temperature-biased electron-boson junction. When $T_{ph}\neq T_e$, in addition to the heat transport between system and e-bath, an electrical current may also be induced between the two electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, these two channels should not get canceled. For simplicity, we introduce thremoelectric current generation effiency $\eta$, this effiency can be defined as electron current per phonon current. In our EHP framework, it can be expressed as $\eta= \frac{I_{LR}-I_{RL}}{I_{LL}+I_{LR}+I_{RL}+I_{RR}}$, where $I_{\alpha\beta}$ is the reaction rate of process $\alpha\beta$.
+ We can also study the thermoelectric transport of the temperature-biased electron-boson junction. When $T_{ph}\neq T_e$, in addition to the heat transport between system and e-bath, an electrical current may also be induced between the two electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, these two channels should not get canceled. For simplicity, we introduce thremoelectric current generation effiency $\eta$, which can be defined as electron particle flux per phonon particle flux. As expected, it can be expressed as $\eta= \frac{I^e}{I^{ph}}$, where $I^{e/ph}$ is electron/phonon particle flux.
 
+Obuviously, all 4 EHP baths contribute phonon particle flux
+\begin{align}
+I^{ph} &= I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}.
+\label{eq:iph}
+\end{align}
+
+Here, $I^{ph}_{\alpha\beta}$ is the phonon particle flux contribution of EHP bath $\alpha\beta$
+
+\begin{align}
+I^{ph}_{\alpha\beta} &= \int_0^{+\infty}\frac{d\omega}{2\pi}\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
+\label{eq:iphab}
+\end{align}
+
+On the other hand, only LR and RL baths contribute electron particle flux. Further more, according to EHP reaction equation equation (\ref{eq:reaction}) and equation (\ref{eq:reaction2}), 
+\begin{align}
+I^e_{LR}=I^{ph}_{LR},~I^e_{RL}=-I^{ph}_{RL}. 
+\label{eq:ie}
+\end{align}
+
+
+Thus, electron particle flux can be expressed by phonon particle flux contribution
+\begin{align}
+I^{e} =I^{e}_{LR} + I^{e}_{RL} = I^{ph}_{LR} - I^{ph}_{RL}.
+\label{eq:ie}
+\end{align}
+
+Finally, our thermoelectric current generation effiency 
+\begin{align}
+\eta = \frac{I^{ph}_{LR} - I^{ph}_{RL}}{I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}}.
+\label{eq:tcge}
+\end{align}
 
 
  The resonant situation in Fig.~\ref{fig:resonant} can be used to enhance one of the two channels. In Fig.~\ref{fig:coldspot}, we show the thermoelectric current induced by the temperature different $\Delta T$ for different chemical potentials $\mu_L=\mu_R$ in the case of Fig.~\ref{fig:resonant} (a). The effiency $\eta$ is the largest when the chemical potential is in between $\varepsilon_L$ and $\varepsilon_R$, where the resonant enhancement is the most prominent.
 
- Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. Our results show that the opposite is also possible, where electricity is generated by cooling the ph-bath. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
-
-
+ Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. Our results show that the opposite ($T_{ph}<T_e$) is also possible, where electricity is generated by cooling the ph-bath. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
 
 %Notably, when $T_{ph}<T_{e}$ and $\mu_L=\mu_R$. The temperature difference between e-bath and ph-bath generates a heat current flow from the e-bath to the ph-bath. At a result of the heat transport, electron transport between $L$ and $R$ electrode takes place.
-
-
 
 %\emph{Electronic cooling of bosonic mode.--}
 \subsection{Electronic cooling of bosonic mode}
@@ -372,26 +400,26 @@ In the case shown in Fig.~\ref{fig:resonant} (b), process 4' is resonantly enhan
 %Joule heating in molecular conductors has been studied 
 
 %The forward reaction $e_L+h_R \to p_n$  is enhanced, leading to energy flow from the EHPs to the bosonic mode. Meanwhile, that of $e_R+h_L \to p_n$ is reduced, leading to an opposite energy flow. Direction of the total energy current is determined by the relative magnitude of the two processes, i.e., the magnitude of the transmission $T^{\alpha\beta}$. As an illustration, we consider electronic cooling of the bosonic mode. 
-\begin{figure}[]
-	\includegraphics[scale=0.5,angle=0]{ep.png}
-	\caption{Emergence of exceptional point due to coupling to a nonequilibrium e-bath. The effective dynamical matrix is given in Eq.~(\ref{eq:kk}). The following parameters are used: $\Omega=1$, $\delta=0.04$, $\gamma=0.001$, $a=0.05$, $b=0.0$, $c=0.02$. }
-	\label{fig:ep}
-\end{figure}
+%\begin{figure}[]
+%	\includegraphics[scale=0.5,angle=0]{ep.png}
+%	\caption{Emergence of exceptional point due to coupling to a nonequilibrium e-bath. The effective dynamical matrix is given in Eq.~(\ref{eq:kk}). The following parameters are used: $\Omega=1$, $\delta=0.04$, $\gamma=0.001$, $a=0.05$, $b=0.0$, $c=0.02$. }
+%	\label{fig:ep}
+%\end{figure}
 
 %\emph{Current-induced exceptional point in two-mode system.--}
-\subsection{Current-induced exceptional point in two-mode system}
-So far, we have only considered one bosonic mode in the system. Now we show that the nonequilibrium e-bath can be used to couple two otherwise isolated bosonic modes. The bias dependence of coupling parameters can be used to tune the system to an exceptional point, where both the eigen values and eigen vectors of the two modes coalesce. 
-
-To illustrate this effect, we consider two identical bosonic modes with average frequency $\Omega$ and a small detuning $\delta$, such that $\omega_{\pm}=\Omega\pm \delta/2$. Extra damping of the two modes $\gamma_1$ and $\gamma_2$ are introduced to account for their coupling to e-bath and ph-bath. Importantly, the nonequilibrium nature of the e-bath introduces coherent coupling between the two otherwise isolated modes, which are proportional to the applied bias $V$. Putting together, we have the following effective dynamical matrix for the two modes
-\begin{equation}\label{eq:kk}
-\left[
-\begin{array}{cc}
-(\Omega+\delta/2+i \gamma)^2 & V(a+i b \Omega) + i c\Omega \\
--V (a+i b \Omega)+i c\Omega & (\Omega-\delta/2+i \gamma)^2
-\end{array}
-\right].
-\end{equation}
-Here, $a$ and $b$ are non-zero only in the presence of voltage bias in the e-bath, which correspond to the currend-induced non-conservative and effective Lorentz force, respectively\cite{lu_blowing_2010}. Meanwhile, $c$ and $\gamma$ account for the damping due to coupling to ph-bath and/or e-bath. If we ignore the energy dependence of electron spectral function within the voltage bias window, $a={\rm Im}{\rm tr}[M^1 A_L M^2 A_R]/\pi$ becomes constant, $b=0$. This approximation is valid if the electron bandwidth $D$ is much larger than the corresponding mode energy $\hbar\Omega$, i.e., $D\gg \hbar\Omega$. Figure~\ref{fig:ep} shows a typical example for this model. We have plotted the imaginary (a), the real (b) part of the eigen values as a function of bias. The exceptional point corresponds to the place where both parts are the same for the two modes. Additionally, at this point the inner product of the two eigen vectors takes the maximum value 1, meaning that the eigen vectors coalesce.
+%\subsection{Current-induced exceptional point in two-mode system}
+%So far, we have only considered one bosonic mode in the system. Now we show that the nonequilibrium e-bath can be used to couple two otherwise isolated bosonic modes. The bias dependence of coupling parameters can be used to tune the system to an exceptional point, where both the eigen values and eigen vectors of the two modes coalesce. 
+%
+%To illustrate this effect, we consider two identical bosonic modes with average frequency $\Omega$ and a small detuning $\delta$, such that $\omega_{\pm}=\Omega\pm \delta/2$. Extra damping of the two modes $\gamma_1$ and $\gamma_2$ are introduced to account for their coupling to e-bath and ph-bath. Importantly, the nonequilibrium nature of the e-bath introduces coherent coupling between the two otherwise isolated modes, which are proportional to the applied bias $V$. Putting together, we have the following effective dynamical matrix for the two modes
+%\begin{equation}\label{eq:kk}
+%\left[
+%\begin{array}{cc}
+%(\Omega+\delta/2+i \gamma)^2 & V(a+i b \Omega) + i c\Omega \\
+%-V (a+i b \Omega)+i c\Omega & (\Omega-\delta/2+i \gamma)^2
+%\end{array}
+%\right].
+%\end{equation}
+%Here, $a$ and $b$ are non-zero only in the presence of voltage bias in the e-bath, which correspond to the currend-induced non-conservative and effective Lorentz force, respectively\cite{lu_blowing_2010}. Meanwhile, $c$ and $\gamma$ account for the damping due to coupling to ph-bath and/or e-bath. If we ignore the energy dependence of electron spectral function within the voltage bias window, $a={\rm Im}{\rm tr}[M^1 A_L M^2 A_R]/\pi$ becomes constant, $b=0$. This approximation is valid if the electron bandwidth $D$ is much larger than the corresponding mode energy $\hbar\Omega$, i.e., $D\gg \hbar\Omega$. Figure~\ref{fig:ep} shows a typical example for this model. We have plotted the imaginary (a), the real (b) part of the eigen values as a function of bias. The exceptional point corresponds to the place where both parts are the same for the two modes. Additionally, at this point the inner product of the two eigen vectors takes the maximum value 1, meaning that the eigen vectors coalesce.
 
 
 \section{Conclusions}
