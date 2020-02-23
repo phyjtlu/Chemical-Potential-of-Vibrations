@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{39}%
+\begin{thebibliography}{40}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -78,10 +78,10 @@
   {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\
   \bibinfo {pages} {234301} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2018)\citenamefont {Zhang},
-  \citenamefont {L\"u},\ and\ \citenamefont {Wang}}]{zhang2018energy}%
+  \citenamefont {L{\"u}},\ and\ \citenamefont {Wang}}]{zhang2018energy}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-Q.}\ \bibnamefont
-  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L\"u}}, \
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L{\"u}}}, \
   and\ \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}},\ }\href
   {\doibase 10.1103/PhysRevB.97.195450} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
@@ -143,12 +143,12 @@
   {75}},\ \bibinfo {pages} {061128} (\bibinfo {year} {2007})}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2008)\citenamefont {Wang},
-  \citenamefont {Wang},\ and\ \citenamefont {L{\"u}}}]{wang2008quantum}%
+  \citenamefont {Wang},\ and\ \citenamefont {L{{\"u}}}}]{wang2008quantum}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
   {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {L{\"u}}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. B}\ }\textbf
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {L{{\"u}}}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. B}\ }\textbf
   {\bibinfo {volume} {62}},\ \bibinfo {pages} {381} (\bibinfo {year}
   {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ruokola}\ \emph {et~al.}(2009)\citenamefont
@@ -201,11 +201,11 @@
   Rev. B}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo {pages} {174403}
   (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kuhnke}\ \emph {et~al.}(2017)\citenamefont {Kuhnke},
-  \citenamefont {Große}, \citenamefont {Merino},\ and\ \citenamefont
+  \citenamefont {Gro{\ss}e}, \citenamefont {Merino},\ and\ \citenamefont
   {Kern}}]{kuhnke2017atomic}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Kuhnke}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Große}},
+  {Kuhnke}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Gro{\ss}e}},
   \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Merino}}, \ and\ \bibinfo
   {author} {\bibfnamefont {K.}~\bibnamefont {Kern}},\ }\href {\doibase
   10.1021/acs.chemrev.6b00645} {\bibfield  {journal} {\bibinfo  {journal}
@@ -228,13 +228,13 @@
   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo
   {pages} {026601} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schneider}\ \emph {et~al.}(2012)\citenamefont
-  {Schneider}, \citenamefont {L\"u}, \citenamefont {Brandbyge},\ and\
+  {Schneider}, \citenamefont {L{\"u}}, \citenamefont {Brandbyge},\ and\
   \citenamefont {Berndt}}]{schneider2012light}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
-  {Schneider}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {L\"u}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}}, \ and\
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\href
+  {Schneider}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}}, \
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\href
   {\doibase 10.1103/PhysRevLett.109.186601} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo
   {pages} {186601} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
@@ -266,18 +266,18 @@
   {Selzer}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
   Nanotechnol.}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {727}
   (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2015)\citenamefont {Lü},
+\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2015)\citenamefont {L{\"u}},
   \citenamefont {Christensen}, \citenamefont {Wang}, \citenamefont
-  {Hedegård},\ and\ \citenamefont {Brandbyge}}]{lu_current-induced_2015}%
+  {Hedeg{\aa}rd},\ and\ \citenamefont {Brandbyge}}]{lu_current-induced_2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {Lü}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
+  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {R.~B.}\ \bibnamefont
   {Christensen}}, \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
-  {Wang}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedegård}}, \
-  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},\ }\href
-  {\doibase 10.1103/PhysRevLett.114.096801} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo
-  {pages} {096801} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  {Wang}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedeg{\aa}rd}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},\
+  }\href {\doibase 10.1103/PhysRevLett.114.096801} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\
+  \bibinfo {pages} {096801} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {H{\"a}rtle}\ and\ \citenamefont
   {Thoss}(2011{\natexlab{a}})}]{hartle2011resonant}%
   \BibitemOpen
@@ -360,9 +360,8 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {Head‐Gordon}}\ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
   {Tully}},\ }\href {\doibase 10.1063/1.469915} {\bibfield  {journal} {\bibinfo
-   {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
-  {103}},\ \bibinfo {pages} {10137} (\bibinfo {year} {1995})}\BibitemShut
-  {NoStop}%
+   {journal} {J. Chem. Phys.}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {10137} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dou}\ and\ \citenamefont
   {Subotnik}(2018)}]{dou2018perspective}%
   \BibitemOpen
@@ -373,35 +372,54 @@
   \bibinfo {pages} {230901} (\bibinfo {year} {2018})},\ \Eprint
   {http://arxiv.org/abs/https://doi.org/10.1063/1.5035412}
   {https://doi.org/10.1063/1.5035412} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2012)\citenamefont {Lü},
-  \citenamefont {Brandbyge}, \citenamefont {Hedegård}, \citenamefont
+\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2012)\citenamefont {L{\"u}},
+  \citenamefont {Brandbyge}, \citenamefont {Hedeg{\aa}rd}, \citenamefont
   {Todorov},\ and\ \citenamefont {Dundas}}]{lu_current-induced_2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {Lü}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},
-  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedegård}}, \bibinfo
+  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedeg{\aa}rd}}, \bibinfo
   {author} {\bibfnamefont {T.~N.}\ \bibnamefont {Todorov}}, \ and\ \bibinfo
   {author} {\bibfnamefont {D.}~\bibnamefont {Dundas}},\ }\href {\doibase
   10.1103/PhysRevB.85.245444} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages} {245444}
   (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"u}}\ \emph {et~al.}(2016)\citenamefont {L{\"u}},
-  \citenamefont {Wang}, \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
-  {Brandbyge}}]{lu2016electron}%
+\bibitem [{\citenamefont {L{{\"u}}}\ \emph {et~al.}(2016)\citenamefont
+  {L{{\"u}}}, \citenamefont {Wang}, \citenamefont {Hedeg{\aa}rd},\ and\
+  \citenamefont {Brandbyge}}]{lu2016electron}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {L{\"u}}}, \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}},
+  {L{{\"u}}}}, \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}},
   \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedeg{\aa}rd}}, \ and\
   \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}},\ }\href@noop
   {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf
   {\bibinfo {volume} {93}},\ \bibinfo {pages} {205404} (\bibinfo {year}
   {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {L{{\"u}}}\ \emph {et~al.}(2011)\citenamefont
+  {L{{\"u}}}, \citenamefont {Hedeg{\aa}rd},\ and\ \citenamefont
+  {Brandbyge}}]{lu2011laserlike}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
+  {L{{\"u}}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Hedeg{\aa}rd}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Brandbyge}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo {pages}
+  {046801} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nitzan}\ and\ \citenamefont
+  {Galperin}(2018)}]{nitzan2018kinetic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Nitzan}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Galperin}},\ }\href {\doibase 10.1021/acs.jpclett.8b01886} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys. Chem. Lett.}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {4886} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2013)\citenamefont {Zhang},
-  \citenamefont {L{\"u}}, \citenamefont {Wang},\ and\ \citenamefont
+  \citenamefont {L{{\"u}}}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{zhang2013thermal}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L{\"u}}},
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L{{\"u}}}},
   \bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont {Wang}}, \ and\
   \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Li}},\ }\href@noop {}
   {\bibfield  {journal} {\bibinfo  {journal} {J. Phys.: Condens. Matt.}\
@@ -425,22 +443,12 @@
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo
   {pages} {115314} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {S\'anchez}\ and\ \citenamefont
-  {B\"uttiker}(2011)}]{sanchez2011optimal}%
+  {B{\"u}ttiker}(2011)}]{sanchez2011optimal}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
   {S\'anchez}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {B\"uttiker}},\ }\href {\doibase 10.1103/PhysRevB.83.085428} {\bibfield
+  {B{\"u}ttiker}},\ }\href {\doibase 10.1103/PhysRevB.83.085428} {\bibfield
   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
   {83}},\ \bibinfo {pages} {085428} (\bibinfo {year} {2011})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Lü}\ \emph {et~al.}(2010)\citenamefont {Lü},
-  \citenamefont {Brandbyge},\ and\ \citenamefont
-  {Hedegård}}]{lu_blowing_2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
-  {Lü}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}}, \
-  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Hedegård}},\ }\href
-  {\doibase 10.1021/nl904233u} {\bibfield  {journal} {\bibinfo  {journal} {Nano
-  Lett.}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {1657} (\bibinfo
-  {year} {2010})}\BibitemShut {NoStop}%
 \end{thebibliography}%

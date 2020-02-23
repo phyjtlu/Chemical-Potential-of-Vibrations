@@ -57,7 +57,7 @@ preprint
 %We propose a Landauer-B\"uttiker formula to describe  energy transport between weakly coupled hybrid electron-boson nano-junctions. The electron bath is described by effective bosonic baths with possibly nonzero chemical potential.  Our theory gives a unified account of current-induced heating/cooling, electroluminescence and thermoelectric transport in nano-junctions. Our results extend the Landauer formalism to hybrid electron-boson systems and shed light on the nature of energy transfer between electron and boson systems.
 
 %We show that a current-carrying coherent electron conductor can be treated as effective bosonic energy reservoir involving different types of electron-hole pair excitation. Hybrid energy transport between nonequilibrium electrons and bosons can be described by a Landauer-B\"uttiker formula. This allows for intuitive and unified account of a variety of heat transport problems in hybrid electron-boson systems, including non-reciprocal heat transport between electrons and bosons, thermoelectric current from a cold-spot and radiative cooling. 
-We show that a current-carrying coherent electron conductor can be treated as effective bosonic energy reservoir involving different types of electron-hole pair excitation. Hybrid energy transport between nonequilibrium electrons and bosons can be described by a Landauer-B\"uttiker formula. This allows for intuitive and unified account of a variety of heat transport problems in hybrid electron-boson systems. In application, we study the non-reciprocal heat transport between electrons and bosons, thermoelectric current from a cold-spot and radiative cooling. 
+We show that a current-carrying coherent electron conductor can be treated as effective bosonic energy reservoir involving different types of electron-hole pair excitation. Hybrid energy transport between nonequilibrium electrons and bosons can be described by a Landauer-B\"uttiker formula. This allows for unified account of a variety of heat transport problems in hybrid electron-boson systems. As applications, we study the non-reciprocal heat transport between electrons and bosons, thermoelectric current from a cold-spot and radiative cooling. 
 Our unified framework opens the way of nonequilibrium reservoir engineering for efficient energy control between different quasi-particles in the nanoscale.
 
 
@@ -79,13 +79,13 @@ Our unified framework opens the way of nonequilibrium reservoir engineering for 
 
 \section{Introduction}
 %\emph {Introduction.--} 
-Understanding nonequilibrium energy transport in the nanoscale is of crucial importance both for the fundamental development of quantum thermodynamics and for the practical application of nanoscale thermoelectric and optoelectronic devices. For phase coherent transport, the celebrated Landauer-B\"uttiker formalism has been successfully applied to study quasi-particle energy transport following different statistics, including electrons\cite{imry1999conductance}, photons\cite{ojanen2008mesoscopic,biehs2010mesoscopic,zhang2018energy,benabdallah2014near}, phonons\cite{rego1998quantized,mingo2005carbon,yamamoto2006nonequilibrium,wang2006nonequilibrium,wang2007nonequilibrium,wang2008quantum,ruokola2009thermal,li2012colloquium,taylor2015quantum,wang2016landauer} and magnons\cite{wang2004spin}.
+Understanding nonequilibrium energy transport in the nanoscale is of crucial importance both for the fundamental development of quantum thermodynamics and for the practical application of nanoscale thermal, thermoelectric and optoelectronic devices. For phase coherent transport, the celebrated Landauer-B\"uttiker formalism has been successfully applied to study quasi-particle energy transport following different statistics, including electrons\cite{imry1999conductance}, photons\cite{ojanen2008mesoscopic,biehs2010mesoscopic,zhang2018energy,benabdallah2014near}, phonons\cite{rego1998quantized,mingo2005carbon,yamamoto2006nonequilibrium,wang2006nonequilibrium,wang2007nonequilibrium,wang2008quantum,ruokola2009thermal,li2012colloquium,taylor2015quantum,wang2016landauer} and magnons\cite{wang2004spin}.
 %The energy current between two baths ($i=1,2$) can be written as the following general form
 %\begin{equation}
 %J_{}=\int_{0}^{+\infty}\frac{d\omega}{2\pi}\hbar\omega T(\omega)[n_{}(\omega,\mu_{1},T_{1})-n_{}(\omega,\mu_{2},T_{2})].
 %\label{eq:lb}
 %\end{equation}
-Wherein, the baths connecting to the system are assumed to be in thermal equilibrium with given temperature and/or chemical potential, with the quasi-particle distribution function  determined by its statistics, i.e., the Fermi-Dirac distribution for fermions, and the Bose-Einstein distribution for bosons. A difference in the distribution drives an energy current flow between the two thermal baths. 
+Wherein, the baths connecting to the system are assumed to be in thermal equilibrium with given temperature and/or chemical potential, where the quasi-particle distribution function  is determined by its statistics, i.e., the Fermi-Dirac distribution for fermions, and the Bose-Einstein distribution for bosons. A difference in the distribution drives an energy current flow between the two thermal baths. 
 
 %This driving force for energy transport could be a chemical potential or temperature bias for fermions. However, for bosons we have $\mu=0$ in thermal equilibrium, following the textbook argument that bosons without number conservation have zero chemical potential. Thus, for bosonic energy transport the only driving force is temperature.
 
@@ -94,7 +94,7 @@ Wherein, the baths connecting to the system are assumed to be in thermal equilib
 
 However, the same approach is difficult to describe energy transport between quasi-particles following different statistics, which is ubiquitous in thermoelectric and optoelectronic processes of nano-junctions. Examples of such processes include electroluminescence\cite{kuhnke2017atomic,galeprin2017photonics,schneider2010optical,schneider2012light}, Joule heating\cite{huang2007local,ioffe2008detection,lu_current-induced_2015,hartle2011resonant,hartle2011vibrational,hartle2018cooling}, current-induced\cite{galperin2009cooling,simine2012vibrational,lykkebo2016single,hartle2011resonant} or radiative cooling\cite{zhu2019near}. Another difficulty arising in these processes is that the quasi-particles may be in nonequilibrium state due to driving from external bias.
 
-In this work, we overcome this difficulty by `bosonizing' a voltage-biased coherent electron conductor into a bosonic reservoir with non-zero chemical potential. We obtain a Landauer formula to describe energy transport between electrons and bosons. This is possible since energy transport between electrons and bosons is always accompanied by the generation or annhilation of different kinds of electron-hole pairs (EHPs)\cite{headgordon_molecular_1995,dou2018perspective}. We thus generalizes the Landauer-B\"uttiker formalism to hybrid energy transport between possibly nonequilibrium baths, and provides a unified framework to understand energy transport in different thermal, thermoelectric and optoelectronic processes.  
+In this work, we overcome this difficulty by `bosonizing' a voltage-biased coherent electron conductor into bosonic reservoir with non-zero chemical potential. We obtain a Landauer formula to describe energy transport between electrons and bosons. This is possible since energy transport between electrons and bosons is always accompanied by the generation or annhilation of different kinds of electron-hole pairs (EHPs)\cite{headgordon_molecular_1995,dou2018perspective}. We thus generalizes the Landauer-B\"uttiker formalism to hybrid energy transport between possibly nonequilibrium baths, and provides a unified framework to understand energy transport in different thermal, thermoelectric and optoelectronic processes.  
 
 %However, the generation and annihilation of bosons may be accompanied by transitions between different states of particles with non-zero chemical potentials. This is certainly the case for electrically driven processes. In such situations, it is known that the chemical potential of bosons does not have to be zero. In this work, we show that, energy transport between steady-state nonequilibrium electrons and bosons can be well described by a Landauer-B\"uttiker formula between bosonic baths with different chemical potentials. The key observation is that, the electronic system can be treated as bosonic electron-hole-pair bath with a non-zero chemical potential. This general formula can give a unified account of different physical processes involving energy transfer between fermionic and bosonic systems, including current-induced heating/cooling, electrically-driven light emission and thermoelectric transport in nano-scale junctions.
 
@@ -151,6 +151,7 @@ There are four types of EHPs which we label by the spatial location of the elect
 A generalized detailed balance relation applies to each of reactions
 \begin{align}
 \frac{T_{\alpha\rightharpoonup\beta}}{T_{\alpha\leftharpoondown\beta}} = {\rm exp}\left[-\beta_B(\hbar\Omega-\mu_{\alpha\beta})\right].
+\label{eq:db}
 \end{align}
 Here, $T_{\alpha\rightharpoonup\beta}$ and $T_{\alpha\leftharpoondown\beta}$ are the reaction rates for the forward (boson emission) and backward (boson absorption) processes in Eq.~(\ref{eq:reaction}), respectively. They are obtained from the Fermi golden rule
 \begin{align}
@@ -251,7 +252,44 @@ This effective model is shown in Fig.~\ref{fig:ehp} (b).
 %\end{align}
 %Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is normally enhanced more than process 3, we have a positive $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~(\ref{fig:resonant}) (a), resonant enhancement may lead to the extreme case of $\mu_{eff}=\hbar\Omega$, or $T_{eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the harmonic approximation is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{eff}>0$ or $T_{eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
 
+\subsection{Steady state mode population}
+The reaction~\ref{eq:reaction} suggests that, when reaching steady state, the bosonic mode inherits the chemical potential of the EHPs. Thus, the bosonic mode may acquire a non-zero chemical potential. This is best illustrated by performing a mode population analysis. 
 
+To simplify the analysis, we consider one bosonic mode with angular frequency $\Omega$. A simple master equation for the mode population $N$ can be established by considering the forward and backward reaction processes
+\begin{align}
+	\dot{N} = \sum_{\alpha\beta}\left[T_{\alpha\rightharpoonup\beta} (N+1) - T_{\alpha\leftharpoondown\beta} N\right].
+\end{align}
+%According to Eq.~(\ref{eq:db}), each type of the reaction drives the mode into a Bose-Einstein distribution with a chemical potential $\mu_{\alpha\beta}$. This coincides with the chemical potential of the corresponding EHPs, as required by the equilibrium condition of \ref{eq:reaction}:
+%\begin{align}
+%	\mu_\alpha-\mu_\beta = \mu_p.
+%\end{align}
+%Here, we have used the fact that chemical potential of holes is the opposite to that of electrons. 
+The steady state population of mode is obtained by setting $\dot{N}=0$, which is written as
+\begin{align}
+	N = \frac{1}{\sum_{\alpha\beta}T_{\alpha\leftharpoondown\beta}/\sum_{\alpha\beta}T_{\alpha\rightharpoonup\beta}-1}.
+\end{align}
+In equilibrium ($\mu_L=\mu_R$), we obtain the standard Bose-Einstein distribution with temperature $T_e$ and zero chemical potential. When there is voltage bias applied ($\mu_L\neq\mu_R$), the final distribution can not be written as a simple form. Normally, an effective temperature is defined by assuming $N$ follows the Bose-Einstein distribution with zero chemical potential
+\begin{align}
+	k_BT_{\rm eff} = \frac{\hbar\Omega}{{\rm ln}(1+N^{-1})}.
+\end{align}
+According to previous discussion, we can equivalently defined an effective chemical potential by assuming $N$ follows the Bose-Einstein distribution at $T_e$ 
+\begin{align}
+	\mu_{\rm eff} = \hbar\Omega - k_BT{\rm ln}(1+N^{-1}).
+\end{align}
+These two effective parameters are related through
+\begin{align}
+	T_{\rm eff} = \frac{T_e}{1-\mu_{\rm eff}/(\hbar\Omega)}.
+	\label{eq:tmu}
+\end{align}
+Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is enhanced more than process 3, we have a negative $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~\ref{fig:resonant}(a), resonant enhancement may lead to the extreme case of $\mu_{\rm eff}=\hbar\Omega$, or $T_{\rm eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the perturbative analysis is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{\rm eff}>0$ or $T_{\rm eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
+
+%When $eV=\hbar\Omega$, a laser-like instability occurs\cite{lu2011laserlike}. This indicates the failure of our harmonic lowest order analysis\cite{nitzan2018kinetic}.
+
+%Efficiency of a heat engine using the bononic system as working medium
+%\begin{align}
+%\eta = 1-\frac{T_L}{T_H}\frac{\hbar\Omega-\mu_{eff}}{\hbar\Omega}>1-\frac{T_L}{T_H}.
+%\end{align}
+%It seems that the efficiency is larger than the Carnot efficiency between $T_L$ and $T_H$. The reason is that, the bosonic mode has a nonzero chemical potential, the energy input from $T_H$ includes not only heat, but also chemical energy. All the chemical energy can be converted to work.
 
 \subsection{Energy transport}
 %\emph{ Energy transport.--}
@@ -279,7 +317,7 @@ J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ {\rm Tr
 	\subfigure[]{
 	\includegraphics[width=1.5in,angle=0]{figures/fig_2b.pdf}
 	}
-	\caption{Two limiting cases of nonequilibrium reservoir engineering. In (a), we have a filled electronic level $\varepsilon_L$ that couples to the left electrode with chemical potential $\mu_L$, and an empty level $\varepsilon_R$ that couples to the right electrode with chemical potential $\mu_R$. We have $\mu_L>\mu_R$. Heating of the bosonic mode is due to resonant recombination of inter-electrode (process 4 in Fig.~\ref{fig:ehp}). In (b), the situation is reversed. The left state $\varepsilon_L$ is empty, while the right state $\varepsilon_R$ is filled. When $\mu_R>\mu_L$, the e-bath can be used to cool the bosonic mode through creation of inter-electrode EHPs (process 4' in \ref{fig:ehp}). }
+	\caption{Two limiting cases of nonequilibrium reservoir engineering. In (a), we have a filled electronic level $\varepsilon_L$ that couples to the left electrode with chemical potential $\mu_L$, and an empty level $\varepsilon_R$ that couples to the right electrode with chemical potential $\mu_R$. We have $\mu_L>\mu_R$. Heating of the bosonic mode is due to resonant recombination of inter-electrode (process 4 in Fig.~\ref{fig:ehp}). In (b), the situation is reversed. The left state $\varepsilon_L$ is empty, while the right state $\varepsilon_R$ is filled. When $\mu_R>\mu_L$, the e-bath can be used to cool the bosonic mode through creation of inter-electrode EHPs (process 4' in Fig.~\ref{fig:ehp}). }
 	\label{fig:resonant}
 \end{figure}
 
