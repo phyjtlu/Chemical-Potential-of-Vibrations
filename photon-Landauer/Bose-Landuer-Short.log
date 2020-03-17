@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.5)  23 FEB 2020 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.5)  17 MAR 2020 15:31
 entering extended mode
 **./Bose-Landuer-Short.tex
 (Bose-Landuer-Short.tex
@@ -468,7 +468,7 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 74
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{C:/Users/phyjt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (13.35341pt too wide) in paragraph at lines 95--96
+Overfull \hbox (13.35341pt too wide) in paragraph at lines 99--100
 \OT1/cmr/m/n/12 tronic pro-cesses of nano-junctions. Ex-am-ples of such pro-ces
 ses in-clude electroluminescence$[]$,
  []
@@ -477,22 +477,22 @@ ses in-clude electroluminescence$[]$,
 <figures/fig_1a.pdf, id=130, 361.35pt x 325.215pt>
 File: figures/fig_1a.pdf Graphic file (type pdf)
 <use figures/fig_1a.pdf>
-Package pdftex.def Info: figures/fig_1a.pdf  used on input line 173.
+Package pdftex.def Info: figures/fig_1a.pdf  used on input line 177.
 (pdftex.def)             Requested size: 108.405pt x 97.56525pt.
 <figures/fig_1b.pdf, id=131, 361.35pt x 325.215pt>
 File: figures/fig_1b.pdf Graphic file (type pdf)
 <use figures/fig_1b.pdf>
-Package pdftex.def Info: figures/fig_1b.pdf  used on input line 177.
+Package pdftex.def Info: figures/fig_1b.pdf  used on input line 181.
 (pdftex.def)             Requested size: 108.405pt x 97.56525pt.
 <figures/fig_1c.pdf, id=132, 361.35pt x 194.7275pt>
 File: figures/fig_1c.pdf Graphic file (type pdf)
 <use figures/fig_1c.pdf>
-Package pdftex.def Info: figures/fig_1c.pdf  used on input line 181.
+Package pdftex.def Info: figures/fig_1c.pdf  used on input line 185.
 (pdftex.def)             Requested size: 108.405pt x 58.41869pt.
 <figures/fig_1d.pdf, id=133, 361.35pt x 194.7275pt>
 File: figures/fig_1d.pdf Graphic file (type pdf)
 <use figures/fig_1d.pdf>
-Package pdftex.def Info: figures/fig_1d.pdf  used on input line 185.
+Package pdftex.def Info: figures/fig_1d.pdf  used on input line 189.
 (pdftex.def)             Requested size: 108.405pt x 58.41869pt.
  [4] [5 <./figures/fig_1a.pdf> <./figures/fig_1b.pdf
 
@@ -510,12 +510,12 @@ le pdfs with page group included in a single page
 <figures/fig_2a.pdf, id=252, 361.35pt x 361.35pt>
 File: figures/fig_2a.pdf Graphic file (type pdf)
 <use figures/fig_2a.pdf>
-Package pdftex.def Info: figures/fig_2a.pdf  used on input line 315.
+Package pdftex.def Info: figures/fig_2a.pdf  used on input line 319.
 (pdftex.def)             Requested size: 108.405pt x 108.40584pt.
 <figures/fig_2b.pdf, id=253, 361.35pt x 361.35pt>
 File: figures/fig_2b.pdf Graphic file (type pdf)
 <use figures/fig_2b.pdf>
-Package pdftex.def Info: figures/fig_2b.pdf  used on input line 319.
+Package pdftex.def Info: figures/fig_2b.pdf  used on input line 323.
 (pdftex.def)             Requested size: 108.405pt x 108.40584pt.
 
 
@@ -524,17 +524,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 341.
+               Default added (so using `tbp') on input line 345.
 
 <figures-0208/fig_3.pdf, id=270, 803.0pt x 503.8825pt>
 File: figures-0208/fig_3.pdf Graphic file (type pdf)
 <use figures-0208/fig_3.pdf>
-Package pdftex.def Info: figures-0208/fig_3.pdf  used on input line 344.
+Package pdftex.def Info: figures-0208/fig_3.pdf  used on input line 348.
 (pdftex.def)             Requested size: 216.81pt x 136.0501pt.
 <figures-0208/fig_3r.pdf, id=271, 897.3525pt x 532.99126pt>
 File: figures-0208/fig_3r.pdf Graphic file (type pdf)
 <use figures-0208/fig_3r.pdf>
-Package pdftex.def Info: figures-0208/fig_3r.pdf  used on input line 345.
+Package pdftex.def Info: figures-0208/fig_3r.pdf  used on input line 349.
 (pdftex.def)             Requested size: 216.81pt x 128.77446pt.
 [8 <./figures/fig_2a.pdf> <./figures/fig_2b.pdf
 
@@ -544,17 +544,17 @@ le pdfs with page group included in a single page
 <figures-0208/fig_4.pdf, id=327, 803.0pt x 517.935pt>
 File: figures-0208/fig_4.pdf Graphic file (type pdf)
 <use figures-0208/fig_4.pdf>
-Package pdftex.def Info: figures-0208/fig_4.pdf  used on input line 365.
+Package pdftex.def Info: figures-0208/fig_4.pdf  used on input line 369.
 (pdftex.def)             Requested size: 216.81pt x 139.84431pt.
 <figures/fig_4b.pdf, id=328, 803.0pt x 503.8825pt>
 File: figures/fig_4b.pdf Graphic file (type pdf)
 <use figures/fig_4b.pdf>
-Package pdftex.def Info: figures/fig_4b.pdf  used on input line 366.
+Package pdftex.def Info: figures/fig_4b.pdf  used on input line 370.
 (pdftex.def)             Requested size: 216.81pt x 136.0501pt.
 <figures/fig_4c.pdf, id=329, 803.0pt x 503.8825pt>
 File: figures/fig_4c.pdf Graphic file (type pdf)
 <use figures/fig_4c.pdf>
-Package pdftex.def Info: figures/fig_4c.pdf  used on input line 367.
+Package pdftex.def Info: figures/fig_4c.pdf  used on input line 371.
 (pdftex.def)             Requested size: 216.81pt x 136.0501pt.
 
 
@@ -576,7 +576,7 @@ le pdfs with page group included in a single page
 <figures-0208/fig_5.pdf, id=489, 803.0pt x 514.92375pt>
 File: figures-0208/fig_5.pdf Graphic file (type pdf)
 <use figures-0208/fig_5.pdf>
-Package pdftex.def Info: figures-0208/fig_5.pdf  used on input line 429.
+Package pdftex.def Info: figures-0208/fig_5.pdf  used on input line 433.
 (pdftex.def)             Requested size: 216.81pt x 139.03127pt.
  [11 <./figures-0208/fig_5.pdf>] (Bose-Landuer-Short.bbl [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 370--377
@@ -590,10 +590,10 @@ Class revtex4-1 Warning: Environment acknowledgements is obsolete;
 Use acknowledgments instead.
 
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 953.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 957.
  (Bose-Landuer-Short.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 953.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 953.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 957.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 957.
 Package rerunfilecheck Info: File `Bose-Landuer-Short.out' has not changed.
 (rerunfilecheck)             Checksum: 9231D50646E6F44BF641B85AADD4A2FB;1057.
 
@@ -604,7 +604,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  8364 strings out of 492449
  122703 string characters out of 3129738
- 235203 words of memory out of 3000000
+ 235202 words of memory out of 3000000
  12444 multiletter control sequences out of 15000+200000
  14798 words of font info for 54 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
