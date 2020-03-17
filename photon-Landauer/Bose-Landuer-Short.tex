@@ -285,7 +285,7 @@ These two effective parameters are related through
 	T_{\rm eff} = \frac{T_e}{1-\mu_{\rm eff}/(\hbar\Omega)}.
 	\label{eq:tmu}
 \end{align}
-Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the reverse of process 4 is enhanced more than process 3, we have a negative $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~\ref{fig:resonant}(a), resonant enhancement may lead to the extreme case of $\mu_{\rm eff}=\hbar\Omega$, or $T_{\rm eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the perturbative analysis is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), process 3 is resonantly enhanced, resulting in $\mu_{\rm eff}>0$ or $T_{\rm eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
+Several comments are noteworthy at this point. Firstly, in the presence of voltage bias, if the emission process is enhanced more than the absorption process, we have a negative $\mu_{eff}$ and consequently $T_{eff}>T_e$. The result is heating of the bosonic mode. In the limiting case shown in Fig.~\ref{fig:resonant}(a), resonant enhancement may lead to the extreme case of $\mu_{\rm eff}=\hbar\Omega$, or $T_{\rm eff}\to +\infty$. This marks the instability of the bosonic mode. This case has been analyzed in details in Ref.~\onlinecite{lu2011laserlike}. This instability means that the perturbative analysis is not applicable any more\cite{nitzan2018kinetic}. In the other limiting case (Fig.~\ref{fig:resonant}(b)), the absorption process is resonantly enhanced, resulting in $\mu_{\rm eff}>0$ or $T_{\rm eff}<T_{e}$. In this regime, the voltage bias is used to cool the bosonic mode below $T_e$.
 
 %When $eV=\hbar\Omega$, a laser-like instability occurs\cite{lu2011laserlike}. This indicates the failure of our harmonic lowest order analysis\cite{nitzan2018kinetic}.
 
@@ -298,12 +298,25 @@ Several comments are noteworthy at this point. Firstly, in the presence of volta
 \subsection{Energy transport}
 %\emph{ Energy transport.--}
 Within this effective EHP model, hybrid energy transport between  electrons and system bosons can be treated as bosonic transport.
-To the lowest order approximation, we arrive at a  Landauer-B\"uttiker formula for the energy transport from e-bath to the system as a summation of contributions from all the EHP baths
+To the lowest order approximation, we arrive at a  Landauer-B\"uttiker formula for the energy and particle transport from e-bath to the system as a summation of contributions from all the EHP baths
 \begin{align}
 J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
 &\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
 \label{eq:jjtrans}
 \end{align}
+\begin{align}
+I^{ph} &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
+\label{eq:iphtrans}
+\end{align}
+\begin{align}
+I^e &= \sum_{\alpha,\beta} (\delta_{\alpha L}\delta_{\beta R} - \delta_{\alpha R}\delta_{\beta L})   \int_0^{+\infty}\frac{d\omega}{2\pi}\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
+&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
+\label{eq:ietrans}
+\end{align}
+
+
+
 %where
 %\begin{align}
 %\mathcal{T}^{\alpha\beta}(\omega)=
@@ -325,8 +338,7 @@ J &= \sum_{\alpha,\beta}\int_0^{+\infty}\frac{d\omega}{2\pi}\hbar\omega\ {\rm Tr
 	\label{fig:resonant}
 \end{figure}
 
-Here, $T_e$ and $T_{ph}$ are the temperature of the e-bath and ph-bath, respectively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. Each of them contributes to an energy transport channel. 
-
+Here, $J, I^{ph}$ and $I^e$ are phonon energy flux, phonon particle flux and electron energy flux,  $T_e$ and $T_{ph}$ are the temperature of the e-bath and ph-bath, respectively. The trace Tr is over system DOF, with $\mathcal{A}_{ph}=D^r \Gamma_{ph} D^a$ the spectral function of the system due to coupling to the ph-bath. The summation over $\alpha\beta$ includes contributions from all the four types of EHPs. Each of them contributes to an energy transport channel. 
 
 
 In the following we show several applications of this central result.
@@ -345,8 +357,13 @@ with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\
 \begin{figure}[]
 	% \includegraphics[scale=0.6,angle=0]{JT.png}
 	% \includegraphics[scale=0.6,angle=0]{RR.png}
-	\includegraphics[width=3in,angle=0]{figures-0208/fig_3.pdf}
-	\includegraphics[width=3in,angle=0]{figures-0208/fig_3r.pdf}	
+	\subfigure[]{
+	    \includegraphics[width=2.5in,angle=0]{figures-0208/fig_3.pdf}
+	}
+	\quad
+	\subfigure[]{
+	    \includegraphics[width=2.5in,angle=0]{figures-0208/fig_3r.pdf}	
+	}
 	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T$ for different chemical potentials. (b) Rectification ratio as a function of $\Delta T$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. The following parameters are used in the calculation: $\varepsilon_L=0.5$, $\varepsilon_R=-0.5$, $\mu_L=\mu_R$, $\gamma_L=\gamma_R=0.5,m=0.5$, $\hbar\Omega=1$, $k_B=1$. }
 	\label{fig:JT}
 	% \revision{BZH: (1)Please shift the absolute energy such that $\varepsilon_L=-\varepsilon_R$. (2) Please mark the positions of $\mu$ in Fig. 2(a)  with short lines using the same color coding. (3) Narrow down the $x$ axis to [-0.5,0.5]. Same for Fig. 4. (1)(2)finished.}
@@ -366,10 +383,16 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 \begin{figure}[h]
 	% \includegraphics[scale=0.6,angle=0]{coldspot-v2.pdf}
 	% \includegraphics[scale=0.6,angle=0]{IT.png}
-	\includegraphics[width=3in,angle=0]{figures-0208/fig_4.pdf}	
-	\includegraphics[width=3in,angle=0]{figures/fig_4b.pdf}	
-	\includegraphics[width=3in,angle=0]{figures/fig_4c.pdf}	
-	\caption{(a) Thermoelectric current generation effiency (b) phonon particle flux(c) electron particle flux from temperature difference between e-bath and ph-bath $\Delta T$. The paremeters are the same as Fig.~\ref{fig:JT}.   }
+
+
+	\subfigure[]{
+	    \includegraphics[width=2.5in,angle=0]{figures/fig_4a.pdf}
+	}
+	\quad
+	\subfigure[]{
+	    \includegraphics[width=2.5in,angle=0]{figures/fig_4b.pdf}	
+	}
+	\caption{(a) Thermoelectric current generation efficiency (b) electon particle flux from temperature difference between e-bath and ph-bath $\Delta T$. The paremeters are the same as Fig.~\ref{fig:JT}.   }
 	\label{fig:coldspot}
 \end{figure}
 
@@ -382,43 +405,43 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 
 
 \subsection{Hybrid thermoelectric transport}
- We can also study the thermoelectric transport of the temperature-biased electron-boson junction. When $T_{ph}\neq T_e$, in addition to the heat transport between system and e-bath, an electrical current may also be induced between the two electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, these two channels should not get canceled. For simplicity, we introduce thremoelectric current generation effiency $\eta$, which can be defined as electron particle flux per phonon particle flux. As expected, it can be expressed as $\eta= \frac{I^e}{I^{ph}}$, where $I^{e/ph}$ is electron/phonon particle flux.
+ We can also study the thermoelectric transport of the temperature-biased electron-boson junction. When $T_{ph}\neq T_e$, in addition to the heat transport between system and e-bath, an electrical current may also be induced between the two electrodes\cite{entinwuhlman2010three,sanchez2011optimal}. In our EHP picture, this is realized through coupling of the bosonic mode with two inter-electrode EHPs. Since they contribute to two electrical current with opposite directions, in order to get a non-zero electrical current, these two channels should not get canceled. For simplicity, we introduce thremoelectric current generation efficiency $\eta$, which can be defined as electron particle flux per phonon particle flux. As expected, it can be expressed as $\eta= I^e / I^{ph}$, where $I^{e/ph}$ is electron/phonon particle flux in equation (\ref{eq:iphtrans}) and (\ref{eq:ietrans}).
 
-Obuviously, all 4 EHP baths contribute phonon particle flux
-\begin{align}
-I^{ph} &= I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}.
-\label{eq:iph}
-\end{align}
+% Obviously, all 4 EHP baths contribute phonon particle flux
+% \begin{align}
+% I^{ph} &= I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}.
+% \label{eq:iph}
+% \end{align}
 
-Here, $I^{ph}_{\alpha\beta}$ is the phonon particle flux contribution of EHP bath $\alpha\beta$
+% Here, $I^{ph}_{\alpha\beta}$ is the phonon particle flux contribution of EHP bath $\alpha\beta$
 
-\begin{align}
-I^{ph}_{\alpha\beta} &= \int_0^{+\infty}\frac{d\omega}{2\pi}\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
-&\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
-\label{eq:iphab}
-\end{align}
+% \begin{align}
+% I^{ph}_{\alpha\beta} &= \int_0^{+\infty}\frac{d\omega}{2\pi}\ {\rm Tr}[\Lambda^{\alpha\beta}(\omega)\mathcal{A}_{ph}(\omega)]\nonumber\\
+% &\times [n_B(\omega-\mu_{\alpha\beta},{T}_{e})-n_B(\omega,T_{ph})].
+% \label{eq:iphab}
+% \end{align}
 
-On the other hand, only LR and RL baths contribute electron particle flux. Further more, according to EHP reaction equation equation (\ref{eq:reaction}) and equation (\ref{eq:reaction2}), 
-\begin{align}
-I^e_{LR}=I^{ph}_{LR},~I^e_{RL}=-I^{ph}_{RL}. 
-\label{eq:ie}
-\end{align}
-
-
-Thus, electron particle flux can be expressed by phonon particle flux contribution
-\begin{align}
-I^{e} =I^{e}_{LR} + I^{e}_{RL} = I^{ph}_{LR} - I^{ph}_{RL}.
-\label{eq:ie}
-\end{align}
-
-Finally, our thermoelectric current generation effiency 
-\begin{align}
-\eta = \frac{I^{ph}_{LR} - I^{ph}_{RL}}{I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}}.
-\label{eq:tcge}
-\end{align}
+% On the other hand, only LR and RL baths contribute electron particle flux. Further more, according to EHP reaction equation equation (\ref{eq:reaction}) and equation (\ref{eq:reaction2}), 
+% \begin{align}
+% I^e_{LR}=I^{ph}_{LR},~I^e_{RL}=-I^{ph}_{RL}. 
+% \label{eq:ie}
+% \end{align}
 
 
- The resonant situation in Fig.~\ref{fig:resonant} can be used to enhance one of the two channels. In Fig.~\ref{fig:coldspot}, we show the thermoelectric current induced by the temperature different $\Delta T$ for different chemical potentials $\mu_L=\mu_R$ in the case of Fig.~\ref{fig:resonant} (a). The effiency $\eta$ is the largest when the chemical potential is in between $\varepsilon_L$ and $\varepsilon_R$, where the resonant enhancement is the most prominent.
+% Thus, electron particle flux can be expressed by phonon particle flux contribution
+% \begin{align}
+% I^{e} =I^{e}_{LR} + I^{e}_{RL} = I^{ph}_{LR} - I^{ph}_{RL}.
+% \label{eq:ie}
+% \end{align}
+
+% Finally, our thermoelectric current generation efficiency 
+% \begin{align}
+% \eta = \frac{I^{ph}_{LR} - I^{ph}_{RL}}{I^{ph}_{LL} + I^{ph}_{LR} + I^{ph}_{RL} + I^{ph}_{RR}}.
+% \label{eq:tcge}
+% \end{align}
+
+
+ The resonant situation in Fig.~\ref{fig:resonant} can be used to enhance one of the two channels. In Fig.~\ref{fig:coldspot} (b), we show the thermoelectric current induced by the temperature different $\Delta T$ for different chemical potentials $\mu_L=\mu_R$ in the case of Fig.~\ref{fig:resonant} (a). The efficiency $\eta$ in Fig.~\ref{fig:coldspot} (a) is the largest when the chemical potential is in between $\varepsilon_L$ and $\varepsilon_R$, where the resonant enhancement is the most prominent.
 
  Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. Our results show that the opposite ($T_{ph}<T_e$) is also possible, where electricity is generated by cooling the ph-bath. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
 
