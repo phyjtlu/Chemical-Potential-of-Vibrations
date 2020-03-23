@@ -147,9 +147,9 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-S.}\ \bibnamefont
   {Wang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \ and\
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {L{{\"u}}}},\ }\href@noop
-  {} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. B}\ }\textbf
-  {\bibinfo {volume} {62}},\ \bibinfo {pages} {381} (\bibinfo {year}
+  \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L{{\"u}}}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. B}\
+  }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {381} (\bibinfo {year}
   {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ruokola}\ \emph {et~al.}(2009)\citenamefont
   {Ruokola}, \citenamefont {Ojanen},\ and\ \citenamefont
@@ -232,7 +232,7 @@
   \citenamefont {Berndt}}]{schneider2012light}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
-  {Schneider}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {Schneider}}, \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont
   {L{\"u}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Brandbyge}}, \
   and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Berndt}},\ }\href
   {\doibase 10.1103/PhysRevLett.109.186601} {\bibfield  {journal} {\bibinfo
@@ -414,13 +414,13 @@
   {journal} {\bibinfo  {journal} {J. Phys. Chem. Lett.}\ }\textbf {\bibinfo
   {volume} {9}},\ \bibinfo {pages} {4886} (\bibinfo {year} {2018})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Tao~Wang}\ and\ \citenamefont
-  {L\"u}()}]{Wang-preprint}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}()\citenamefont {Wang},
+  \citenamefont {Nian},\ and\ \citenamefont {L\"u}}]{Wang-preprint}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-L.~N.}\
-  \bibnamefont {Tao~Wang}}\ and\ \bibinfo {author} {\bibfnamefont {J.-T.}\
-  \bibnamefont {L\"u}},\ }\href@noop {} {\ }\bibinfo {note} {In
-  preparation}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {L.-L.}\ \bibnamefont {Nian}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.-T.}\ \bibnamefont {L\"u}},\
+  }\href@noop {} {\ }\bibinfo {note} {In preparation}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2013)\citenamefont {Zhang},
   \citenamefont {L{{\"u}}}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{zhang2013thermal}%
