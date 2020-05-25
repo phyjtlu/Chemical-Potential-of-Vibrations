@@ -335,9 +335,12 @@ Here, $J$ is the energy flux from e-bath to ph-bath. $T_{\rm e}$ and $T_{\rm ph}
 	\label{fig:resonant}
 \end{figure}
 
-In the following we show several applications of this central result.
+In the following we show several applications of this central result \textcolor{blue}{under the limit of weak electron-boson coupling}.
 To be more specific, we consider a minimum model of the e-bath shown in Fig.~\ref{fig:resonant}. We have two electronic states $1$ and $2$ (on-site energies $\varepsilon_1$ and $\varepsilon_2$) couple to the electrodes $L$ and $R$ with coupling parameter $\gamma_1$ and $\gamma_2$, respectively. 
 Electron hopping between the two states is assisted by one bosonic mode, which at the same time couples to a ph-bath with coupling constant $\gamma_{ph}$.
+
+
+
 
 \section{Applications}
 %\emph{Non-reciprocal heat transport.--}
@@ -352,19 +355,30 @@ with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\
 	% \includegraphics[scale=0.6,angle=0]{JT.png}
 	% \includegraphics[scale=0.6,angle=0]{RR.png}
 	%\subfigure[]{
-	    \includegraphics[width=0.45\textwidth,angle=0]{figures-0317/fig_3a.pdf}
+	    \includegraphics[width=0.45\textwidth,angle=0]{figures/fig_3a.pdf}
 	%}
 	%\quad
 	%\subfigure[]{
-	    \includegraphics[width=0.44\textwidth,angle=0]{figures-0317/fig_3b.pdf}	
+	    \includegraphics[width=0.44\textwidth,angle=0]{figures/fig_3b.pdf}	
 	%}
-	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T/T_{\rm ph}$ for different chemical potentials. (b) Rectification ratio $\rho=(|J(|\Delta T|)|-|J(-|\Delta T|)|)/(|J(|\Delta T|)|+|J(-|\Delta T|)|)/2$ as a function of $\Delta T/T_{\rm ph}$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. The following parameters are used in the calculation: $\varepsilon_L=0.5$, $\varepsilon_R=-0.5$, $\gamma_L=\gamma_R=0.5,m=0.5$, $\hbar\Omega=1$, $k_B=1$. }
+	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T/T_{\rm ph}$ for different chemical potentials. \textcolor{blue}{The curves and dots correspond to results under our method and SCBA, same as Fig.~\ref{fig:coldspot} and Fig.~\ref{fig:cooling}.} (b) Rectification ratio $\rho=(|J(|\Delta T|)|-|J(-|\Delta T|)|)/(|J(|\Delta T|)|+|J(-|\Delta T|)|)/2$ as a function of $\Delta T/T_{\rm ph}$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. The following parameters are used in the calculation: $\varepsilon_L=0.5$, $\varepsilon_R=-0.5$, $\gamma_L=\gamma_R=0.5,m=0.05$, $\hbar\Omega=1$, $k_B=1$. }
 	\label{fig:JT}
 	% \revision{BZH: (1)Please shift the absolute energy such that $\varepsilon_L=-\varepsilon_R$. (2) Please mark the positions of $\mu$ in Fig. 2(a)  with short lines using the same color coding. (3) Narrow down the $x$ axis to [-0.5,0.5]. Same for Fig. 4. (1)(2)finished.}
 \end{figure}
 
 On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\Gamma(\omega)$, $\mathcal{T}^{}$ will depend on $T_e$. Energy transport becomes anharmonic. In this case, non-reciprocal energy flow is possible, i.e., $J(\Delta T)\neq J(-\Delta T)$, with $\Delta T=T_e-T_{ph}$. We thus find a necessary condition for non-reciprocal energy transport in a hybrid electron-boson system: the electron DOS in the thermal window near the chemical potential has to be energy dependent\cite{zhang2013thermal,ren2013heat}. For normal metal electrode, the energy scale of electrons is much larger than the thermal energy, leading to a flat DOS. The energy dependence of $A(\varepsilon)$ can be engineered by changing the electronic states of the central part. For example, discrete energy levels of a molecular junction or quantum dot can be used.
-In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fig:resonant} (a). We set $\mu_L=\mu_R=\mu$ and $T_e \neq T_{ph}$ to consider heat transport. The electronic DOS shows an energy dependent Lorentzian shape. This gives rise to non-reciprocal heat transport between e-bath and ph-bath. 
+
+\begin{figure}[h]
+
+	\includegraphics[width=0.5\textwidth,angle=0]{figures/fig_extra.pdf}
+
+	\caption{Energy current $J$(curves) and DOS times temperature difference $\Lambda(\Omega) \cdot \Delta T $ (dots) as a function of temperature difference  $\Delta T / T_{ph}$. In subfigure, $J$ as a function of $\Lambda(\Omega) \cdot \Delta T $. The parameters are the same as Fig.~\ref{fig:JT}.   }
+	\label{fig:DOS}
+\end{figure}
+
+In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fig:resonant} (a) \textcolor{blue}{and show that the comparison between our method and self-consistent Born approximation(SCBA). } We set $\mu_L=\mu_R=\mu$ and $T_e \neq T_{ph}$ to consider heat transport. The electronic DOS shows an energy dependent Lorentzian shape. This gives rise to non-reciprocal heat transport between e-bath and ph-bath. \textcolor{blue}{In Fig.~\ref{fig:DOS} we show that energy current is bind with electron DOS. Thus, we can manipulate energy current via engineering with electron DOS. }
+
+
 
  %\revision{Figure~\ref{fig:resonant} shows two limiting cases. We have two electronic levels which couple to the left and right electrodes, respectively. The left level lies below $\mu_L$ is a $n$ state and the right level lies above $\mu_R$ is a $p$ state. Depending on their relative position, one of the inter-electrode EHPs couples strongest to the bosonic system. This setup has been studied in Ref.~\onlinecite{lu2011laserlike}.}
 
@@ -380,11 +394,11 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 
 
 	%\subfigure[]{
-	    \includegraphics[width=0.45\textwidth,angle=0]{figures-0317/fig_4a.pdf}
+	    \includegraphics[width=0.45\textwidth,angle=0]{figures/fig_4a.pdf}
 	%}
 	%\quad
 	%\subfigure[]{
-	    \includegraphics[width=0.48\textwidth,angle=0]{figures-0317/fig_4b.pdf}	
+	    \includegraphics[width=0.48\textwidth,angle=0]{figures/fig_4b.pdf}	
 	%}
 	\caption{Thermoelectric efficiency $\eta$ (a)  and electron particle flux $I^e$ (b) as a function of temperature difference between e-bath and ph-bath $\Delta T/T_{ph}$. The parameters are the same as Fig.~\ref{fig:JT}.   }
 	\label{fig:coldspot}
@@ -489,7 +503,8 @@ In the case shown in Fig.~\ref{fig:resonant} (b), process $4'$ is resonantly enh
 
 
 \section{Conclusions}
-In summary, we have shown that a normal two-probe electron conductor can be effectively viewed as EHP baths with chemical potential determined by the applied voltage bias. This is made possible by introducing the inter-electrode charge transfer EHPs. Properties of the EHP baths can be engineered through tuning the parameters of the conductor and the external voltage bias. This bath engineering provides an efficient way of controlling hybrid energy and thermoelectric transport in electron-boson junctions. 
+In summary, we have shown that a normal two-probe electron conductor can be effectively viewed as EHP baths with chemical potential determined by the applied voltage bias, \textcolor{blue}{helped us build intuitive understanding.} This is made possible by introducing the inter-electrode charge transfer EHPs. \textcolor{blue}{We showed that the results under our view and SCBA are converged in weak coupling regime. }
+Properties of the EHP baths can be engineered through tuning the parameters of the conductor and the external voltage bias. This bath engineering provides an efficient way of controlling hybrid energy and thermoelectric transport in electron-boson junctions. 
 
 % \revision{BZH: Please check the references and use abbreviations for all the journal names.}
 
