@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.5)  23 MAR 2020 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.5)  26 MAY 2020 13:23
 entering extended mode
 **./Bose-Landuer-Short.tex
 (Bose-Landuer-Short.tex
@@ -467,22 +467,22 @@ ses in-clude electroluminescence$[]$,
  []
 
 [2] [3]
-<figures/fig_1a.pdf, id=130, 361.35pt x 325.215pt>
+<figures/fig_1a.pdf, id=128, 361.35pt x 325.215pt>
 File: figures/fig_1a.pdf Graphic file (type pdf)
 <use figures/fig_1a.pdf>
 Package pdftex.def Info: figures/fig_1a.pdf  used on input line 177.
 (pdftex.def)             Requested size: 93.59857pt x 84.23631pt.
-<figures/fig_1b.pdf, id=131, 361.35pt x 325.215pt>
+<figures/fig_1b.pdf, id=129, 361.35pt x 325.215pt>
 File: figures/fig_1b.pdf Graphic file (type pdf)
 <use figures/fig_1b.pdf>
 Package pdftex.def Info: figures/fig_1b.pdf  used on input line 181.
 (pdftex.def)             Requested size: 93.59857pt x 84.23631pt.
-<figures-0317/fig_1c.pdf, id=132, 361.35pt x 194.7275pt>
+<figures-0317/fig_1c.pdf, id=130, 361.35pt x 194.7275pt>
 File: figures-0317/fig_1c.pdf Graphic file (type pdf)
 <use figures-0317/fig_1c.pdf>
 Package pdftex.def Info: figures-0317/fig_1c.pdf  used on input line 185.
 (pdftex.def)             Requested size: 93.59857pt x 50.43777pt.
-<figures-0317/fig_1d.pdf, id=133, 361.35pt x 194.7275pt>
+<figures-0317/fig_1d.pdf, id=131, 361.35pt x 194.7275pt>
 File: figures-0317/fig_1d.pdf Graphic file (type pdf)
 <use figures-0317/fig_1d.pdf>
 Package pdftex.def Info: figures-0317/fig_1d.pdf  used on input line 189.
@@ -499,100 +499,91 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures-0317/fig_1d.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] [6]
-<figures/fig_2a.pdf, id=255, 361.35pt x 361.35pt>
+>]
+<figures/fig_2a.pdf, id=237, 361.35pt x 361.35pt>
 File: figures/fig_2a.pdf Graphic file (type pdf)
 <use figures/fig_2a.pdf>
 Package pdftex.def Info: figures/fig_2a.pdf  used on input line 329.
 (pdftex.def)             Requested size: 93.59857pt x 93.5959pt.
-<figures/fig_2b.pdf, id=256, 361.35pt x 361.35pt>
+<figures/fig_2b.pdf, id=238, 361.35pt x 361.35pt>
 File: figures/fig_2b.pdf Graphic file (type pdf)
 <use figures/fig_2b.pdf>
 Package pdftex.def Info: figures/fig_2b.pdf  used on input line 333.
 (pdftex.def)             Requested size: 93.59857pt x 93.5959pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 351.
-
-<figures-0317/fig_3a.pdf, id=273, 722.7pt x 456.70625pt>
-File: figures-0317/fig_3a.pdf Graphic file (type pdf)
-<use figures-0317/fig_3a.pdf>
-Package pdftex.def Info: figures-0317/fig_3a.pdf  used on input line 355.
-(pdftex.def)             Requested size: 210.59857pt x 133.08253pt.
-<figures-0317/fig_3b.pdf, id=274, 722.7pt x 476.78125pt>
-File: figures-0317/fig_3b.pdf Graphic file (type pdf)
-<use figures-0317/fig_3b.pdf>
-Package pdftex.def Info: figures-0317/fig_3b.pdf  used on input line 359.
-(pdftex.def)             Requested size: 205.92114pt x 135.84769pt.
-[8 <./figures/fig_2a.pdf> <./figures/fig_2b.pdf
+ [6 <./figures/fig_2a.pdf> <./figures/fig_2b.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/fig_2b.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
-<figures-0317/fig_4a.pdf, id=330, 803.0pt x 540.0175pt>
-File: figures-0317/fig_4a.pdf Graphic file (type pdf)
-<use figures-0317/fig_4a.pdf>
-Package pdftex.def Info: figures-0317/fig_4a.pdf  used on input line 383.
-(pdftex.def)             Requested size: 210.59857pt x 141.629pt.
-<figures-0317/fig_4b.pdf, id=331, 803.0pt x 504.88625pt>
-File: figures-0317/fig_4b.pdf Graphic file (type pdf)
-<use figures-0317/fig_4b.pdf>
-Package pdftex.def Info: figures-0317/fig_4b.pdf  used on input line 387.
-(pdftex.def)             Requested size: 224.638pt x 141.2362pt.
- [9 <./figures-0317/fig_3a.pdf> <./figures-0317/fig_3b.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures-0317/fig_3b.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figures-0317/fig_4a.pdf
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 354.
 
-pdfTeX warning: pdflatex.exe (file ./figures-0317/fig_4a.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figures-0317/fig_4b.pdf
+<figures/fig_3a.pdf, id=299, 803.0pt x 483.8075pt>
+File: figures/fig_3a.pdf Graphic file (type pdf)
+<use figures/fig_3a.pdf>
+Package pdftex.def Info: figures/fig_3a.pdf  used on input line 358.
+(pdftex.def)             Requested size: 210.59857pt x 126.88695pt.
+<figures/fig_3b.pdf, id=300, 803.0pt x 525.965pt>
+File: figures/fig_3b.pdf Graphic file (type pdf)
+<use figures/fig_3b.pdf>
+Package pdftex.def Info: figures/fig_3b.pdf  used on input line 362.
+(pdftex.def)             Requested size: 205.92114pt x 134.8777pt.
+<figures/fig_extra.pdf, id=309, 722.7pt x 449.68pt>
+File: figures/fig_extra.pdf Graphic file (type pdf)
+<use figures/fig_extra.pdf>
+Package pdftex.def Info: figures/fig_extra.pdf  used on input line 373.
+(pdftex.def)             Requested size: 234.0pt x 145.59534pt.
+[7] [8 <./figures/fig_3a.pdf> <./figures/fig_3b.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures-0317/fig_4b.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./figures/fig_3b.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./figures/fig_extra.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/fig_extra.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
 >]
-<figures/fig_5.pdf, id=500, 722.7pt x 465.74pt>
+<figures/fig_4a.pdf, id=428, 803.0pt x 532.99126pt>
+File: figures/fig_4a.pdf Graphic file (type pdf)
+<use figures/fig_4a.pdf>
+Package pdftex.def Info: figures/fig_4a.pdf  used on input line 397.
+(pdftex.def)             Requested size: 210.59857pt x 139.78624pt.
+<figures/fig_4b.pdf, id=429, 803.0pt x 484.81125pt>
+File: figures/fig_4b.pdf Graphic file (type pdf)
+<use figures/fig_4b.pdf>
+Package pdftex.def Info: figures/fig_4b.pdf  used on input line 401.
+(pdftex.def)             Requested size: 224.638pt x 135.62045pt.
+ [9 <./figures/fig_4a.pdf> <./figures/fig_4b.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/fig_4b.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<figures/fig_5.pdf, id=523, 803.0pt x 490.83376pt>
 File: figures/fig_5.pdf Graphic file (type pdf)
 <use figures/fig_5.pdf>
-Package pdftex.def Info: figures/fig_5.pdf  used on input line 455.
-(pdftex.def)             Requested size: 234.0pt x 150.79517pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] [11 <./figures/fig_5.pdf>] (Bose-Landuer-Short.bbl [12]
-Underfull \hbox (badness 10000) in paragraph at lines 370--377
-[]\OT1/cmr/m/n/10.95 W. Dou and J. E. Sub-ot-nik, [][]J. Chem. Phys. \OT1/cmr/b
-x/n/10.95 148\OT1/cmr/m/n/10.95 , 230901 (2018)[][],
- []
-
-)
+Package pdftex.def Info: figures/fig_5.pdf  used on input line 469.
+(pdftex.def)             Requested size: 234.0pt x 143.03467pt.
+ [10 <./figures/fig_5.pdf>] (Bose-Landuer-Short.bbl [11] [12])
 
 Class revtex4-1 Warning: Environment acknowledgements is obsolete;
 Use acknowledgments instead.
 
 [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 979.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 994.
  (Bose-Landuer-Short.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 979.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 979.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 994.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 994.
 Package rerunfilecheck Info: File `Bose-Landuer-Short.out' has not changed.
-(rerunfilecheck)             Checksum: 9231D50646E6F44BF641B85AADD4A2FB;1057.
+(rerunfilecheck)             Checksum: 80B2590401A39E4C59726AC874241DDE;981.
  ) 
 Here is how much of TeX's memory you used:
- 8351 strings out of 492449
- 122562 string characters out of 3129738
- 235011 words of memory out of 3000000
- 12437 multiletter control sequences out of 15000+200000
+ 8357 strings out of 492449
+ 122664 string characters out of 3129738
+ 235438 words of memory out of 3000000
+ 12446 multiletter control sequences out of 15000+200000
  14798 words of font info for 54 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 40i,17n,30p,1116b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,17n,30p,1099b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -604,9 +595,9 @@ e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Bose-Landuer-Short.pdf (13 pages, 644121 bytes).
+Output written on Bose-Landuer-Short.pdf (13 pages, 740141 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
