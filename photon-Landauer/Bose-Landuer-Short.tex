@@ -11,9 +11,10 @@ preprint
 \usepackage{mathrsfs}
 \usepackage{amsmath}
 \usepackage{bbold}
-\usepackage{color}
+\usepackage{color,xcolor}
 \usepackage{epstopdf}
 \usepackage{subfigure} 
+%\newcommand{\equt}[1]{\stackrel{#1}{=}}
 %\usepackage[backend=bibtex,sorting=none,style=trad-abbrv,citestyle=numeric]{biblatex}
 
 %\usepackage[sorting=none]{biblatex}
@@ -339,16 +340,21 @@ In the following we show several applications of this central result.
 To be more specific, we consider a minimum model of the e-bath shown in Fig.~\ref{fig:resonant}. We have two electronic states $1$ and $2$ (on-site energies $\varepsilon_1$ and $\varepsilon_2$) couple to the electrodes $L$ and $R$ with coupling parameter $\gamma_1$ and $\gamma_2$, respectively. 
 Electron hopping between the two states is assisted by one bosonic mode, which at the same time couples to a ph-bath with coupling constant $\gamma_{ph}$.
 
-Several comments are noteworthy before presenting the numerical results. Firstly, we limit ourselves to the case of weak electron-boson coupling such that the lowest order results (Eq.~(\ref{eq:jjtrans})) is valid. There are cases where the lowest order result fails qualitatively, see for example Ref.~\cite{nitzan2018kinetic}. When this is the case, the lowest order result shows some instability. Thus, we have checked our results against more accurate self-consistent Born approximation (SCBA) to ensue that we are always in the weak coupling limit. Secondly, equation ~(\ref{eq:jjtrans}) has been derived by us before\cite{lu2016electron}. The focus of this work is to provide a physical transparent picture to understand this result, such that the numerical results obtained from it can be understood from the coherent bosonic energy transport point of view. In doing so, it can be applied to understand more cases including optoelectronic processes, heat rectification and others.
+Several comments are noteworthy before presenting the numerical results:
+\begin{itemize}
+\item We limit ourselves to the case of weak electron-boson coupling such that the lowest order results (Eq.~(\ref{eq:jjtrans})) is valid. There are cases where the lowest order result fails qualitatively, see for example Ref.~\onlinecite{nitzan2018kinetic}. When this is the case, the lowest order result shows some instability, indicating the lowest order approximation is not valid anymore. Thus, we have checked our results against more accurate self-consistent Born approximation (SCBA) (dots in Figs.~\ref{fig:JT}-\ref{fig:cooling})to ensue that we are always in the weak coupling limit.  
+\item One related issue is the energy conservation. Equation~\ref{eq:jjtrans} can also be obtained from the Born approximation in the nonequilibrium Green's function method, if one considers energy transfer from the system to the ph-bath and includes the electron `bubble' self-energy  to the phonon Green's function\cite{lu2007coupled}. However, if one considers the energy current from e-bath to the system using Born approximation, the result will be different from that of \ref{eq:jjtrans}. Thus, we conclude the Born approximation does not conserve energy. However, if one always keep only the terms to the  lowest order in the electron-boson coupling (the second order)\cite{paulsson05modeling,lu2016electron}, energy current from the above two points of view is still the same and given by Eq.~(\ref{eq:jjtrans}). In conclusion, the lowest order approximation is energy conserving, although it only works for weak electron-boson coupling. 
 
+\item Equation ~(\ref{eq:jjtrans}) has been derived  before\cite{lu2016electron}. The focus of this work is to provide a physical transparent picture to understand this result, such that the numerical results obtained from it can be understood from the coherent bosonic energy transport point of view. In doing so, it can be applied to understand more cases including optoelectronic processes, heat rectification and others, as we demonstrate in next section.
 
+\end{itemize}
 \section{Applications}
 %\emph{Non-reciprocal heat transport.--}
 \subsection{Non-reciprocal heat transport}
 Firstly, we consider the situation where the e-bath and ph-bath are in their own thermal equilibrium at two different temperature $T_e$ and $T_{ph}$. This indicates that  $\mu_{L}=\mu_{R}$ and $T_{L}=T_R=T_e$. 
 If we ignore the energy dependence of $A$ in Eq.~(\ref{eq:gamma}),
 $\Lambda_{mn}(\omega)=\hbar\omega{\rm tr}[M^m A M^n A]$
-with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\mathcal{A}_{ph}]$ does not depend on $T_e$. Equation~(\ref{eq:jjtrans}) reduces to the Landauer formula for heat transport between two harmonic thermal baths. Thus, the EHPs behave as linear harmonic oscillator thermal baths. 
+with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\mathcal{A}_{ph}]$ does not depend on $T_e$. Equation~(\ref{eq:jjtrans}) reduces to the Landauer formula for heat transport between two harmonic thermal baths. Thus, the EHPs behave as linear harmonic oscillator thermal baths with a common temperature $T_e$.
 
 
 \begin{figure}[]
@@ -361,7 +367,7 @@ with $A=A_L+A_R$. Consequently,  the transmission $\mathcal{T}={\rm Tr}[\Lambda\
 	%\subfigure[]{
 	    \includegraphics[width=0.44\textwidth,angle=0]{figures/fig_3b.pdf}	
 	%}
-	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T/T_{\rm ph}$ for different chemical potentials. \textcolor{blue}{The curves and dots correspond to results under our method and SCBA, same as Fig.~\ref{fig:coldspot} and Fig.~\ref{fig:cooling}.} (b) Rectification ratio $\rho=(|J(|\Delta T|)|-|J(-|\Delta T|)|)/(|J(|\Delta T|)|+|J(-|\Delta T|)|)/2$ as a function of $\Delta T/T_{\rm ph}$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. The following parameters are used in the calculation: $\varepsilon_L=0.5$, $\varepsilon_R=-0.5$, $\gamma_L=\gamma_R=0.5,m=0.05$, $\hbar\Omega=1$, $k_B=1$. }
+	\caption{Non-reciprocal heat transport in a  double dot junction shown in Fig.~\ref{fig:resonant} (a). (a) Heat current as a function of temperature difference $\Delta T/T_{\rm ph}$ for different chemical potentials. \textcolor{blue}{The lines and dots correspond to results from Eq.~(\ref{eq:jjtrans}) and SCBA, respectively. The same applies to Fig.~\ref{fig:coldspot} and Fig.~\ref{fig:cooling}.} (b) Rectification ratio $\rho=(|J(|\Delta T|)|-|J(-|\Delta T|)|)/(|J(|\Delta T|)|+|J(-|\Delta T|)|)/2$ as a function of $\Delta T/T_{\rm ph}$ for different chemical potentials. We consider only one bosonic mode, whose energy is taken as unit energy. The following parameters are used in the calculation: $\varepsilon_L=0.5$, $\varepsilon_R=-0.5$, $\gamma_L=\gamma_R=0.5,m=0.05$, $\hbar\Omega=1$, $k_B=1$. }
 	\label{fig:JT}
 	% \revision{BZH: (1)Please shift the absolute energy such that $\varepsilon_L=-\varepsilon_R$. (2) Please mark the positions of $\mu$ in Fig. 2(a)  with short lines using the same color coding. (3) Narrow down the $x$ axis to [-0.5,0.5]. Same for Fig. 4. (1)(2)finished.}
 \end{figure}
@@ -372,11 +378,11 @@ On the other hand, if we consider the energy dependence of $A(\varepsilon)$, $\G
 
 	\includegraphics[width=0.5\textwidth,angle=0]{figures/fig_extra.pdf}
 
-	\caption{Energy current $J$(curves) and DOS times temperature difference $\Lambda(\Omega) \cdot \Delta T $ (dots) as a function of temperature difference  $\Delta T / T_{ph}$. In subfigure, $J$ as a function of $\Lambda(\Omega) \cdot \Delta T $. The parameters are the same as Fig.~\ref{fig:JT}.   }
+	\caption{Transmission $\mathcal{T}$ as a function of phonon frequency $\omega$ in different e-bath temperature $T_e$,  $\Delta T / T_{ph}$ under chemical potential $\mu=3$, the other parameters are the same as Fig.~\ref{fig:JT}.   }
 	\label{fig:DOS}
 \end{figure}
 
-In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fig:resonant} (a) \textcolor{blue}{and show that the comparison between our method and self-consistent Born approximation(SCBA). } We set $\mu_L=\mu_R=\mu$ and $T_e \neq T_{ph}$ to consider heat transport. The electronic DOS shows an energy dependent Lorentzian shape. This gives rise to non-reciprocal heat transport between e-bath and ph-bath. \textcolor{blue}{In Fig.~\ref{fig:DOS} we show that energy current is bind with electron DOS. Thus, we can manipulate energy current via engineering with electron DOS. }
+In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fig:resonant} (a). We set $\mu_L=\mu_R=\mu$ and $T_e \neq T_{ph}$ to consider heat transport. The energy dependent EHP DOS gives rise to temperature dependent transmission function $\mathcal{T}^{}$ and consequently heat rectification. Thus, we can manipulate energy current via engineering the e-bath parameters. This shows the advantage of hybrid energy transport compared to the pure bosonic systems. 
 
 
 
@@ -456,7 +462,9 @@ In Fig.~\ref{fig:JT} we have considered a two-dot junction shown in Fig.~\ref{fi
 
 
  The resonant situation in Fig.~\ref{fig:resonant} can be used to enhance one of the two channels. In Fig.~\ref{fig:coldspot} (b), we show the thermoelectric current induced by the temperature different $\Delta T$ for different chemical potentials $\mu_L=\mu_R$ in the case of Fig.~\ref{fig:resonant} (a). The efficiency $\eta$ in Fig.~\ref{fig:coldspot} (a) is the largest when the chemical potential is in between $\varepsilon_L$ and $\varepsilon_R$, where the resonant enhancement is the most prominent.
- Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. Our results show that the opposite ($T_{ph}<T_e$) is also possible, where electricity is generated by cooling the ph-bath. This demonstrates the decoupling of heat and charge transport as an advantage of thermoelectricity in hybrid nano-junctions.
+ Previously, electrical current generated from a phonon hot-spot ($T_{ph}>T_e$) has been considered\cite{entinwuhlman2010three}. Our results show that the opposite ($T_{ph}<T_e$) is also possible, where electricity is generated by cooling the ph-bath.  
+ 
+ Although it sounds a bit counter intuitive, we note that generating electricity by cooling the bosonic bath does not violate the second law of thermodynamics. The energy flows from the high temperature e-bath to the low temperature ph-bath in accordance with the second law. The energy source comes from the recombination of the inter-electrode EHPs. During this process, electronic charge is transferred from one electrode to the other. Indeed, this kind of setup demonstrates the decoupling of heat and charge transport direction as an advantage of thermoelectricity in hybrid nano-junctions. 
 
 %Notably, when $T_{ph}<T_{e}$ and $\mu_L=\mu_R$. The temperature difference between e-bath and ph-bath generates a heat current flow from the e-bath to the ph-bath. At a result of the heat transport, electron transport between $L$ and $R$ electrode takes place.
 
@@ -473,7 +481,7 @@ The applied voltage changes the initial and final electron states of the EHP exc
 Change of the chemical potential breaks the equilibrium in the reaction, and drives the energy transport between e-bath and the system. 
 Direction of energy flow depends on the relative magnitude of two fluxes. It can be engineered by tuning the electronic band structure, or more specifically, the transition probability of the two types of EHP excitation. 
 
-In the case shown in Fig.~\ref{fig:resonant} (b), process $4'$ is resonantly enhanced. Electronic cooling becomes possible using this resonant enhancement. This is demonstrated in Fig.~\ref{fig:cooling}, where the heat current from the e-bath to the system $J$ is plotted as a function of voltage bias $\mu_{LR}$ while keeping temperature fixed $T_e=T_{ph}=T$. For negative bias, we observe a negative $J$ regime. The range of this regime gets larger for higher temperature $T$. This is the electronic cooling of the bosonic mode. Very recently, experimental demonstration of near field radiative cooling using a reversely biased $p$-$n$ junction has been demonstrated \cite{zhu2019near}. The experimental results can be understood using this simple model.
+In the case shown in Fig.~\ref{fig:resonant} (b), process $4'$ is resonantly enhanced. The EHP corresponds to this dominant process has a negative effective chemical potential $\mu_{RL}<0$, lower than that of the ph-bath, which is always zero.  This unbalance in the chemical potential drives an energy currrent from the ph-bath to the e-bath. Electronic cooling becomes possible using this resonant enhancement. This is demonstrated in Fig.~\ref{fig:cooling}, where the heat current from the e-bath to the system $J$ is plotted as a function of voltage bias $\mu_{LR}$ while keeping temperature fixed $T_e=T_{ph}=T$. For negative bias, we observe a negative $J$ regime. The range of this regime gets larger for higher temperature $T$. This is the electronic cooling of the bosonic mode. Very recently, experimental demonstration of near field radiative cooling using a reversely biased $p$-$n$ junction has been demonstrated \cite{zhu2019near}. The experimental results can be understood using this simple model.
 
 
 
@@ -503,15 +511,14 @@ In the case shown in Fig.~\ref{fig:resonant} (b), process $4'$ is resonantly enh
 
 
 \section{Conclusions}
-In summary, we have shown that a normal two-probe electron conductor can be effectively viewed as EHP baths with chemical potential determined by the applied voltage bias, \textcolor{blue}{helped us build intuitive understanding.} This is made possible by introducing the inter-electrode charge transfer EHPs. \textcolor{blue}{We showed that the results under our view and SCBA are converged in weak coupling regime. }
-Properties of the EHP baths can be engineered through tuning the parameters of the conductor and the external voltage bias. This bath engineering provides an efficient way of controlling hybrid energy and thermoelectric transport in electron-boson junctions. 
+In summary, we have shown that a normal two-probe coherent electron conductor can be effectively viewed as EHP baths with chemical potential determined by the applied voltage bias. This is made possible by introducing the inter-electrode charge transfer EHPs. Properties of the EHP baths can be engineered through tuning the parameters of the conductor and the external voltage bias. This bath engineering provides an efficient way of controlling hybrid energy and thermoelectric transport in electron-boson junctions.  Moreover, this point of view can help one to understand qualitatively numerical results from more accurate calculations, i.e. SCBA, althoug it is quantitatively only applicable in the weak electron-boson interaction regime.
 
 % \revision{BZH: Please check the references and use abbreviations for all the journal names.}
 
 \begin{acknowledgements}
-The authors thank J.-S. Wang and M. Brandbyge for discussions. This work is supported by the National Natural Science Foundation of China
-(Grant No. 21873033), the National Key Research and Development Program of China
-(Grant No. 2017YFA0403501) and the program for HUST academic frontier youth team.
+The authors thank J.-S. Wang and M. Brandbyge for discussions. This work is supported by the National Key Research and Development Program of China
+(Grant No. 2017YFA0403501), the National Natural Science Foundation of China
+(Grant No. 21873033) and the program for HUST academic frontier youth team.
 \end{acknowledgements}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \if false
@@ -740,7 +747,7 @@ In Eq.~\ref{Landauer-phonon}, the term $[n_{B}(\hbar\omega;T_{p})-n_{B}(\hbar\om
 
 \section{Conclusion}
 
-In summary, we have proposed a nonequilibrium Landauer formula and constructed a model for coupled electron-Boson systems. The Landauer approach developed here allows for analytical insight into the 
+In summary, we have proposed a nonequilibrium Landauer formula and constructed a model for coupled electron-boson systems. The Landauer approach developed here allows for analytical insight into the 
 energy transport in three systems with electron-boson interaction.  Moreover, the phononic cooling, photonic cooling and heat rectification can be explained clearly by the formula. 
 
 On the other hand, thermal Hall effect\cite{ben2016photon}, thermal drag\cite{ben2019thermal} and thermal diode\cite{fiorino2018thermal} driven by thermal photons have been proposed theoretically. Based on the proposed nonequilibrium Landauer formula, future works may aim at achieving these transport phenomenon by introducing the `bias-voltage-photon', that is, the photons with nonzero chemical potential driven by bias voltage.
